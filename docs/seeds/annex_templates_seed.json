@@ -1,0 +1,235 @@
+{
+ "seedVersion": "annex-v1",
+ "templates": [
+  {
+   "key": "monetizationSponsor",
+   "name": "Monetization & Sponsor Annex",
+   "appliesTo": "any",
+   "fields": [
+    "sponsorSegmentFormat",
+    "placementRules",
+    "disclosureTextTemplates",
+    "productAffiliateMentionRules",
+    "claimsAllowedForSponsors",
+    "advertiserFriendlyContentBoundaries",
+    "midContentBreakPoints"
+   ],
+   "sourceRefs": [
+    "services/api/SPEC.md §5 (monetizationSponsor)",
+    "apps/admin/SPEC.md §8 Bible Annex Library",
+    "docs/BIBLE_FILE_MAPPING.md file 12 Monetization_Strategy"
+   ]
+  },
+  {
+   "key": "accessibility",
+   "name": "Accessibility Annex",
+   "appliesTo": "any",
+   "fields": [
+    "onScreenTextMinimumDisplayTimeByWordCount",
+    "plainLanguageRule",
+    "captionLineLength",
+    "captionReadingSpeedRules",
+    "contrastGuidanceForTextOverVisuals",
+    "visualDescriptionClarityForKeyInformation",
+    "neverEssentialFactsOnlyInTinyOnScreenText",
+    "safeAreaForOnScreenText",
+    "colourIndependentLabels"
+   ],
+   "sourceRefs": [
+    "services/api/SPEC.md §5 (accessibility)",
+    "apps/admin/SPEC.md §8 Bible Annex Library",
+    "docs/PHASE2_ADDITIONS.md G7 (safe area, colour-independent labels)"
+   ]
+  },
+  {
+   "key": "character",
+   "name": "Character Annex",
+   "appliesTo": "person_niches",
+   "fields": [
+    "characterRegistry",
+    "mainCharacters",
+    "supportingCharacters",
+    "characterName",
+    "characterRole",
+    "era",
+    "identity",
+    "traits",
+    "motivations",
+    "relationships",
+    "lockedAppearanceDescription",
+    "canonicalLifeEventTimeline",
+    "relationshipFamilyMap",
+    "portrayalRules",
+    "dialoguePolicy",
+    "inventedDialogueLabelledAsDramatizationNeverVerifiedQuote",
+    "characterVariants",
+    "designStatus",
+    "negativePromptExclusionBrief",
+    "expressionGestureSheet",
+    "depictionClasses"
+   ],
+   "sourceRefs": [
+    "services/api/SPEC.md §5 (character)",
+    "apps/admin/SPEC.md §8 Bible Annex Library",
+    "docs/REGISTRY_MAP.md Part A.1 Character Registry",
+    "docs/PHASE2_ADDITIONS.md G2 (variants, design status, depiction classes)",
+    "docs/BIBLE_FILE_MAPPING.md files 20/21/26/35"
+   ]
+  },
+  {
+   "key": "subjectKnowledge",
+   "name": "Ayurveda/Wellness Subject Knowledge & Safety Annex",
+   "appliesTo": "ayurveda_wellness_subject_niches",
+   "fields": [
+    "ingredientHerbRegistry",
+    "ingredientName",
+    "otherNames",
+    "ingredientCategory",
+    "claimedProperties",
+    "verifiedNotes",
+    "safetyWarnings",
+    "usageStandards",
+    "remedyFormatStandards",
+    "healthClaimBoundaries",
+    "noCureTreatmentClaims",
+    "mandatoryMedicalDisclaimer",
+    "disclaimerRef",
+    "conceptDefinitions"
+   ],
+   "sourceRefs": [
+    "services/api/SPEC.md §5 (subjectKnowledge for Ayurveda/wellness)",
+    "apps/admin/SPEC.md §8 Bible Annex Library",
+    "docs/REGISTRY_MAP.md Part A.3 Knowledge & Ingredient Registry (Ingredient/Material variant)"
+   ]
+  },
+  {
+   "key": "placeRegion",
+   "name": "Geography Place & Region Annex",
+   "appliesTo": "geography_niches",
+   "fields": [
+    "placeRegistry",
+    "canonicalName",
+    "localName",
+    "pronunciation",
+    "hierarchy",
+    "placeType",
+    "eraContext",
+    "lockedVisualDescription",
+    "imagePromptSuffix",
+    "mapStandards",
+    "mapNotes",
+    "unitsRule",
+    "disputedNameBorderNeutralNamingRule",
+    "namingSensitivity",
+    "terrainClimateTerminology",
+    "keyFacts",
+    "cameraGeography"
+   ],
+   "sourceRefs": [
+    "services/api/SPEC.md §5 (placeRegion for Geography)",
+    "apps/admin/SPEC.md §8 Bible Annex Library",
+    "docs/REGISTRY_MAP.md Part A.2 Place Registry",
+    "docs/PHASE2_ADDITIONS.md G5 (cameraGeography)"
+   ]
+  },
+  {
+   "key": "dataVisualization",
+   "name": "Data Visualization Annex",
+   "appliesTo": "data_heavy_niches",
+   "fields": [
+    "chartTypeSelectionRulesPerDataKind",
+    "axisHonestyRules",
+    "labelAndUnitStandards",
+    "numberFormatting",
+    "colourBlindSafePalette",
+    "mandatorySourceLineOnEveryChart",
+    "semanticColourCodeDefault"
+   ],
+   "sourceRefs": [
+    "docs/BIBLE_FILE_MAPPING.md Adoption 1 Data Visualization Annex (user file 06 Data_Visualization_Specs)",
+    "docs/REGISTRY_MAP.md Addendum (Data Visualization Annex)",
+    "docs/PHASE2_ADDITIONS.md G7 (semantic colour code as Finance/Data annex default)"
+   ],
+   "schemaNote": "Schema defined (D4, 2026-10-27): per-scene dataVizSpec in docs/SCENE_BREAKDOWN.md (versioned schema + vocabulary; series linked to Verified Data/claims; scale rules; mandatory sourceNote; accessibility keyFindingText). The fields above are the annex's project-level RULE topics; the chart vocabulary below is the seed vocabulary v1.",
+   "chartVocabulary": {
+    "version": 1,
+    "types": [
+     {
+      "key": "bar",
+      "requiredFields": [
+       "series",
+       "categoryLabels",
+       "axis"
+      ]
+     },
+     {
+      "key": "column",
+      "requiredFields": [
+       "series",
+       "categoryLabels",
+       "axis"
+      ]
+     },
+     {
+      "key": "line",
+      "requiredFields": [
+       "series",
+       "timePeriod",
+       "axis"
+      ]
+     },
+     {
+      "key": "area",
+      "requiredFields": [
+       "series",
+       "timePeriod",
+       "axis"
+      ]
+     },
+     {
+      "key": "pie",
+      "requiredFields": [
+       "series"
+      ],
+      "rules": [
+       "maxSlices:6",
+       "partsOfOneWhole:true"
+      ]
+     },
+     {
+      "key": "scatter",
+      "requiredFields": [
+       "series"
+      ]
+     },
+     {
+      "key": "timeline",
+      "requiredFields": [
+       "series",
+       "timePeriod"
+      ]
+     },
+     {
+      "key": "map",
+      "requiredFields": [
+       "series",
+       "placeRefs"
+      ]
+     },
+     {
+      "key": "table",
+      "requiredFields": [
+       "series"
+      ]
+     },
+     {
+      "key": "statCallout",
+      "requiredFields": [
+       "series"
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

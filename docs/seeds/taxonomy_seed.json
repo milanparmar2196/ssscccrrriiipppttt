@@ -1,0 +1,4112 @@
+{
+ "seedVersion": "taxonomy-v1",
+ "generatedFrom": "docs/NICHE_LIST_MERGED.md",
+ "categories": [
+  {
+   "key": "history_heritage",
+   "name": "History & Heritage",
+   "entityFocus": "PERSON / EVENT / PLACE"
+  },
+  {
+   "key": "geography_places_maps",
+   "name": "Geography, Places & Maps",
+   "entityFocus": "PLACE"
+  },
+  {
+   "key": "science_space_earth",
+   "name": "Science, Space & Earth",
+   "entityFocus": "SUBJECT / CONCEPT"
+  },
+  {
+   "key": "health_wellness_ayurveda",
+   "name": "Health, Wellness & Ayurveda",
+   "entityFocus": "SUBJECT (safety-critical)"
+  },
+  {
+   "key": "finance_business_economics",
+   "name": "Finance, Business & Economics",
+   "entityFocus": "SUBJECT / ORGANISATION / PERSON"
+  },
+  {
+   "key": "technology_ai_digital",
+   "name": "Technology, AI & Digital Life",
+   "entityFocus": "SUBJECT / PRODUCT / ORGANISATION"
+  },
+  {
+   "key": "crime_mystery_investigations",
+   "name": "Crime, Mystery & Investigations",
+   "entityFocus": "EVENT / PERSON"
+  },
+  {
+   "key": "stories_fiction_fantasy",
+   "name": "Stories, Fiction & Fantasy Worlds",
+   "entityFocus": "STORY"
+  },
+  {
+   "key": "religion_philosophy_spirituality",
+   "name": "Religion, Philosophy & Spirituality",
+   "entityFocus": "CONCEPT / PERSON / PLACE"
+  },
+  {
+   "key": "education_learning",
+   "name": "Education & Learning",
+   "entityFocus": "SUBJECT"
+  },
+  {
+   "key": "careers_jobs_skills",
+   "name": "Careers, Jobs & Professional Skills",
+   "entityFocus": "SUBJECT / CONCEPT"
+  },
+  {
+   "key": "psychology_mind_relationships",
+   "name": "Psychology, Mind & Relationships",
+   "entityFocus": "CONCEPT"
+  },
+  {
+   "key": "animals_nature_environment",
+   "name": "Animals, Nature & Environment",
+   "entityFocus": "CREATURE / PLACE"
+  },
+  {
+   "key": "sports_games_play",
+   "name": "Sports, Games & Play",
+   "entityFocus": "PERSON / EVENT / WORK"
+  },
+  {
+   "key": "film_entertainment_media",
+   "name": "Film, Entertainment & Media",
+   "entityFocus": "WORK / PERSON"
+  },
+  {
+   "key": "food_cooking_farming",
+   "name": "Food, Cooking & Farming",
+   "entityFocus": "SUBJECT / PLACE"
+  },
+  {
+   "key": "culture_arts_crafts",
+   "name": "Culture, Arts & Traditional Crafts",
+   "entityFocus": "WORK / SUBJECT / PLACE"
+  },
+  {
+   "key": "home_diy_hobbies",
+   "name": "Home, DIY, Making & Hobbies",
+   "entityFocus": "SUBJECT / PRODUCT"
+  },
+  {
+   "key": "travel_outdoors_adventure",
+   "name": "Travel, Outdoors, Adventure & Survival",
+   "entityFocus": "PLACE / EVENT"
+  },
+  {
+   "key": "machines_transport_engineering",
+   "name": "Machines, Transport & Engineering",
+   "entityFocus": "PRODUCT / ORGANISATION"
+  },
+  {
+   "key": "politics_law_society",
+   "name": "Politics, Law, Society & Public Systems",
+   "entityFocus": "EVENT / CONCEPT / ORGANISATION"
+  },
+  {
+   "key": "luxury_lifestyle_living",
+   "name": "Luxury, Lifestyle & Living",
+   "entityFocus": "PRODUCT / PLACE"
+  },
+  {
+   "key": "future_speculative",
+   "name": "Future & Speculative Civilization",
+   "entityFocus": "CONCEPT"
+  },
+  {
+   "key": "kids_family_parenting",
+   "name": "Kids, Family & Parenting",
+   "entityFocus": "STORY / SUBJECT"
+  },
+  {
+   "key": "facts_lists_records",
+   "name": "Facts, Lists, Records & Explainer Formats",
+   "entityFocus": "MIXED"
+  }
+ ],
+ "niches": [
+  {
+   "legacyId": 2,
+   "name": "History / Mystery Documentary",
+   "categoryKey": "history_heritage",
+   "isNew": false,
+   "subNiches": [],
+   "id": 2
+  },
+  {
+   "legacyId": 3,
+   "name": "Ancient India / Civilization",
+   "categoryKey": "history_heritage",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Indus Valley",
+     "legacyId": null,
+     "id": 594
+    },
+    {
+     "name": "Vedic age",
+     "legacyId": null,
+     "id": 595
+    },
+    {
+     "name": "Maurya/Gupta worlds",
+     "legacyId": null,
+     "id": 596
+    }
+   ],
+   "id": 3
+  },
+  {
+   "legacyId": 544,
+   "name": "Ancient Civilizations of the World",
+   "categoryKey": "history_heritage",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Ancient Egypt",
+     "legacyId": 544,
+     "id": 559
+    },
+    {
+     "name": "Mesopotamian Civilizations",
+     "legacyId": 545,
+     "id": 545
+    },
+    {
+     "name": "Nomadic Civilizations",
+     "legacyId": 150,
+     "id": 150
+    },
+    {
+     "name": "Maya",
+     "legacyId": null,
+     "id": 597
+    },
+    {
+     "name": "Aztec",
+     "legacyId": null,
+     "id": 598
+    },
+    {
+     "name": "Rome",
+     "legacyId": null,
+     "id": 599
+    },
+    {
+     "name": "Greece",
+     "legacyId": null,
+     "id": 600
+    }
+   ],
+   "id": 544
+  },
+  {
+   "legacyId": 36,
+   "name": "Kings, Royalty & Dynasties",
+   "categoryKey": "history_heritage",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Indian kings",
+     "legacyId": null,
+     "id": 601
+    },
+    {
+     "name": "Mughal",
+     "legacyId": null,
+     "id": 602
+    },
+    {
+     "name": "Maratha",
+     "legacyId": null,
+     "id": 603
+    },
+    {
+     "name": "Roman emperors",
+     "legacyId": null,
+     "id": 604
+    },
+    {
+     "name": "Ottoman",
+     "legacyId": null,
+     "id": 605
+    },
+    {
+     "name": "British monarchy",
+     "legacyId": null,
+     "id": 606
+    }
+   ],
+   "id": 36
+  },
+  {
+   "legacyId": 35,
+   "name": "Military History",
+   "categoryKey": "history_heritage",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Famous battles",
+     "legacyId": null,
+     "id": 607
+    },
+    {
+     "name": "World wars",
+     "legacyId": null,
+     "id": 608
+    },
+    {
+     "name": "War strategy",
+     "legacyId": null,
+     "id": 609
+    }
+   ],
+   "id": 35
+  },
+  {
+   "legacyId": 13,
+   "name": "Ancient Technology / Lost Knowledge",
+   "categoryKey": "history_heritage",
+   "isNew": false,
+   "subNiches": [],
+   "id": 13
+  },
+  {
+   "legacyId": 37,
+   "name": "Castles, Forts & Palaces",
+   "categoryKey": "history_heritage",
+   "isNew": false,
+   "subNiches": [],
+   "id": 37
+  },
+  {
+   "legacyId": 39,
+   "name": "Archaeology",
+   "categoryKey": "history_heritage",
+   "isNew": false,
+   "subNiches": [],
+   "id": 39
+  },
+  {
+   "legacyId": 40,
+   "name": "Ancient Manuscripts & Books",
+   "categoryKey": "history_heritage",
+   "isNew": false,
+   "subNiches": [],
+   "id": 40
+  },
+  {
+   "legacyId": 49,
+   "name": "Pirates & Outlaws",
+   "categoryKey": "history_heritage",
+   "isNew": false,
+   "subNiches": [],
+   "id": 49
+  },
+  {
+   "legacyId": 146,
+   "name": "Famous People & Biography Storytelling",
+   "categoryKey": "history_heritage",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Biography Storytelling",
+     "legacyId": 147,
+     "id": 147
+    },
+    {
+     "name": "Explorers",
+     "legacyId": null,
+     "id": 610
+    },
+    {
+     "name": "Warriors",
+     "legacyId": null,
+     "id": 611
+    },
+    {
+     "name": "Leaders",
+     "legacyId": null,
+     "id": 612
+    }
+   ],
+   "id": 146
+  },
+  {
+   "legacyId": 143,
+   "name": "Living History & Reenactment",
+   "categoryKey": "history_heritage",
+   "isNew": false,
+   "subNiches": [],
+   "id": 143
+  },
+  {
+   "legacyId": 526,
+   "name": "Peoples & Social Histories",
+   "categoryKey": "history_heritage",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Indigenous Histories",
+     "legacyId": 526,
+     "id": 560
+    },
+    {
+     "name": "Oral History",
+     "legacyId": 527,
+     "id": 527
+    },
+    {
+     "name": "Family History",
+     "legacyId": 173,
+     "id": 173
+    },
+    {
+     "name": "Childhood History",
+     "legacyId": 175,
+     "id": 175
+    },
+    {
+     "name": "Women's History",
+     "legacyId": 177,
+     "id": 177
+    },
+    {
+     "name": "Men's History",
+     "legacyId": 178,
+     "id": 178
+    },
+    {
+     "name": "Disability History",
+     "legacyId": 179,
+     "id": 179
+    }
+   ],
+   "id": 526
+  },
+  {
+   "legacyId": 218,
+   "name": "World Geography",
+   "categoryKey": "geography_places_maps",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Geography Learning",
+     "legacyId": 446,
+     "id": 446
+    },
+    {
+     "name": "Flags",
+     "legacyId": 447,
+     "id": 447
+    },
+    {
+     "name": "Capitals",
+     "legacyId": 448,
+     "id": 448
+    },
+    {
+     "name": "Country facts & comparisons",
+     "legacyId": null,
+     "id": 613
+    }
+   ],
+   "id": 218
+  },
+  {
+   "legacyId": 219,
+   "name": "Indian Geography & Places",
+   "categoryKey": "geography_places_maps",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Indian Cities",
+     "legacyId": 220,
+     "id": 220
+    },
+    {
+     "name": "Indian Villages",
+     "legacyId": 221,
+     "id": 221
+    }
+   ],
+   "id": 219
+  },
+  {
+   "legacyId": 38,
+   "name": "Maps & Geography Mysteries",
+   "categoryKey": "geography_places_maps",
+   "isNew": false,
+   "subNiches": [],
+   "id": 38
+  },
+  {
+   "legacyId": 111,
+   "name": "Cities & Urbanism",
+   "categoryKey": "geography_places_maps",
+   "isNew": false,
+   "subNiches": [],
+   "id": 111
+  },
+  {
+   "legacyId": 116,
+   "name": "Mountains & Polar Worlds",
+   "categoryKey": "geography_places_maps",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Ice & Polar Worlds",
+     "legacyId": 153,
+     "id": 153
+    },
+    {
+     "name": "Glaciers",
+     "legacyId": 213,
+     "id": 213
+    },
+    {
+     "name": "Snow & Ice",
+     "legacyId": 214,
+     "id": 214
+    }
+   ],
+   "id": 116
+  },
+  {
+   "legacyId": 210,
+   "name": "Rivers, Coasts & Waterfalls",
+   "categoryKey": "geography_places_maps",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Waterfalls",
+     "legacyId": 211,
+     "id": 211
+    },
+    {
+     "name": "Beaches",
+     "legacyId": 212,
+     "id": 212
+    }
+   ],
+   "id": 210
+  },
+  {
+   "legacyId": 152,
+   "name": "Volcanoes, Caves & Extreme Landforms",
+   "categoryKey": "geography_places_maps",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Caves",
+     "legacyId": 241,
+     "id": 241
+    }
+   ],
+   "id": 152
+  },
+  {
+   "legacyId": 151,
+   "name": "Islands & Island Nations",
+   "categoryKey": "geography_places_maps",
+   "isNew": false,
+   "subNiches": [],
+   "id": 151
+  },
+  {
+   "legacyId": 235,
+   "name": "Borders, Territories & Microstates",
+   "categoryKey": "geography_places_maps",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Territories",
+     "legacyId": 236,
+     "id": 236
+    },
+    {
+     "name": "Microstates",
+     "legacyId": 237,
+     "id": 237
+    },
+    {
+     "name": "Unrecognized Countries",
+     "legacyId": 238,
+     "id": 238
+    },
+    {
+     "name": "Enclaves & Exclaves",
+     "legacyId": 239,
+     "id": 239
+    }
+   ],
+   "id": 235
+  },
+  {
+   "legacyId": 242,
+   "name": "National Parks & Protected Places",
+   "categoryKey": "geography_places_maps",
+   "isNew": false,
+   "subNiches": [],
+   "id": 242
+  },
+  {
+   "legacyId": 6,
+   "name": "Science & Big Questions",
+   "categoryKey": "science_space_earth",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Unsolved Science",
+     "legacyId": 367,
+     "id": 367
+    }
+   ],
+   "id": 6
+  },
+  {
+   "legacyId": 12,
+   "name": "Space & Universe",
+   "categoryKey": "science_space_earth",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Astronomy",
+     "legacyId": 344,
+     "id": 344
+    },
+    {
+     "name": "Planetary Science",
+     "legacyId": 345,
+     "id": 345
+    },
+    {
+     "name": "Moon Science",
+     "legacyId": 346,
+     "id": 346
+    },
+    {
+     "name": "Solar Science",
+     "legacyId": 347,
+     "id": 347
+    }
+   ],
+   "id": 12
+  },
+  {
+   "legacyId": 32,
+   "name": "Space Exploration & Missions",
+   "categoryKey": "science_space_earth",
+   "isNew": false,
+   "subNiches": [],
+   "id": 32
+  },
+  {
+   "legacyId": 159,
+   "name": "Satellites & Earth Observation",
+   "categoryKey": "science_space_earth",
+   "isNew": false,
+   "subNiches": [],
+   "id": 159
+  },
+  {
+   "legacyId": 343,
+   "name": "Physics",
+   "categoryKey": "science_space_earth",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Thermodynamics",
+     "legacyId": 360,
+     "id": 360
+    },
+    {
+     "name": "Magnetism",
+     "legacyId": 358,
+     "id": 358
+    },
+    {
+     "name": "Time & Reality",
+     "legacyId": 55,
+     "id": 55
+    }
+   ],
+   "id": 343
+  },
+  {
+   "legacyId": 161,
+   "name": "Electricity & Electronics",
+   "categoryKey": "science_space_earth",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Electricity",
+     "legacyId": 359,
+     "id": 359
+    }
+   ],
+   "id": 161
+  },
+  {
+   "legacyId": 348,
+   "name": "Earth Science",
+   "categoryKey": "science_space_earth",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Geology",
+     "legacyId": 356,
+     "id": 356
+    },
+    {
+     "name": "Gemology",
+     "legacyId": 357,
+     "id": 357
+    },
+    {
+     "name": "Climate Science",
+     "legacyId": 361,
+     "id": 361
+    },
+    {
+     "name": "Oceanography",
+     "legacyId": 362,
+     "id": 362
+    }
+   ],
+   "id": 348
+  },
+  {
+   "legacyId": 215,
+   "name": "Weather & Atmosphere",
+   "categoryKey": "science_space_earth",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Extreme Weather",
+     "legacyId": 215,
+     "id": 561
+    },
+    {
+     "name": "Lightning",
+     "legacyId": 216,
+     "id": 216
+    },
+    {
+     "name": "Clouds & Atmosphere",
+     "legacyId": 217,
+     "id": 217
+    }
+   ],
+   "id": 215
+  },
+  {
+   "legacyId": 30,
+   "name": "Earth & Natural Mysteries",
+   "categoryKey": "science_space_earth",
+   "isNew": false,
+   "subNiches": [],
+   "id": 30
+  },
+  {
+   "legacyId": 350,
+   "name": "Biology & Life Science",
+   "categoryKey": "science_space_earth",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Evolution",
+     "legacyId": 354,
+     "id": 354
+    },
+    {
+     "name": "Paleontology",
+     "legacyId": 355,
+     "id": 355
+    }
+   ],
+   "id": 350
+  },
+  {
+   "legacyId": 27,
+   "name": "Genetics & Evolution",
+   "categoryKey": "science_space_earth",
+   "isNew": false,
+   "subNiches": [],
+   "id": 27
+  },
+  {
+   "legacyId": 29,
+   "name": "Dinosaurs & Prehistoric World",
+   "categoryKey": "science_space_earth",
+   "isNew": false,
+   "subNiches": [],
+   "id": 29
+  },
+  {
+   "legacyId": 156,
+   "name": "Chemistry & Materials",
+   "categoryKey": "science_space_earth",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Chemistry in Everyday Life",
+     "legacyId": 156,
+     "id": 562
+    },
+    {
+     "name": "Chemistry",
+     "legacyId": 349,
+     "id": 349
+    },
+    {
+     "name": "Materials Science",
+     "legacyId": 157,
+     "id": 157
+    },
+    {
+     "name": "Materials Engineering",
+     "legacyId": 442,
+     "id": 442
+    }
+   ],
+   "id": 156
+  },
+  {
+   "legacyId": 154,
+   "name": "Microbiology & Biotechnology",
+   "categoryKey": "science_space_earth",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Biotechnology",
+     "legacyId": 155,
+     "id": 155
+    },
+    {
+     "name": "Digital Biology",
+     "legacyId": 336,
+     "id": 336
+    }
+   ],
+   "id": 154
+  },
+  {
+   "legacyId": 89,
+   "name": "Scientists, Inventors & Discoverers",
+   "categoryKey": "science_space_earth",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Inventions & Inventors",
+     "legacyId": 89,
+     "id": 563
+    },
+    {
+     "name": "Scientists & Discoverers",
+     "legacyId": 118,
+     "id": 118
+    }
+   ],
+   "id": 89
+  },
+  {
+   "legacyId": 119,
+   "name": "Mathematics & Numbers",
+   "categoryKey": "science_space_earth",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Geometry",
+     "legacyId": 364,
+     "id": 364
+    },
+    {
+     "name": "Number Theory",
+     "legacyId": 365,
+     "id": 365
+    },
+    {
+     "name": "Infinity",
+     "legacyId": 366,
+     "id": 366
+    },
+    {
+     "name": "Statistics & Data",
+     "legacyId": 121,
+     "id": 121
+    }
+   ],
+   "id": 119
+  },
+  {
+   "legacyId": 28,
+   "name": "Ocean & Deep Sea (science)",
+   "categoryKey": "science_space_earth",
+   "isNew": false,
+   "subNiches": [],
+   "id": 28
+  },
+  {
+   "legacyId": 15,
+   "name": "Health & Wellness Education",
+   "categoryKey": "health_wellness_ayurveda",
+   "isNew": false,
+   "subNiches": [],
+   "id": 15
+  },
+  {
+   "legacyId": 281,
+   "name": "Ayurveda",
+   "categoryKey": "health_wellness_ayurveda",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Dosha concepts",
+     "legacyId": null,
+     "id": 614
+    },
+    {
+     "name": "Classical remedies — traditional-use framing",
+     "legacyId": null,
+     "id": 615
+    }
+   ],
+   "id": 281
+  },
+  {
+   "legacyId": 77,
+   "name": "Yoga & Wellness",
+   "categoryKey": "health_wellness_ayurveda",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Yoga",
+     "legacyId": 280,
+     "id": 280
+    },
+    {
+     "name": "Pranayama",
+     "legacyId": 279,
+     "id": 279
+    }
+   ],
+   "id": 77
+  },
+  {
+   "legacyId": 26,
+   "name": "Medical & Human Body Science",
+   "categoryKey": "health_wellness_ayurveda",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Human Anatomy",
+     "legacyId": 352,
+     "id": 352
+    },
+    {
+     "name": "Disease Science",
+     "legacyId": 353,
+     "id": 353
+    }
+   ],
+   "id": 26
+  },
+  {
+   "legacyId": null,
+   "name": "Medical Conditions Explained — information only",
+   "categoryKey": "health_wellness_ayurveda",
+   "isNew": true,
+   "subNiches": [
+    {
+     "name": "Condition explainers",
+     "legacyId": null,
+     "id": 616
+    },
+    {
+     "name": "Symptoms awareness — never diagnosis/treatment",
+     "legacyId": null,
+     "id": 617
+    }
+   ],
+   "id": 552
+  },
+  {
+   "legacyId": 505,
+   "name": "Nutrition & Food Science",
+   "categoryKey": "health_wellness_ayurveda",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Nutrition Science",
+     "legacyId": 505,
+     "id": 564
+    }
+   ],
+   "id": 505
+  },
+  {
+   "legacyId": 538,
+   "name": "Sleep & Exercise Science",
+   "categoryKey": "health_wellness_ayurveda",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Sleep Science",
+     "legacyId": 538,
+     "id": 565
+    },
+    {
+     "name": "Exercise Science",
+     "legacyId": 539,
+     "id": 539
+    }
+   ],
+   "id": 538
+  },
+  {
+   "legacyId": 501,
+   "name": "Public Health & Healthy Communities",
+   "categoryKey": "health_wellness_ayurveda",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Rehabilitation",
+     "legacyId": 502,
+     "id": 502
+    },
+    {
+     "name": "Assistive Technology",
+     "legacyId": 503,
+     "id": 503
+    },
+    {
+     "name": "Maternal & Child Health",
+     "legacyId": 504,
+     "id": 504
+    }
+   ],
+   "id": 501
+  },
+  {
+   "legacyId": 8,
+   "name": "Personal Finance",
+   "categoryKey": "finance_business_economics",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Saving",
+     "legacyId": null,
+     "id": 618
+    },
+    {
+     "name": "Budgeting",
+     "legacyId": null,
+     "id": 619
+    },
+    {
+     "name": "Loans",
+     "legacyId": null,
+     "id": 620
+    },
+    {
+     "name": "Tax basics India",
+     "legacyId": null,
+     "id": 621
+    }
+   ],
+   "id": 8
+  },
+  {
+   "legacyId": 293,
+   "name": "Banking & Money Systems",
+   "categoryKey": "finance_business_economics",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Credit Cards",
+     "legacyId": 294,
+     "id": 294
+    },
+    {
+     "name": "Money History",
+     "legacyId": 295,
+     "id": 295
+    },
+    {
+     "name": "Central Banking",
+     "legacyId": 298,
+     "id": 298
+    },
+    {
+     "name": "Currency",
+     "legacyId": 312,
+     "id": 312
+    },
+    {
+     "name": "Tax History",
+     "legacyId": 314,
+     "id": 314
+    }
+   ],
+   "id": 293
+  },
+  {
+   "legacyId": 300,
+   "name": "Markets & Investing",
+   "categoryKey": "finance_business_economics",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Stock Market History",
+     "legacyId": 300,
+     "id": 566
+    },
+    {
+     "name": "Mutual funds",
+     "legacyId": null,
+     "id": 622
+    },
+    {
+     "name": "Market events",
+     "legacyId": null,
+     "id": 623
+    }
+   ],
+   "id": 300
+  },
+  {
+   "legacyId": 296,
+   "name": "Crypto & Digital Money",
+   "categoryKey": "finance_business_economics",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Blockchain",
+     "legacyId": 297,
+     "id": 297
+    }
+   ],
+   "id": 296
+  },
+  {
+   "legacyId": 299,
+   "name": "Economic Crises & Economics Explained",
+   "categoryKey": "finance_business_economics",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Global Economy",
+     "legacyId": 311,
+     "id": 311
+    },
+    {
+     "name": "Wealth History",
+     "legacyId": 315,
+     "id": 315
+    }
+   ],
+   "id": 299
+  },
+  {
+   "legacyId": 301,
+   "name": "Corporate Empires & Company Stories",
+   "categoryKey": "finance_business_economics",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Entrepreneurship",
+     "legacyId": 302,
+     "id": 302
+    },
+    {
+     "name": "Startups",
+     "legacyId": 303,
+     "id": 303
+    },
+    {
+     "name": "Unicorn Companies",
+     "legacyId": 304,
+     "id": 304
+    }
+   ],
+   "id": 301
+  },
+  {
+   "legacyId": 305,
+   "name": "Brands & Products",
+   "categoryKey": "finance_business_economics",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Products",
+     "legacyId": 306,
+     "id": 306
+    }
+   ],
+   "id": 305
+  },
+  {
+   "legacyId": 106,
+   "name": "Marketing & Advertising",
+   "categoryKey": "finance_business_economics",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Consumer Psychology",
+     "legacyId": 105,
+     "id": 105
+    },
+    {
+     "name": "Advertising",
+     "legacyId": 307,
+     "id": 307
+    }
+   ],
+   "id": 106
+  },
+  {
+   "legacyId": 107,
+   "name": "Retail, E-Commerce & Trade",
+   "categoryKey": "finance_business_economics",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "E-Commerce",
+     "legacyId": 308,
+     "id": 308
+    },
+    {
+     "name": "Retail",
+     "legacyId": 309,
+     "id": 309
+    },
+    {
+     "name": "Global Trade",
+     "legacyId": 310,
+     "id": 310
+    },
+    {
+     "name": "Logistics & Supply Chain",
+     "legacyId": 108,
+     "id": 108
+    }
+   ],
+   "id": 107
+  },
+  {
+   "legacyId": 103,
+   "name": "Leadership, Management & Workplace",
+   "categoryKey": "finance_business_economics",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Corporate & Workplace",
+     "legacyId": 104,
+     "id": 104
+    }
+   ],
+   "id": 103
+  },
+  {
+   "legacyId": 112,
+   "name": "Real Estate & Property",
+   "categoryKey": "finance_business_economics",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Real Estate Economics",
+     "legacyId": 313,
+     "id": 313
+    },
+    {
+     "name": "Housing & Tenancy",
+     "legacyId": 506,
+     "id": 506
+    }
+   ],
+   "id": 112
+  },
+  {
+   "legacyId": 499,
+   "name": "Insurance, Retirement & Protection",
+   "categoryKey": "finance_business_economics",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Insurance Education",
+     "legacyId": 499,
+     "id": 567
+    },
+    {
+     "name": "Retirement Education",
+     "legacyId": 500,
+     "id": 500
+    }
+   ],
+   "id": 499
+  },
+  {
+   "legacyId": 1,
+   "name": "AI + Technology Explainers",
+   "categoryKey": "technology_ai_digital",
+   "isNew": false,
+   "subNiches": [],
+   "id": 1
+  },
+  {
+   "legacyId": 7,
+   "name": "AI Tools / AI Tutorials",
+   "categoryKey": "technology_ai_digital",
+   "isNew": false,
+   "subNiches": [],
+   "id": 7
+  },
+  {
+   "legacyId": 337,
+   "name": "AI Systems & Research",
+   "categoryKey": "technology_ai_digital",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "AI Research",
+     "legacyId": 337,
+     "id": 568
+    },
+    {
+     "name": "Developer AI",
+     "legacyId": 338,
+     "id": 338
+    },
+    {
+     "name": "AI Software Agents",
+     "legacyId": 531,
+     "id": 531
+    },
+    {
+     "name": "Large Language Model Systems",
+     "legacyId": 532,
+     "id": 532
+    },
+    {
+     "name": "No-Code & Low-Code Development",
+     "legacyId": 533,
+     "id": 533
+    }
+   ],
+   "id": 337
+  },
+  {
+   "legacyId": 19,
+   "name": "AI Creativity & Media",
+   "categoryKey": "technology_ai_digital",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "AI Cinematic Short Films",
+     "legacyId": 19,
+     "id": 569
+    },
+    {
+     "name": "Generative Art",
+     "legacyId": 339,
+     "id": 339
+    },
+    {
+     "name": "AI Music",
+     "legacyId": 340,
+     "id": 340
+    },
+    {
+     "name": "AI Voice",
+     "legacyId": 341,
+     "id": 341
+    },
+    {
+     "name": "AI Filmmaking",
+     "legacyId": 342,
+     "id": 342
+    }
+   ],
+   "id": 19
+  },
+  {
+   "legacyId": 129,
+   "name": "Internet & Web",
+   "categoryKey": "technology_ai_digital",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Internet History",
+     "legacyId": 129,
+     "id": 570
+    },
+    {
+     "name": "Internet",
+     "legacyId": 318,
+     "id": 318
+    }
+   ],
+   "id": 129
+  },
+  {
+   "legacyId": 319,
+   "name": "Internet & Connectivity Tech",
+   "categoryKey": "technology_ai_digital",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Mobile Technology",
+     "legacyId": 319,
+     "id": 571
+    },
+    {
+     "name": "5G / 6G",
+     "legacyId": 320,
+     "id": 320
+    },
+    {
+     "name": "Satellite Internet",
+     "legacyId": 321,
+     "id": 321
+    }
+   ],
+   "id": 319
+  },
+  {
+   "legacyId": 322,
+   "name": "Computing Infrastructure & Software Systems",
+   "categoryKey": "technology_ai_digital",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Cloud Computing",
+     "legacyId": 322,
+     "id": 572
+    },
+    {
+     "name": "Databases",
+     "legacyId": 323,
+     "id": 323
+    },
+    {
+     "name": "Data Centers & Infrastructure",
+     "legacyId": 160,
+     "id": 160
+    },
+    {
+     "name": "Semiconductors",
+     "legacyId": 511,
+     "id": 511
+    },
+    {
+     "name": "Quantum Computing",
+     "legacyId": 512,
+     "id": 512
+    },
+    {
+     "name": "Open-Source Software",
+     "legacyId": 514,
+     "id": 514
+    }
+   ],
+   "id": 322
+  },
+  {
+   "legacyId": 61,
+   "name": "Software & Programming",
+   "categoryKey": "technology_ai_digital",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Programming",
+     "legacyId": 324,
+     "id": 324
+    },
+    {
+     "name": "Software Engineering",
+     "legacyId": 325,
+     "id": 325
+    },
+    {
+     "name": "Computer & PC",
+     "legacyId": 62,
+     "id": 62
+    }
+   ],
+   "id": 61
+  },
+  {
+   "legacyId": 63,
+   "name": "Consumer Technology",
+   "categoryKey": "technology_ai_digital",
+   "isNew": false,
+   "subNiches": [],
+   "id": 63
+  },
+  {
+   "legacyId": 326,
+   "name": "Cybersecurity, Privacy & Digital Safety",
+   "categoryKey": "technology_ai_digital",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Privacy",
+     "legacyId": 327,
+     "id": 327
+    },
+    {
+     "name": "Digital Forensics",
+     "legacyId": 328,
+     "id": 328
+    },
+    {
+     "name": "Malware",
+     "legacyId": 329,
+     "id": 329
+    }
+   ],
+   "id": 326
+  },
+  {
+   "legacyId": 330,
+   "name": "Robotics & Drones",
+   "categoryKey": "technology_ai_digital",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Humanoid Robots",
+     "legacyId": 331,
+     "id": 331
+    },
+    {
+     "name": "Drones",
+     "legacyId": 332,
+     "id": 332
+    }
+   ],
+   "id": 330
+  },
+  {
+   "legacyId": 333,
+   "name": "Neurotech & Human-Computer Interaction",
+   "categoryKey": "technology_ai_digital",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Brain-Computer Interfaces",
+     "legacyId": 333,
+     "id": 573
+    },
+    {
+     "name": "Human-Computer Interaction",
+     "legacyId": 513,
+     "id": 513
+    }
+   ],
+   "id": 333
+  },
+  {
+   "legacyId": 128,
+   "name": "Immersive & Virtual Worlds",
+   "categoryKey": "technology_ai_digital",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Virtual Reality / AR",
+     "legacyId": 128,
+     "id": 574
+    },
+    {
+     "name": "Virtual Worlds",
+     "legacyId": 334,
+     "id": 334
+    },
+    {
+     "name": "Digital Humans",
+     "legacyId": 335,
+     "id": 335
+    }
+   ],
+   "id": 128
+  },
+  {
+   "legacyId": 534,
+   "name": "Digital Business & Creator Economy",
+   "categoryKey": "technology_ai_digital",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "SaaS Businesses",
+     "legacyId": 534,
+     "id": 575
+    },
+    {
+     "name": "Creator Economy",
+     "legacyId": 535,
+     "id": 535
+    },
+    {
+     "name": "Search Engine Optimization",
+     "legacyId": 536,
+     "id": 536
+    }
+   ],
+   "id": 534
+  },
+  {
+   "legacyId": 10,
+   "name": "True Crime Documentary",
+   "categoryKey": "crime_mystery_investigations",
+   "isNew": false,
+   "subNiches": [],
+   "id": 10
+  },
+  {
+   "legacyId": 100,
+   "name": "Forensics & Investigation",
+   "categoryKey": "crime_mystery_investigations",
+   "isNew": false,
+   "subNiches": [],
+   "id": 100
+  },
+  {
+   "legacyId": 99,
+   "name": "Intelligence & Espionage",
+   "categoryKey": "crime_mystery_investigations",
+   "isNew": false,
+   "subNiches": [],
+   "id": 99
+  },
+  {
+   "legacyId": 57,
+   "name": "Secret Societies",
+   "categoryKey": "crime_mystery_investigations",
+   "isNew": false,
+   "subNiches": [],
+   "id": 57
+  },
+  {
+   "legacyId": 33,
+   "name": "UFO / Extraterrestrial (events & cases)",
+   "categoryKey": "crime_mystery_investigations",
+   "isNew": false,
+   "subNiches": [],
+   "id": 33
+  },
+  {
+   "legacyId": 130,
+   "name": "Internet Mysteries",
+   "categoryKey": "crime_mystery_investigations",
+   "isNew": false,
+   "subNiches": [],
+   "id": 130
+  },
+  {
+   "legacyId": 496,
+   "name": "Scams & Fraud Stories",
+   "categoryKey": "crime_mystery_investigations",
+   "isNew": false,
+   "subNiches": [],
+   "id": 496
+  },
+  {
+   "legacyId": 11,
+   "name": "Horror / Mystery Stories",
+   "categoryKey": "stories_fiction_fantasy",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Horror Fiction",
+     "legacyId": 375,
+     "id": 375
+    }
+   ],
+   "id": 11
+  },
+  {
+   "legacyId": 376,
+   "name": "Mystery & Thriller Fiction",
+   "categoryKey": "stories_fiction_fantasy",
+   "isNew": false,
+   "subNiches": [],
+   "id": 376
+  },
+  {
+   "legacyId": 377,
+   "name": "Romance Stories",
+   "categoryKey": "stories_fiction_fantasy",
+   "isNew": false,
+   "subNiches": [],
+   "id": 377
+  },
+  {
+   "legacyId": 378,
+   "name": "Comedy Stories",
+   "categoryKey": "stories_fiction_fantasy",
+   "isNew": false,
+   "subNiches": [],
+   "id": 378
+  },
+  {
+   "legacyId": 373,
+   "name": "Fantasy Worlds & Worldbuilding",
+   "categoryKey": "stories_fiction_fantasy",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Science Fiction",
+     "legacyId": 374,
+     "id": 374
+    },
+    {
+     "name": "Worldbuilding",
+     "legacyId": 381,
+     "id": 381
+    },
+    {
+     "name": "Fictional Geography",
+     "legacyId": 382,
+     "id": 382
+    }
+   ],
+   "id": 373
+  },
+  {
+   "legacyId": 58,
+   "name": "Folklore & Legends",
+   "categoryKey": "stories_fiction_fantasy",
+   "isNew": false,
+   "subNiches": [],
+   "id": 58
+  },
+  {
+   "legacyId": 59,
+   "name": "Mythical Creatures",
+   "categoryKey": "stories_fiction_fantasy",
+   "isNew": false,
+   "subNiches": [],
+   "id": 59
+  },
+  {
+   "legacyId": 60,
+   "name": "Symbols & Hidden Meanings",
+   "categoryKey": "stories_fiction_fantasy",
+   "isNew": false,
+   "subNiches": [],
+   "id": 60
+  },
+  {
+   "legacyId": 16,
+   "name": "Inspirational & Human Stories",
+   "categoryKey": "stories_fiction_fantasy",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Motivational Stories",
+     "legacyId": 16,
+     "id": 576
+    },
+    {
+     "name": "Humanitarian Stories",
+     "legacyId": 148,
+     "id": 148
+    }
+   ],
+   "id": 16
+  },
+  {
+   "legacyId": null,
+   "name": "Bedtime Stories",
+   "categoryKey": "stories_fiction_fantasy",
+   "isNew": true,
+   "subNiches": [],
+   "id": 553
+  },
+  {
+   "legacyId": 4,
+   "name": "Sanatan / Hindu Mythology",
+   "categoryKey": "religion_philosophy_spirituality",
+   "isNew": false,
+   "subNiches": [],
+   "id": 4
+  },
+  {
+   "legacyId": 268,
+   "name": "Hindu Philosophy & Sacred Texts",
+   "categoryKey": "religion_philosophy_spirituality",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Vedas",
+     "legacyId": 269,
+     "id": 269
+    },
+    {
+     "name": "Upanishads",
+     "legacyId": 270,
+     "id": 270
+    },
+    {
+     "name": "Bhagavad Gita",
+     "legacyId": 271,
+     "id": 271
+    },
+    {
+     "name": "Puranas",
+     "legacyId": 272,
+     "id": 272
+    },
+    {
+     "name": "Shaivism",
+     "legacyId": 273,
+     "id": 273
+    },
+    {
+     "name": "Vaishnavism",
+     "legacyId": 274,
+     "id": 274
+    },
+    {
+     "name": "Shaktism",
+     "legacyId": 275,
+     "id": 275
+    },
+    {
+     "name": "Temple Traditions",
+     "legacyId": 276,
+     "id": 276
+    },
+    {
+     "name": "Mantra",
+     "legacyId": 277,
+     "id": 277
+    },
+    {
+     "name": "Ramayana",
+     "legacyId": 540,
+     "id": 540
+    },
+    {
+     "name": "Mahabharata",
+     "legacyId": 541,
+     "id": 541
+    },
+    {
+     "name": "Hindu Festivals & Vrat",
+     "legacyId": 542,
+     "id": 542
+    },
+    {
+     "name": "Bhakti Literature & Devotional Poetry",
+     "legacyId": 543,
+     "id": 543
+    }
+   ],
+   "id": 268
+  },
+  {
+   "legacyId": 18,
+   "name": "Mythological Animation",
+   "categoryKey": "religion_philosophy_spirituality",
+   "isNew": false,
+   "subNiches": [],
+   "id": 18
+  },
+  {
+   "legacyId": 76,
+   "name": "World Religions & Civilizations",
+   "categoryKey": "religion_philosophy_spirituality",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Buddhist Philosophy",
+     "legacyId": 282,
+     "id": 282
+    },
+    {
+     "name": "Judaism History",
+     "legacyId": 283,
+     "id": 283
+    },
+    {
+     "name": "Christianity History",
+     "legacyId": 284,
+     "id": 284
+    },
+    {
+     "name": "Islamic History",
+     "legacyId": 285,
+     "id": 285
+    },
+    {
+     "name": "Sikh History",
+     "legacyId": 286,
+     "id": 286
+    },
+    {
+     "name": "Jainism",
+     "legacyId": 287,
+     "id": 287
+    },
+    {
+     "name": "Zoroastrianism",
+     "legacyId": 288,
+     "id": 288
+    },
+    {
+     "name": "Ancient Religions",
+     "legacyId": 289,
+     "id": 289
+    },
+    {
+     "name": "Mythology Comparison",
+     "legacyId": 290,
+     "id": 290
+    },
+    {
+     "name": "Cosmology & Creation",
+     "legacyId": 291,
+     "id": 291
+    }
+   ],
+   "id": 76
+  },
+  {
+   "legacyId": 23,
+   "name": "Spirituality & Meditation",
+   "categoryKey": "religion_philosophy_spirituality",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Meditation",
+     "legacyId": 278,
+     "id": 278
+    },
+    {
+     "name": "Consciousness & Spirituality",
+     "legacyId": 292,
+     "id": 292
+    }
+   ],
+   "id": 23
+  },
+  {
+   "legacyId": 54,
+   "name": "Consciousness & Philosophy",
+   "categoryKey": "religion_philosophy_spirituality",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Stoicism",
+     "legacyId": null,
+     "id": 624
+    },
+    {
+     "name": "Ethics",
+     "legacyId": null,
+     "id": 625
+    },
+    {
+     "name": "Big questions",
+     "legacyId": null,
+     "id": 626
+    }
+   ],
+   "id": 54
+  },
+  {
+   "legacyId": 75,
+   "name": "Pilgrimage & Sacred Places",
+   "categoryKey": "religion_philosophy_spirituality",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Pilgrimage Travel",
+     "legacyId": 223,
+     "id": 223
+    },
+    {
+     "name": "Sacred Geography",
+     "legacyId": 240,
+     "id": 240
+    }
+   ],
+   "id": 75
+  },
+  {
+   "legacyId": null,
+   "name": "Astrology, Numerology & Vastu — belief content, labelled",
+   "categoryKey": "religion_philosophy_spirituality",
+   "isNew": true,
+   "subNiches": [],
+   "id": 554
+  },
+  {
+   "legacyId": 69,
+   "name": "Education",
+   "categoryKey": "education_learning",
+   "isNew": false,
+   "subNiches": [],
+   "id": 69
+  },
+  {
+   "legacyId": 443,
+   "name": "General Knowledge & Exams Foundation",
+   "categoryKey": "education_learning",
+   "isNew": false,
+   "subNiches": [],
+   "id": 443
+  },
+  {
+   "legacyId": null,
+   "name": "Competitive Exam Prep",
+   "categoryKey": "education_learning",
+   "isNew": true,
+   "subNiches": [
+    {
+     "name": "UPSC",
+     "legacyId": null,
+     "id": 627
+    },
+    {
+     "name": "SSC",
+     "legacyId": null,
+     "id": 628
+    },
+    {
+     "name": "Banking",
+     "legacyId": null,
+     "id": 629
+    },
+    {
+     "name": "Railways",
+     "legacyId": null,
+     "id": 630
+    },
+    {
+     "name": "State exams",
+     "legacyId": null,
+     "id": 631
+    }
+   ],
+   "id": 555
+  },
+  {
+   "legacyId": 41,
+   "name": "Languages & Linguistics",
+   "categoryKey": "education_learning",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Language Learning",
+     "legacyId": 449,
+     "id": 449
+    },
+    {
+     "name": "Sanskrit Learning",
+     "legacyId": 450,
+     "id": 450
+    },
+    {
+     "name": "Translation",
+     "legacyId": 529,
+     "id": 529
+    }
+   ],
+   "id": 41
+  },
+  {
+   "legacyId": 120,
+   "name": "Thinking & Media Skills",
+   "categoryKey": "education_learning",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Logic & Critical Thinking",
+     "legacyId": 120,
+     "id": 577
+    },
+    {
+     "name": "Media Literacy",
+     "legacyId": 530,
+     "id": 530
+    }
+   ],
+   "id": 120
+  },
+  {
+   "legacyId": 453,
+   "name": "Study Skills & Learning Methods",
+   "categoryKey": "education_learning",
+   "isNew": false,
+   "subNiches": [],
+   "id": 453
+  },
+  {
+   "legacyId": 144,
+   "name": "Education Systems & Student Life",
+   "categoryKey": "education_learning",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "History of Education",
+     "legacyId": 144,
+     "id": 578
+    },
+    {
+     "name": "School & University Stories",
+     "legacyId": 145,
+     "id": 145
+    },
+    {
+     "name": "Student Life",
+     "legacyId": 454,
+     "id": 454
+    }
+   ],
+   "id": 144
+  },
+  {
+   "legacyId": 528,
+   "name": "Libraries, Archives & Knowledge Systems",
+   "categoryKey": "education_learning",
+   "isNew": false,
+   "subNiches": [],
+   "id": 528
+  },
+  {
+   "legacyId": 70,
+   "name": "Career & Jobs",
+   "categoryKey": "careers_jobs_skills",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Career Guidance",
+     "legacyId": 455,
+     "id": 455
+    },
+    {
+     "name": "Freelancing",
+     "legacyId": 456,
+     "id": 456
+    },
+    {
+     "name": "Remote Work",
+     "legacyId": 457,
+     "id": 457
+    },
+    {
+     "name": "Digital Nomad",
+     "legacyId": 458,
+     "id": 458
+    },
+    {
+     "name": "Future Jobs",
+     "legacyId": 459,
+     "id": 459
+    },
+    {
+     "name": "AI Careers",
+     "legacyId": 460,
+     "id": 460
+    },
+    {
+     "name": "Data Careers",
+     "legacyId": 462,
+     "id": 462
+    },
+    {
+     "name": "Coding Education",
+     "legacyId": 463,
+     "id": 463
+    },
+    {
+     "name": "Cloud Careers",
+     "legacyId": 464,
+     "id": 464
+    },
+    {
+     "name": "Cybersecurity Careers",
+     "legacyId": 465,
+     "id": 465
+    },
+    {
+     "name": "Science Careers",
+     "legacyId": 466,
+     "id": 466
+    },
+    {
+     "name": "Creative Careers",
+     "legacyId": 467,
+     "id": 467
+    }
+   ],
+   "id": 70
+  },
+  {
+   "legacyId": 102,
+   "name": "Communication & Professional Skills",
+   "categoryKey": "careers_jobs_skills",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Professional Skills",
+     "legacyId": 461,
+     "id": 461
+    }
+   ],
+   "id": 102
+  },
+  {
+   "legacyId": 71,
+   "name": "Productivity & Self-Improvement",
+   "categoryKey": "careers_jobs_skills",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Habit systems",
+     "legacyId": null,
+     "id": 632
+    },
+    {
+     "name": "Focus methods",
+     "legacyId": null,
+     "id": 633
+    }
+   ],
+   "id": 71
+  },
+  {
+   "legacyId": 9,
+   "name": "Psychology / Human Behavior",
+   "categoryKey": "psychology_mind_relationships",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Human Behavior",
+     "legacyId": 171,
+     "id": 171
+    }
+   ],
+   "id": 9
+  },
+  {
+   "legacyId": 351,
+   "name": "Brain, Mind & Cognitive Science",
+   "categoryKey": "psychology_mind_relationships",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Neuroscience",
+     "legacyId": 351,
+     "id": 579
+    },
+    {
+     "name": "Cognitive Science",
+     "legacyId": 363,
+     "id": 363
+    },
+    {
+     "name": "Memory & Learning",
+     "legacyId": 101,
+     "id": 101
+    }
+   ],
+   "id": 351
+  },
+  {
+   "legacyId": 72,
+   "name": "Relationships",
+   "categoryKey": "psychology_mind_relationships",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Human Relationships",
+     "legacyId": 170,
+     "id": 170
+    }
+   ],
+   "id": 72
+  },
+  {
+   "legacyId": 537,
+   "name": "Mental Health Education",
+   "categoryKey": "psychology_mind_relationships",
+   "isNew": false,
+   "subNiches": [],
+   "id": 537
+  },
+  {
+   "legacyId": 174,
+   "name": "Life Stages & Generations",
+   "categoryKey": "psychology_mind_relationships",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Aging & Generations",
+     "legacyId": 174,
+     "id": 580
+    }
+   ],
+   "id": 174
+  },
+  {
+   "legacyId": 66,
+   "name": "Wildlife & Animals",
+   "categoryKey": "animals_nature_environment",
+   "isNew": false,
+   "subNiches": [],
+   "id": 66
+  },
+  {
+   "legacyId": 67,
+   "name": "Nature Documentary",
+   "categoryKey": "animals_nature_environment",
+   "isNew": false,
+   "subNiches": [],
+   "id": 67
+  },
+  {
+   "legacyId": 68,
+   "name": "Pets",
+   "categoryKey": "animals_nature_environment",
+   "isNew": false,
+   "subNiches": [],
+   "id": 68
+  },
+  {
+   "legacyId": 198,
+   "name": "Marine Life & Ocean Creatures",
+   "categoryKey": "animals_nature_environment",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Marine Mammals",
+     "legacyId": 197,
+     "id": 197
+    },
+    {
+     "name": "Coral Reefs",
+     "legacyId": 199,
+     "id": 199
+    }
+   ],
+   "id": 198
+  },
+  {
+   "legacyId": 196,
+   "name": "Birds",
+   "categoryKey": "animals_nature_environment",
+   "isNew": false,
+   "subNiches": [],
+   "id": 196
+  },
+  {
+   "legacyId": 195,
+   "name": "Reptiles & Amphibians",
+   "categoryKey": "animals_nature_environment",
+   "isNew": false,
+   "subNiches": [],
+   "id": 195
+  },
+  {
+   "legacyId": 193,
+   "name": "Insects, Arachnids & Small Creatures",
+   "categoryKey": "animals_nature_environment",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Arachnids",
+     "legacyId": 194,
+     "id": 194
+    }
+   ],
+   "id": 193
+  },
+  {
+   "legacyId": 200,
+   "name": "Plants, Trees & Fungi",
+   "categoryKey": "animals_nature_environment",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Botany",
+     "legacyId": 200,
+     "id": 581
+    },
+    {
+     "name": "Flowers",
+     "legacyId": 201,
+     "id": 201
+    },
+    {
+     "name": "Trees",
+     "legacyId": 202,
+     "id": 202
+    },
+    {
+     "name": "Fungi",
+     "legacyId": 203,
+     "id": 203
+    },
+    {
+     "name": "Plant Intelligence",
+     "legacyId": 204,
+     "id": 204
+    }
+   ],
+   "id": 200
+  },
+  {
+   "legacyId": 115,
+   "name": "Forests, Ecology & Ecosystems",
+   "categoryKey": "animals_nature_environment",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Ecosystems",
+     "legacyId": 205,
+     "id": 205
+    },
+    {
+     "name": "Deserts",
+     "legacyId": 206,
+     "id": 206
+    },
+    {
+     "name": "Rainforests",
+     "legacyId": 207,
+     "id": 207
+    },
+    {
+     "name": "Wetlands",
+     "legacyId": 208,
+     "id": 208
+    },
+    {
+     "name": "Mangroves",
+     "legacyId": 209,
+     "id": 209
+    },
+    {
+     "name": "Biodiversity Conservation",
+     "legacyId": 523,
+     "id": 523
+    }
+   ],
+   "id": 115
+  },
+  {
+   "legacyId": 522,
+   "name": "Air Quality & Environment Health",
+   "categoryKey": "animals_nature_environment",
+   "isNew": false,
+   "subNiches": [],
+   "id": 522
+  },
+  {
+   "legacyId": 521,
+   "name": "Soil Science & Eco Systems",
+   "categoryKey": "animals_nature_environment",
+   "isNew": false,
+   "subNiches": [],
+   "id": 521
+  },
+  {
+   "legacyId": 44,
+   "name": "Sports History",
+   "categoryKey": "sports_games_play",
+   "isNew": false,
+   "subNiches": [],
+   "id": 44
+  },
+  {
+   "legacyId": 546,
+   "name": "Cricket",
+   "categoryKey": "sports_games_play",
+   "isNew": false,
+   "subNiches": [],
+   "id": 546
+  },
+  {
+   "legacyId": 547,
+   "name": "Football / Soccer",
+   "categoryKey": "sports_games_play",
+   "isNew": false,
+   "subNiches": [],
+   "id": 547
+  },
+  {
+   "legacyId": 45,
+   "name": "Racing",
+   "categoryKey": "sports_games_play",
+   "isNew": false,
+   "subNiches": [],
+   "id": 45
+  },
+  {
+   "legacyId": 25,
+   "name": "Gaming Stories & Lore",
+   "categoryKey": "sports_games_play",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Game Development",
+     "legacyId": 131,
+     "id": 131
+    },
+    {
+     "name": "Retro Gaming",
+     "legacyId": 132,
+     "id": 132
+    },
+    {
+     "name": "Esports stories",
+     "legacyId": null,
+     "id": 634
+    }
+   ],
+   "id": 25
+  },
+  {
+   "legacyId": 133,
+   "name": "Board Games, Chess & Tabletop",
+   "categoryKey": "sports_games_play",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Chess",
+     "legacyId": 134,
+     "id": 134
+    }
+   ],
+   "id": 133
+  },
+  {
+   "legacyId": null,
+   "name": "Martial Arts & Traditional Sports",
+   "categoryKey": "sports_games_play",
+   "isNew": false,
+   "subNiches": [],
+   "id": 556
+  },
+  {
+   "legacyId": 80,
+   "name": "Film & Entertainment Analysis",
+   "categoryKey": "film_entertainment_media",
+   "isNew": false,
+   "subNiches": [],
+   "id": 80
+  },
+  {
+   "legacyId": 368,
+   "name": "Cinema & Film Craft",
+   "categoryKey": "film_entertainment_media",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Acting",
+     "legacyId": 370,
+     "id": 370
+    },
+    {
+     "name": "Screenwriting",
+     "legacyId": 371,
+     "id": 371
+    },
+    {
+     "name": "Storytelling",
+     "legacyId": 372,
+     "id": 372
+    },
+    {
+     "name": "Visual Effects",
+     "legacyId": 127,
+     "id": 127
+    },
+    {
+     "name": "Video Editing & Post-Production",
+     "legacyId": 549,
+     "id": 549
+    }
+   ],
+   "id": 368
+  },
+  {
+   "legacyId": 5,
+   "name": "Documentary Storytelling & Making",
+   "categoryKey": "film_entertainment_media",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Documentary Making",
+     "legacyId": 369,
+     "id": 369
+    }
+   ],
+   "id": 5
+  },
+  {
+   "legacyId": 379,
+   "name": "Animation & Cartoon Craft",
+   "categoryKey": "film_entertainment_media",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Character Design",
+     "legacyId": 380,
+     "id": 380
+    }
+   ],
+   "id": 379
+  },
+  {
+   "legacyId": 383,
+   "name": "Series, Web & Short Formats",
+   "categoryKey": "film_entertainment_media",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Short Films",
+     "legacyId": 384,
+     "id": 384
+    }
+   ],
+   "id": 383
+  },
+  {
+   "legacyId": 78,
+   "name": "Books & Literature",
+   "categoryKey": "film_entertainment_media",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Literature",
+     "legacyId": 451,
+     "id": 451
+    },
+    {
+     "name": "Writing",
+     "legacyId": 452,
+     "id": 452
+    }
+   ],
+   "id": 78
+  },
+  {
+   "legacyId": 122,
+   "name": "Media History & Journalism",
+   "categoryKey": "film_entertainment_media",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Television History",
+     "legacyId": 123,
+     "id": 123
+    },
+    {
+     "name": "Radio & Audio",
+     "legacyId": 124,
+     "id": 124
+    },
+    {
+     "name": "Podcasting",
+     "legacyId": 125,
+     "id": 125
+    }
+   ],
+   "id": 122
+  },
+  {
+   "legacyId": 43,
+   "name": "Music History & Artists",
+   "categoryKey": "film_entertainment_media",
+   "isNew": false,
+   "subNiches": [],
+   "id": 43
+  },
+  {
+   "legacyId": 550,
+   "name": "Music Production & Sound Design",
+   "categoryKey": "film_entertainment_media",
+   "isNew": false,
+   "subNiches": [],
+   "id": 550
+  },
+  {
+   "legacyId": 385,
+   "name": "Circus, Magic & Live Entertainment",
+   "categoryKey": "film_entertainment_media",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Theme Parks",
+     "legacyId": 386,
+     "id": 386
+    },
+    {
+     "name": "Roller Coasters",
+     "legacyId": 387,
+     "id": 387
+    },
+    {
+     "name": "Escape Rooms",
+     "legacyId": 388,
+     "id": 388
+    },
+    {
+     "name": "Magic",
+     "legacyId": 389,
+     "id": 389
+    },
+    {
+     "name": "Illusions",
+     "legacyId": 390,
+     "id": 390
+    },
+    {
+     "name": "Card Magic",
+     "legacyId": 391,
+     "id": 391
+    },
+    {
+     "name": "Stand-Up & Comedy History",
+     "legacyId": 392,
+     "id": 392
+    }
+   ],
+   "id": 385
+  },
+  {
+   "legacyId": 91,
+   "name": "Cooking & Culinary",
+   "categoryKey": "food_cooking_farming",
+   "isNew": false,
+   "subNiches": [],
+   "id": 91
+  },
+  {
+   "legacyId": 24,
+   "name": "Food / Cultural Stories",
+   "categoryKey": "food_cooking_farming",
+   "isNew": false,
+   "subNiches": [],
+   "id": 24
+  },
+  {
+   "legacyId": 92,
+   "name": "Beverage Culture",
+   "categoryKey": "food_cooking_farming",
+   "isNew": false,
+   "subNiches": [],
+   "id": 92
+  },
+  {
+   "legacyId": 93,
+   "name": "Agriculture & Farming Systems",
+   "categoryKey": "food_cooking_farming",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Food Systems",
+     "legacyId": 524,
+     "id": 524
+    },
+    {
+     "name": "Sustainable Fisheries",
+     "legacyId": 525,
+     "id": 525
+    }
+   ],
+   "id": 93
+  },
+  {
+   "legacyId": 42,
+   "name": "Art & Civilization",
+   "categoryKey": "culture_arts_crafts",
+   "isNew": false,
+   "subNiches": [],
+   "id": 42
+  },
+  {
+   "legacyId": 79,
+   "name": "Creative Arts & Art Forms",
+   "categoryKey": "culture_arts_crafts",
+   "isNew": false,
+   "subNiches": [],
+   "id": 79
+  },
+  {
+   "legacyId": 548,
+   "name": "Visual Art, Design & Photography",
+   "categoryKey": "culture_arts_crafts",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Graphic Design & Visual Communication",
+     "legacyId": 548,
+     "id": 582
+    },
+    {
+     "name": "Photography",
+     "legacyId": 126,
+     "id": 126
+    },
+    {
+     "name": "Street Art",
+     "legacyId": 259,
+     "id": 259
+    }
+   ],
+   "id": 548
+  },
+  {
+   "legacyId": 95,
+   "name": "Handicrafts & Traditional Skills",
+   "categoryKey": "culture_arts_crafts",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Traditional Skills",
+     "legacyId": 141,
+     "id": 141
+    },
+    {
+     "name": "Traditional Painting",
+     "legacyId": 258,
+     "id": 258
+    },
+    {
+     "name": "Sculpture",
+     "legacyId": 260,
+     "id": 260
+    },
+    {
+     "name": "Stone Carving",
+     "legacyId": 261,
+     "id": 261
+    },
+    {
+     "name": "Wood Carving",
+     "legacyId": 262,
+     "id": 262
+    },
+    {
+     "name": "Pottery",
+     "legacyId": 263,
+     "id": 263
+    },
+    {
+     "name": "Textile History",
+     "legacyId": 264,
+     "id": 264
+    },
+    {
+     "name": "Weaving",
+     "legacyId": 265,
+     "id": 265
+    },
+    {
+     "name": "Embroidery",
+     "legacyId": 266,
+     "id": 266
+    },
+    {
+     "name": "Basketry",
+     "legacyId": 267,
+     "id": 267
+    }
+   ],
+   "id": 95
+  },
+  {
+   "legacyId": 81,
+   "name": "Traditional Performing Arts",
+   "categoryKey": "culture_arts_crafts",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Theatre & Performing Arts",
+     "legacyId": 81,
+     "id": 583
+    },
+    {
+     "name": "Folk Theatre",
+     "legacyId": 249,
+     "id": 249
+    },
+    {
+     "name": "Dolls & Puppetry",
+     "legacyId": 250,
+     "id": 250
+    },
+    {
+     "name": "Traditional Instruments",
+     "legacyId": 255,
+     "id": 255
+    },
+    {
+     "name": "Classical Dance",
+     "legacyId": 257,
+     "id": 257
+    },
+    {
+     "name": "Martial Arts History",
+     "legacyId": 253,
+     "id": 253
+    },
+    {
+     "name": "Archery Culture",
+     "legacyId": 254,
+     "id": 254
+    }
+   ],
+   "id": 81
+  },
+  {
+   "legacyId": 256,
+   "name": "Classical & Traditional Music",
+   "categoryKey": "culture_arts_crafts",
+   "isNew": false,
+   "subNiches": [],
+   "id": 256
+  },
+  {
+   "legacyId": 149,
+   "name": "World Cultures & Traditions",
+   "categoryKey": "culture_arts_crafts",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Global Cultures",
+     "legacyId": 149,
+     "id": 584
+    },
+    {
+     "name": "Cultural Traditions",
+     "legacyId": 243,
+     "id": 243
+    },
+    {
+     "name": "Festivals Around the World",
+     "legacyId": 244,
+     "id": 244
+    },
+    {
+     "name": "Festival Origins",
+     "legacyId": 245,
+     "id": 245
+    },
+    {
+     "name": "Wedding Culture",
+     "legacyId": 246,
+     "id": 246
+    },
+    {
+     "name": "Traditional Clothing",
+     "legacyId": 247,
+     "id": 247
+    },
+    {
+     "name": "Folk Traditions",
+     "legacyId": 248,
+     "id": 248
+    },
+    {
+     "name": "Traditional Games",
+     "legacyId": 251,
+     "id": 251
+    },
+    {
+     "name": "Traditional Sports",
+     "legacyId": 252,
+     "id": 252
+    },
+    {
+     "name": "Youth Culture",
+     "legacyId": 176,
+     "id": 176
+    }
+   ],
+   "id": 149
+  },
+  {
+   "legacyId": 94,
+   "name": "Rural Life & Village Culture",
+   "categoryKey": "culture_arts_crafts",
+   "isNew": false,
+   "subNiches": [],
+   "id": 94
+  },
+  {
+   "legacyId": 96,
+   "name": "Museums & Cultural Heritage",
+   "categoryKey": "culture_arts_crafts",
+   "isNew": false,
+   "subNiches": [],
+   "id": 96
+  },
+  {
+   "legacyId": null,
+   "name": "Fashion & Clothing Design",
+   "categoryKey": "culture_arts_crafts",
+   "isNew": false,
+   "subNiches": [],
+   "id": 557
+  },
+  {
+   "legacyId": 85,
+   "name": "DIY & Making",
+   "categoryKey": "home_diy_hobbies",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "DIY",
+     "legacyId": 399,
+     "id": 399
+    },
+    {
+     "name": "Woodworking",
+     "legacyId": 400,
+     "id": 400
+    },
+    {
+     "name": "Metalworking",
+     "legacyId": 401,
+     "id": 401
+    },
+    {
+     "name": "3D Printing",
+     "legacyId": 402,
+     "id": 402
+    },
+    {
+     "name": "Sewing",
+     "legacyId": 403,
+     "id": 403
+    },
+    {
+     "name": "Knitting",
+     "legacyId": 404,
+     "id": 404
+    },
+    {
+     "name": "Calligraphy",
+     "legacyId": 405,
+     "id": 405
+    },
+    {
+     "name": "Handwriting",
+     "legacyId": 406,
+     "id": 406
+    },
+    {
+     "name": "Origami",
+     "legacyId": 407,
+     "id": 407
+    }
+   ],
+   "id": 85
+  },
+  {
+   "legacyId": 86,
+   "name": "Restoration",
+   "categoryKey": "home_diy_hobbies",
+   "isNew": false,
+   "subNiches": [],
+   "id": 86
+  },
+  {
+   "legacyId": 137,
+   "name": "Repair & Maintenance",
+   "categoryKey": "home_diy_hobbies",
+   "isNew": false,
+   "subNiches": [],
+   "id": 137
+  },
+  {
+   "legacyId": 64,
+   "name": "Home & Lifestyle",
+   "categoryKey": "home_diy_hobbies",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Interior Design",
+     "legacyId": 393,
+     "id": 393
+    },
+    {
+     "name": "Tiny Houses",
+     "legacyId": 395,
+     "id": 395
+    },
+    {
+     "name": "Sustainable Living",
+     "legacyId": 396,
+     "id": 396
+    },
+    {
+     "name": "Organization",
+     "legacyId": 397,
+     "id": 397
+    },
+    {
+     "name": "Minimalism",
+     "legacyId": 398,
+     "id": 398
+    }
+   ],
+   "id": 64
+  },
+  {
+   "legacyId": 65,
+   "name": "Gardening & Plants",
+   "categoryKey": "home_diy_hobbies",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Home Gardening",
+     "legacyId": 394,
+     "id": 394
+    }
+   ],
+   "id": 65
+  },
+  {
+   "legacyId": 84,
+   "name": "Collecting & Antiques",
+   "categoryKey": "home_diy_hobbies",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Collecting",
+     "legacyId": 135,
+     "id": 135
+    },
+    {
+     "name": "Toy Collecting",
+     "legacyId": 409,
+     "id": 409
+    }
+   ],
+   "id": 84
+  },
+  {
+   "legacyId": 408,
+   "name": "Toys, Models & Miniatures",
+   "categoryKey": "home_diy_hobbies",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Model Building",
+     "legacyId": 410,
+     "id": 410
+    },
+    {
+     "name": "Miniatures",
+     "legacyId": 411,
+     "id": 411
+    },
+    {
+     "name": "DIY Mini Worlds",
+     "legacyId": 412,
+     "id": 412
+    }
+   ],
+   "id": 408
+  },
+  {
+   "legacyId": 413,
+   "name": "Hobby Science & Collecting Pursuits",
+   "categoryKey": "home_diy_hobbies",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Astronomy Hobby",
+     "legacyId": 413,
+     "id": 585
+    },
+    {
+     "name": "Amateur Science",
+     "legacyId": 414,
+     "id": 414
+    },
+    {
+     "name": "Rockhounding",
+     "legacyId": 415,
+     "id": 415
+    },
+    {
+     "name": "Fossil Hunting",
+     "legacyId": 416,
+     "id": 416
+    },
+    {
+     "name": "Antique Hunting",
+     "legacyId": 417,
+     "id": 417
+    }
+   ],
+   "id": 413
+  },
+  {
+   "legacyId": 20,
+   "name": "Travel / Hidden Places",
+   "categoryKey": "travel_outdoors_adventure",
+   "isNew": false,
+   "subNiches": [],
+   "id": 20
+  },
+  {
+   "legacyId": 74,
+   "name": "Personal Travel",
+   "categoryKey": "travel_outdoors_adventure",
+   "isNew": false,
+   "subNiches": [],
+   "id": 74
+  },
+  {
+   "legacyId": 34,
+   "name": "Exploration & Adventure",
+   "categoryKey": "travel_outdoors_adventure",
+   "isNew": false,
+   "subNiches": [],
+   "id": 34
+  },
+  {
+   "legacyId": 222,
+   "name": "India Travel & Heritage Tourism",
+   "categoryKey": "travel_outdoors_adventure",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Temple Tourism",
+     "legacyId": 222,
+     "id": 586
+    },
+    {
+     "name": "Himalayan Travel",
+     "legacyId": 224,
+     "id": 224
+    }
+   ],
+   "id": 222
+  },
+  {
+   "legacyId": 225,
+   "name": "Travel by Landscape",
+   "categoryKey": "travel_outdoors_adventure",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Desert Travel",
+     "legacyId": 225,
+     "id": 587
+    },
+    {
+     "name": "Island Travel",
+     "legacyId": 226,
+     "id": 226
+    }
+   ],
+   "id": 225
+  },
+  {
+   "legacyId": 227,
+   "name": "Journeys & Travel Modes",
+   "categoryKey": "travel_outdoors_adventure",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Train Travel",
+     "legacyId": 227,
+     "id": 588
+    },
+    {
+     "name": "Road Trips",
+     "legacyId": 228,
+     "id": 228
+    }
+   ],
+   "id": 227
+  },
+  {
+   "legacyId": 232,
+   "name": "Travel Skills & Systems",
+   "categoryKey": "travel_outdoors_adventure",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Travel Hacks",
+     "legacyId": 232,
+     "id": 589
+    },
+    {
+     "name": "Travel Systems",
+     "legacyId": 233,
+     "id": 233
+    }
+   ],
+   "id": 232
+  },
+  {
+   "legacyId": 117,
+   "name": "Adventure & Extreme Sports",
+   "categoryKey": "travel_outdoors_adventure",
+   "isNew": false,
+   "subNiches": [],
+   "id": 117
+  },
+  {
+   "legacyId": 187,
+   "name": "Outdoor Life & Adventure Skills",
+   "categoryKey": "travel_outdoors_adventure",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Backpacking",
+     "legacyId": 188,
+     "id": 188
+    },
+    {
+     "name": "Hiking",
+     "legacyId": 189,
+     "id": 189
+    },
+    {
+     "name": "Camping",
+     "legacyId": 190,
+     "id": 190
+    },
+    {
+     "name": "Fishing",
+     "legacyId": 191,
+     "id": 191
+    },
+    {
+     "name": "Beekeeping",
+     "legacyId": 192,
+     "id": 192
+    }
+   ],
+   "id": 187
+  },
+  {
+   "legacyId": 142,
+   "name": "Primitive Technology & Bushcraft",
+   "categoryKey": "travel_outdoors_adventure",
+   "isNew": false,
+   "subNiches": [],
+   "id": 142
+  },
+  {
+   "legacyId": 50,
+   "name": "Treasure Hunting",
+   "categoryKey": "travel_outdoors_adventure",
+   "isNew": false,
+   "subNiches": [],
+   "id": 50
+  },
+  {
+   "legacyId": 140,
+   "name": "Sailing & Boating",
+   "categoryKey": "travel_outdoors_adventure",
+   "isNew": false,
+   "subNiches": [],
+   "id": 140
+  },
+  {
+   "legacyId": 46,
+   "name": "Disasters, Rescue & Survival Stories",
+   "categoryKey": "travel_outdoors_adventure",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Rescue Stories",
+     "legacyId": 185,
+     "id": 185
+    },
+    {
+     "name": "Survival Psychology",
+     "legacyId": 186,
+     "id": 186
+    }
+   ],
+   "id": 46
+  },
+  {
+   "legacyId": 22,
+   "name": "Cars & Automotive Stories",
+   "categoryKey": "machines_transport_engineering",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Automotive Engineering",
+     "legacyId": 418,
+     "id": 418
+    },
+    {
+     "name": "Supercars",
+     "legacyId": 419,
+     "id": 419
+    },
+    {
+     "name": "Electric Vehicles",
+     "legacyId": 420,
+     "id": 420
+    },
+    {
+     "name": "EV Battery Technology",
+     "legacyId": 421,
+     "id": 421
+    }
+   ],
+   "id": 22
+  },
+  {
+   "legacyId": 139,
+   "name": "Motorcycles, Bicycles & Two-Wheelers",
+   "categoryKey": "machines_transport_engineering",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Motorcycles",
+     "legacyId": 139,
+     "id": 590
+    },
+    {
+     "name": "Bicycles & Cycling",
+     "legacyId": 138,
+     "id": 138
+    }
+   ],
+   "id": 139
+  },
+  {
+   "legacyId": 109,
+   "name": "Railways & Trains",
+   "categoryKey": "machines_transport_engineering",
+   "isNew": false,
+   "subNiches": [],
+   "id": 109
+  },
+  {
+   "legacyId": 110,
+   "name": "Transportation Systems",
+   "categoryKey": "machines_transport_engineering",
+   "isNew": false,
+   "subNiches": [],
+   "id": 110
+  },
+  {
+   "legacyId": 47,
+   "name": "Aviation & Airports",
+   "categoryKey": "machines_transport_engineering",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Aircraft Engineering",
+     "legacyId": 422,
+     "id": 422
+    },
+    {
+     "name": "Airports",
+     "legacyId": 234,
+     "id": 234
+    }
+   ],
+   "id": 47
+  },
+  {
+   "legacyId": 424,
+   "name": "Shipbuilding & Maritime Engineering",
+   "categoryKey": "machines_transport_engineering",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Maritime",
+     "legacyId": 48,
+     "id": 48
+    }
+   ],
+   "id": 424
+  },
+  {
+   "legacyId": 423,
+   "name": "Rocket & Space Engineering",
+   "categoryKey": "machines_transport_engineering",
+   "isNew": false,
+   "subNiches": [],
+   "id": 423
+  },
+  {
+   "legacyId": 31,
+   "name": "Megastructures & Engineering",
+   "categoryKey": "machines_transport_engineering",
+   "isNew": false,
+   "subNiches": [],
+   "id": 31
+  },
+  {
+   "legacyId": 52,
+   "name": "Architecture & Civil Infrastructure",
+   "categoryKey": "machines_transport_engineering",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Metro Systems",
+     "legacyId": 425,
+     "id": 425
+    },
+    {
+     "name": "Roads & Highways",
+     "legacyId": 426,
+     "id": 426
+    },
+    {
+     "name": "Bridges",
+     "legacyId": 427,
+     "id": 427
+    },
+    {
+     "name": "Tunnels",
+     "legacyId": 428,
+     "id": 428
+    },
+    {
+     "name": "Construction",
+     "legacyId": 429,
+     "id": 429
+    },
+    {
+     "name": "Skyscrapers",
+     "legacyId": 430,
+     "id": 430
+    }
+   ],
+   "id": 52
+  },
+  {
+   "legacyId": 51,
+   "name": "Industry & Manufacturing",
+   "categoryKey": "machines_transport_engineering",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Industrial Machines",
+     "legacyId": 431,
+     "id": 431
+    },
+    {
+     "name": "Heavy Equipment",
+     "legacyId": 432,
+     "id": 432
+    },
+    {
+     "name": "Mining",
+     "legacyId": 433,
+     "id": 433
+    },
+    {
+     "name": "Gem Mining",
+     "legacyId": 434,
+     "id": 434
+    }
+   ],
+   "id": 51
+  },
+  {
+   "legacyId": 113,
+   "name": "Energy & Power Systems",
+   "categoryKey": "machines_transport_engineering",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Oil & Gas",
+     "legacyId": 435,
+     "id": 435
+    },
+    {
+     "name": "Power Plants",
+     "legacyId": 436,
+     "id": 436
+    },
+    {
+     "name": "Nuclear Engineering",
+     "legacyId": 437,
+     "id": 437
+    },
+    {
+     "name": "Solar Technology",
+     "legacyId": 438,
+     "id": 438
+    },
+    {
+     "name": "Wind Energy",
+     "legacyId": 439,
+     "id": 439
+    },
+    {
+     "name": "Hydroelectricity",
+     "legacyId": 440,
+     "id": 440
+    },
+    {
+     "name": "Fusion Energy",
+     "legacyId": 441,
+     "id": 441
+    },
+    {
+     "name": "Batteries & Energy Storage",
+     "legacyId": 158,
+     "id": 158
+    }
+   ],
+   "id": 113
+  },
+  {
+   "legacyId": 162,
+   "name": "Engineering Failures & Lessons",
+   "categoryKey": "machines_transport_engineering",
+   "isNew": false,
+   "subNiches": [],
+   "id": 162
+  },
+  {
+   "legacyId": 14,
+   "name": "Geopolitics / World History",
+   "categoryKey": "politics_law_society",
+   "isNew": false,
+   "subNiches": [],
+   "id": 14
+  },
+  {
+   "legacyId": 97,
+   "name": "Government & Public Systems",
+   "categoryKey": "politics_law_society",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Urban Climate Adaptation",
+     "legacyId": 509,
+     "id": 509
+    },
+    {
+     "name": "Infrastructure Maintenance",
+     "legacyId": 510,
+     "id": 510
+    },
+    {
+     "name": "Public Budgets",
+     "legacyId": 520,
+     "id": 520
+    }
+   ],
+   "id": 97
+  },
+  {
+   "legacyId": 98,
+   "name": "Law & Justice",
+   "categoryKey": "politics_law_society",
+   "isNew": false,
+   "subNiches": [],
+   "id": 98
+  },
+  {
+   "legacyId": 168,
+   "name": "Society & Sociology",
+   "categoryKey": "politics_law_society",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Community Stories",
+     "legacyId": 169,
+     "id": 169
+    },
+    {
+     "name": "Social Experiments",
+     "legacyId": 172,
+     "id": 172
+    },
+    {
+     "name": "Poverty & Inequality",
+     "legacyId": 519,
+     "id": 519
+    }
+   ],
+   "id": 168
+  },
+  {
+   "legacyId": 180,
+   "name": "Healthcare Systems & Emergency Services",
+   "categoryKey": "politics_law_society",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Hospital Stories",
+     "legacyId": 181,
+     "id": 181
+    },
+    {
+     "name": "Emergency Services",
+     "legacyId": 182,
+     "id": 182
+    },
+    {
+     "name": "Public Safety",
+     "legacyId": 183,
+     "id": 183
+    },
+    {
+     "name": "Firefighting",
+     "legacyId": 184,
+     "id": 184
+    }
+   ],
+   "id": 180
+  },
+  {
+   "legacyId": 493,
+   "name": "Safety & Security Awareness",
+   "categoryKey": "politics_law_society",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Personal Security",
+     "legacyId": 493,
+     "id": 591
+    },
+    {
+     "name": "Home Security",
+     "legacyId": 494,
+     "id": 494
+    },
+    {
+     "name": "Digital Safety",
+     "legacyId": 495,
+     "id": 495
+    }
+   ],
+   "id": 493
+  },
+  {
+   "legacyId": 507,
+   "name": "Water, Sanitation & Waste",
+   "categoryKey": "politics_law_society",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Water",
+     "legacyId": 114,
+     "id": 114
+    },
+    {
+     "name": "Waste Management",
+     "legacyId": 508,
+     "id": 508
+    }
+   ],
+   "id": 507
+  },
+  {
+   "legacyId": 516,
+   "name": "Work, Rights & Labour",
+   "categoryKey": "politics_law_society",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Worker Safety",
+     "legacyId": 517,
+     "id": 517
+    },
+    {
+     "name": "Cooperatives",
+     "legacyId": 518,
+     "id": 518
+    }
+   ],
+   "id": 516
+  },
+  {
+   "legacyId": 515,
+   "name": "Internet & Digital Governance",
+   "categoryKey": "politics_law_society",
+   "isNew": false,
+   "subNiches": [],
+   "id": 515
+  },
+  {
+   "legacyId": 317,
+   "name": "Philanthropy & Social Good",
+   "categoryKey": "politics_law_society",
+   "isNew": false,
+   "subNiches": [],
+   "id": 317
+  },
+  {
+   "legacyId": 21,
+   "name": "Luxury / Rich Lifestyle",
+   "categoryKey": "luxury_lifestyle_living",
+   "isNew": false,
+   "subNiches": [],
+   "id": 21
+  },
+  {
+   "legacyId": 82,
+   "name": "Fashion & Clothing",
+   "categoryKey": "luxury_lifestyle_living",
+   "isNew": false,
+   "subNiches": [],
+   "id": 82
+  },
+  {
+   "legacyId": 83,
+   "name": "Jewelry & Precious Materials",
+   "categoryKey": "luxury_lifestyle_living",
+   "isNew": false,
+   "subNiches": [],
+   "id": 83
+  },
+  {
+   "legacyId": 229,
+   "name": "Hotels, Resorts & Hospitality",
+   "categoryKey": "luxury_lifestyle_living",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Hospitality",
+     "legacyId": 230,
+     "id": 230
+    },
+    {
+     "name": "Resorts",
+     "legacyId": 231,
+     "id": 231
+    }
+   ],
+   "id": 229
+  },
+  {
+   "legacyId": 136,
+   "name": "Shopping & Consumer Guides",
+   "categoryKey": "luxury_lifestyle_living",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Consumer Rights",
+     "legacyId": 497,
+     "id": 497
+    },
+    {
+     "name": "Product Recalls",
+     "legacyId": 498,
+     "id": 498
+    }
+   ],
+   "id": 136
+  },
+  {
+   "legacyId": 316,
+   "name": "Auctions & Luxury Markets",
+   "categoryKey": "luxury_lifestyle_living",
+   "isNew": false,
+   "subNiches": [],
+   "id": 316
+  },
+  {
+   "legacyId": 468,
+   "name": "Future Civilization & AI Society",
+   "categoryKey": "future_speculative",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Future Civilization",
+     "legacyId": 53,
+     "id": 53
+    },
+    {
+     "name": "Human-Robot Society",
+     "legacyId": 469,
+     "id": 469
+    },
+    {
+     "name": "Future Cities",
+     "legacyId": 473,
+     "id": 473
+    },
+    {
+     "name": "Floating Cities",
+     "legacyId": 474,
+     "id": 474
+    },
+    {
+     "name": "Moon Civilization",
+     "legacyId": 475,
+     "id": 475
+    },
+    {
+     "name": "Mars Civilization",
+     "legacyId": 476,
+     "id": 476
+    },
+    {
+     "name": "Space Civilization",
+     "legacyId": 477,
+     "id": 477
+    },
+    {
+     "name": "Asteroid Mining",
+     "legacyId": 478,
+     "id": 478
+    },
+    {
+     "name": "Interstellar Civilization",
+     "legacyId": 479,
+     "id": 479
+    }
+   ],
+   "id": 468
+  },
+  {
+   "legacyId": 166,
+   "name": "Future Predictions & Scenarios",
+   "categoryKey": "future_speculative",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Future Civilization Scenarios",
+     "legacyId": 490,
+     "id": 490
+    },
+    {
+     "name": "Speculative Science",
+     "legacyId": 491,
+     "id": 491
+    },
+    {
+     "name": "Ultimate Future of Humanity",
+     "legacyId": 492,
+     "id": 492
+    }
+   ],
+   "id": 166
+  },
+  {
+   "legacyId": 470,
+   "name": "Transhumanism & Life Futures",
+   "categoryKey": "future_speculative",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Brain Enhancement",
+     "legacyId": 471,
+     "id": 471
+    },
+    {
+     "name": "Life Extension",
+     "legacyId": 472,
+     "id": 472
+    },
+    {
+     "name": "First Contact",
+     "legacyId": 480,
+     "id": 480
+    },
+    {
+     "name": "Artificial Consciousness",
+     "legacyId": 481,
+     "id": 481
+    },
+    {
+     "name": "Digital Immortality",
+     "legacyId": 482,
+     "id": 482
+    },
+    {
+     "name": "Synthetic Life",
+     "legacyId": 483,
+     "id": 483
+    },
+    {
+     "name": "Lab-Grown World",
+     "legacyId": 484,
+     "id": 484
+    },
+    {
+     "name": "Post-Internet World",
+     "legacyId": 488,
+     "id": 488
+    },
+    {
+     "name": "Augmented Humans",
+     "legacyId": 489,
+     "id": 489
+    }
+   ],
+   "id": 470
+  },
+  {
+   "legacyId": 485,
+   "name": "Autonomous & Future Living Systems",
+   "categoryKey": "future_speculative",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Autonomous Industry",
+     "legacyId": 485,
+     "id": 592
+    },
+    {
+     "name": "Autonomous Transportation",
+     "legacyId": 486,
+     "id": 486
+    },
+    {
+     "name": "Autonomous Homes",
+     "legacyId": 487,
+     "id": 487
+    }
+   ],
+   "id": 485
+  },
+  {
+   "legacyId": 17,
+   "name": "Kids Cartoon Stories",
+   "categoryKey": "kids_family_parenting",
+   "isNew": false,
+   "subNiches": [],
+   "id": 17
+  },
+  {
+   "legacyId": 73,
+   "name": "Parenting & Child Development",
+   "categoryKey": "kids_family_parenting",
+   "isNew": false,
+   "subNiches": [],
+   "id": 73
+  },
+  {
+   "legacyId": null,
+   "name": "Kids Learning",
+   "categoryKey": "kids_family_parenting",
+   "isNew": true,
+   "subNiches": [
+    {
+     "name": "Animals for kids",
+     "legacyId": null,
+     "id": 635
+    },
+    {
+     "name": "Science for kids",
+     "legacyId": null,
+     "id": 636
+    },
+    {
+     "name": "GK for kids",
+     "legacyId": null,
+     "id": 637
+    }
+   ],
+   "id": 558
+  },
+  {
+   "legacyId": 443,
+   "name": "General Knowledge",
+   "categoryKey": "facts_lists_records",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "Trivia",
+     "legacyId": 444,
+     "id": 444
+    },
+    {
+     "name": "Quiz Channels",
+     "legacyId": 445,
+     "id": 445
+    }
+   ],
+   "id": 551
+  },
+  {
+   "legacyId": 163,
+   "name": "Records & Extremes",
+   "categoryKey": "facts_lists_records",
+   "isNew": false,
+   "subNiches": [],
+   "id": 163
+  },
+  {
+   "legacyId": 164,
+   "name": "Rankings & Comparisons",
+   "categoryKey": "facts_lists_records",
+   "isNew": false,
+   "subNiches": [],
+   "id": 164
+  },
+  {
+   "legacyId": 165,
+   "name": "Then vs Now",
+   "categoryKey": "facts_lists_records",
+   "isNew": false,
+   "subNiches": [],
+   "id": 165
+  },
+  {
+   "legacyId": 167,
+   "name": "What If? / Alternative Reality",
+   "categoryKey": "facts_lists_records",
+   "isNew": false,
+   "subNiches": [],
+   "id": 167
+  },
+  {
+   "legacyId": 56,
+   "name": "Puzzles & Intellectual Mysteries",
+   "categoryKey": "facts_lists_records",
+   "isNew": false,
+   "subNiches": [],
+   "id": 56
+  },
+  {
+   "legacyId": 87,
+   "name": "Explainer Formats — How & Why",
+   "categoryKey": "facts_lists_records",
+   "isNew": false,
+   "subNiches": [
+    {
+     "name": "How Things Work",
+     "legacyId": 87,
+     "id": 593
+    },
+    {
+     "name": "How It's Made",
+     "legacyId": 88,
+     "id": 88
+    },
+    {
+     "name": "Why? Channel",
+     "legacyId": 90,
+     "id": 90
+    }
+   ],
+   "id": 87
+  }
+ ],
+ "idPolicy": "Every niche and sub-niche record carries a unique stable `id`. `legacyId` preserves the number from the user's original 550 list as metadata (it may repeat: legacy 443 names two niches; 35 sub-niches share their parent's number). Lookups by legacyId must return ALL matches and flag ambiguity - never silently choose (docs/SEED_DATA.md). Full mapping: docs/seeds/TAXONOMY_ID_MAPPING.md. Seed sign-off remains OPEN pending user review of the mapping.",
+ "idMigrationLog": {
+  "date": "2026-10-27",
+  "rule": "clean split (user decision)",
+  "freshIdRange": [
+   551,
+   637
+  ],
+  "allocations": 87
+ }
+}

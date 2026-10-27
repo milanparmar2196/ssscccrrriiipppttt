@@ -1,0 +1,172 @@
+{
+  "seedVersion": "audit-v1",
+  "universalChecks": [
+    {
+      "key": "factual_scene_cites_claim_ids",
+      "label": "Every factual scene cites claimIds"
+    },
+    {
+      "key": "zero_placeholders",
+      "label": "Zero placeholders"
+    },
+    {
+      "key": "names_locations_spelled_per_registry_locks",
+      "label": "Names/locations spelled per registry locks"
+    },
+    {
+      "key": "vo_word_budget_fits_duration",
+      "label": "VO word budget fits duration at Bible pacing"
+    },
+    {
+      "key": "data_viz_spec_complete_where_chart_directed",
+      "label": "dataVizSpec complete where a chart is directed"
+    },
+    {
+      "key": "visual_direction_specific",
+      "label": "Visual direction specific (no vague directives)"
+    },
+    {
+      "key": "legal_risk_flag_resolved_or_flagged",
+      "label": "legalRiskFlag moderate/high resolved or flagged"
+    },
+    {
+      "key": "chronology_correctness",
+      "label": "Chronology correctness"
+    },
+    {
+      "key": "superlative_claims_require_named_source",
+      "label": "Superlative claims (\"first/only/largest\") require a named source"
+    },
+    {
+      "key": "jurisdiction_correctness",
+      "label": "Jurisdiction correctness"
+    },
+    {
+      "key": "circular_sourcing_detection",
+      "label": "Circular-sourcing detection"
+    },
+    {
+      "key": "quotes_attributed_with_date",
+      "label": "Quotes attributed with a date"
+    },
+    {
+      "key": "ai_misrepresentation_of_real_people",
+      "label": "AI-misrepresentation of real people"
+    },
+    {
+      "key": "privacy_doxxing",
+      "label": "Privacy/doxxing"
+    },
+    {
+      "key": "hook_accuracy",
+      "label": "Hook accuracy (title/thumbnail promise matches content)"
+    },
+    {
+      "key": "terms_explained_on_first_use",
+      "label": "Terms explained on first use"
+    },
+    {
+      "key": "continuity_premature_recognition",
+      "label": "Continuity causality failure: premature recognition"
+    },
+    {
+      "key": "continuity_knowledge_before_explanation",
+      "label": "Continuity causality failure: knowledge before explanation"
+    },
+    {
+      "key": "continuity_object_reset",
+      "label": "Continuity causality failure: object reset"
+    },
+    {
+      "key": "continuity_impossible_overlap",
+      "label": "Continuity causality failure: impossible overlap"
+    },
+    {
+      "key": "continuity_unrecorded_cast_entry",
+      "label": "Continuity causality failure: unrecorded cast entry"
+    },
+    {
+      "key": "originality_external_comparison_standard",
+      "label": "Originality external comparison standard"
+    },
+    {
+      "key": "originality_internal_similarity_check",
+      "label": "Originality internal similarity check"
+    },
+    {
+      "key": "beat_coverage_invariant",
+      "label": "Beat coverage invariant"
+    },
+    {
+      "key": "prompt_smuggling_check",
+      "label": "Prompt-smuggling check"
+    },
+    {
+      "key": "unverified_figures",
+      "label": "Unverified figures"
+    },
+    {
+      "key": "missing_sources",
+      "label": "Missing sources"
+    },
+    {
+      "key": "defamation",
+      "label": "Defamation"
+    },
+    {
+      "key": "undisclosed_sponsorship",
+      "label": "Undisclosed sponsorship"
+    },
+    {
+      "key": "speculation_presented_as_fact",
+      "label": "Speculation presented as fact"
+    },
+    {
+      "key": "correlation_causation_confusion",
+      "label": "Correlation presented as causation"
+    },
+    {
+      "key": "one_sided_controversial_claims",
+      "label": "One-sided controversial claims"
+    },
+    {
+      "key": "tone_mismatch",
+      "label": "Tone mismatch"
+    },
+    {
+      "key": "duration_av_mismatch",
+      "label": "Duration/AV mismatch"
+    },
+    {
+      "key": "safety_filter_bypass",
+      "label": "Safety-filter bypass"
+    }
+  ],
+  "nicheAddOns": [
+    {
+      "niche": "finance",
+      "checks": [
+        {
+          "key": "revenue_profit_confusion",
+          "label": "Confusing revenue with profit"
+        },
+        {
+          "key": "inflation_adjustment_for_historical_comparisons",
+          "label": "Misleading financial comparisons — inflation adjustment for historical comparisons"
+        },
+        {
+          "key": "market_timing_implications",
+          "label": "Market timing implications"
+        },
+        {
+          "key": "cherry_picked_data",
+          "label": "Cherry-picked data"
+        },
+        {
+          "key": "stock_split_annotation",
+          "label": "Stock-split annotation on stock price data"
+        }
+      ]
+    }
+  ]
+}

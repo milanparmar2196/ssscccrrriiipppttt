@@ -1,0 +1,827 @@
+{
+ "version": "config-questions-v2.2",
+ "generatedFor": "Admin Question Library seed import",
+ "note": "Niche-wise question packs for docs/CONFIG_QUESTIONS.md v2. Scope niche_pack = assigned to niches in the listed categories via Question Library Assign. Layer A/B seed questions are defined in docs/CONFIG_QUESTIONS.md. v2.2: allowCustomAnswer=true on all choice questions (custom text stored with the answer; see docs/CONFIG_QUESTIONS.md, Custom Answers section).",
+ "packCount": 12,
+ "questionCount": 29,
+ "packs": [
+  {
+   "pack": "history_documentary",
+   "name": "History & Documentary Pack",
+   "appliesToCategories": [
+    "History & Heritage"
+   ],
+   "questions": [
+    {
+     "key": "dramatization_allowed",
+     "label": "May the script invent dialogue or scenes for real people?",
+     "scope": "niche_pack",
+     "type": "single_choice",
+     "options": [
+      {
+       "value": "never",
+       "label": "Never"
+      },
+      {
+       "value": "labelled_only",
+       "label": "Only if labelled as dramatization"
+      },
+      {
+       "value": "free",
+       "label": "Freely"
+      }
+     ],
+     "defaultValue": "labelled_only",
+     "required": true,
+     "mapsTo": "bible.annexes.character.dialoguePolicy",
+     "legacyId": null,
+     "helpText": "Invented dialogue must never be presented as a verified quote.",
+     "allowCustomAnswer": true,
+     "customAnswerLabel": "Other — write your own"
+    },
+    {
+     "key": "era_strictness",
+     "label": "How strict is period accuracy (clothes, objects, language)?",
+     "scope": "niche_pack",
+     "type": "single_choice",
+     "options": [
+      {
+       "value": "strict_period",
+       "label": "Strict period accuracy"
+      },
+      {
+       "value": "balanced",
+       "label": "Balanced"
+      },
+      {
+       "value": "cinematic_liberty",
+       "label": "Cinematic liberty"
+      }
+     ],
+     "defaultValue": "strict_period",
+     "required": true,
+     "mapsTo": "run.config.eraStrictness",
+     "legacyId": null,
+     "allowCustomAnswer": true,
+     "customAnswerLabel": "Other — write your own"
+    },
+    {
+     "key": "map_usage",
+     "label": "How much should maps be used?",
+     "scope": "niche_pack",
+     "type": "single_choice",
+     "options": [
+      {
+       "value": "none",
+       "label": "None"
+      },
+      {
+       "value": "occasional",
+       "label": "Occasional"
+      },
+      {
+       "value": "frequent",
+       "label": "Frequently"
+      }
+     ],
+     "defaultValue": "occasional",
+     "required": false,
+     "mapsTo": "run.config.mapUsage",
+     "legacyId": null,
+     "allowCustomAnswer": true,
+     "customAnswerLabel": "Other — write your own"
+    }
+   ],
+   "appliesToCategoryKeys": [
+    "history_heritage"
+   ]
+  },
+  {
+   "pack": "health_ayurveda",
+   "name": "Ayurveda, Health & Medical Pack",
+   "appliesToCategories": [
+    "Health, Wellness & Ayurveda"
+   ],
+   "questions": [
+    {
+     "key": "disclaimer_variant",
+     "label": "Which disclaimer applies to this content?",
+     "scope": "niche_pack",
+     "type": "single_choice",
+     "options": [
+      {
+       "value": "standard_medical",
+       "label": "Standard medical information disclaimer"
+      },
+      {
+       "value": "ayurveda_traditional_use",
+       "label": "Ayurveda traditional-use disclaimer"
+      },
+      {
+       "value": "condition_awareness",
+       "label": "Condition awareness disclaimer"
+      }
+     ],
+     "defaultValue": "standard_medical",
+     "required": true,
+     "mapsTo": "package.disclaimer",
+     "legacyId": null,
+     "helpText": "Set by niche policy; a run may strengthen, never remove.",
+     "allowCustomAnswer": true,
+     "customAnswerLabel": "Other — write your own"
+    },
+    {
+     "key": "remedy_content",
+     "label": "May remedies/practices be presented, and how?",
+     "scope": "niche_pack",
+     "type": "single_choice",
+     "options": [
+      {
+       "value": "none",
+       "label": "No remedies"
+      },
+      {
+       "value": "traditional_use_framed",
+       "label": "Only framed as traditional use"
+      },
+      {
+       "value": "general_wellness_only",
+       "label": "General wellness only"
+      }
+     ],
+     "defaultValue": "traditional_use_framed",
+     "required": true,
+     "mapsTo": "run.config.remedyContent",
+     "legacyId": null,
+     "allowCustomAnswer": true,
+     "customAnswerLabel": "Other — write your own"
+    },
+    {
+     "key": "medical_review_required",
+     "label": "Must this run pass human medical review before approval?",
+     "scope": "niche_pack",
+     "type": "yes_no",
+     "options": null,
+     "defaultValue": true,
+     "required": false,
+     "mapsTo": "run.gates.medicalReview",
+     "legacyId": null,
+     "allowCustomAnswer": false
+    }
+   ],
+   "appliesToCategoryKeys": [
+    "health_wellness_ayurveda"
+   ]
+  },
+  {
+   "pack": "finance_business",
+   "name": "Finance & Business Pack",
+   "appliesToCategories": [
+    "Finance, Business & Economics"
+   ],
+   "questions": [
+    {
+     "key": "data_period",
+     "label": "Figures should be as of which period?",
+     "scope": "niche_pack",
+     "type": "single_choice",
+     "options": [
+      {
+       "value": "latest",
+       "label": "Latest available"
+      },
+      {
+       "value": "quarterly",
+       "label": "Latest quarter"
+      },
+      {
+       "value": "annual",
+       "label": "Latest full year"
+      }
+     ],
+     "defaultValue": "latest",
+     "required": true,
+     "mapsTo": "run.config.dataPeriod",
+     "legacyId": null,
+     "allowCustomAnswer": true,
+     "customAnswerLabel": "Other — write your own"
+    },
+    {
+     "key": "advice_boundary",
+     "label": "Advice boundary for this content",
+     "scope": "niche_pack",
+     "type": "single_choice",
+     "options": [
+      {
+       "value": "education_only",
+       "label": "Education only — no personal advice"
+      },
+      {
+       "value": "education_with_disclaimers",
+       "label": "Education with advice-style examples + disclaimers"
+      }
+     ],
+     "defaultValue": "education_only",
+     "required": true,
+     "mapsTo": "bible.compliance.adviceBoundary",
+     "legacyId": null,
+     "allowCustomAnswer": true,
+     "customAnswerLabel": "Other — write your own"
+    },
+    {
+     "key": "verified_data_only",
+     "label": "May the script state figures only from the Verified Data Registry + Research Brief?",
+     "scope": "niche_pack",
+     "type": "yes_no",
+     "options": null,
+     "defaultValue": true,
+     "required": false,
+     "mapsTo": "run.config.verifiedDataOnly",
+     "legacyId": null,
+     "allowCustomAnswer": false
+    }
+   ],
+   "appliesToCategoryKeys": [
+    "finance_business_economics"
+   ]
+  },
+  {
+   "pack": "crime_mystery",
+   "name": "Crime & Mystery Pack",
+   "appliesToCategories": [
+    "Crime, Mystery & Investigations"
+   ],
+   "questions": [
+    {
+     "key": "case_status",
+     "label": "Status of the case(s) covered",
+     "scope": "niche_pack",
+     "type": "single_choice",
+     "options": [
+      {
+       "value": "solved",
+       "label": "Solved / closed"
+      },
+      {
+       "value": "cold",
+       "label": "Cold / unsolved"
+      },
+      {
+       "value": "ongoing",
+       "label": "Ongoing — legal care required"
+      }
+     ],
+     "defaultValue": "solved",
+     "required": true,
+     "mapsTo": "run.config.caseStatus",
+     "legacyId": null,
+     "helpText": "Ongoing cases trigger stricter legal review.",
+     "allowCustomAnswer": true,
+     "customAnswerLabel": "Other — write your own"
+    },
+    {
+     "key": "victim_sensitivity",
+     "label": "How are victims and families treated?",
+     "scope": "niche_pack",
+     "type": "single_choice",
+     "options": [
+      {
+       "value": "strict",
+       "label": "Strict — no victim names/images beyond necessity"
+      },
+      {
+       "value": "public_record",
+       "label": "Names from public record only"
+      },
+      {
+       "value": "standard",
+       "label": "Standard"
+      }
+     ],
+     "defaultValue": "public_record",
+     "required": true,
+     "mapsTo": "bible.compliance.victimSensitivity",
+     "legacyId": null,
+     "allowCustomAnswer": true,
+     "customAnswerLabel": "Other — write your own"
+    },
+    {
+     "key": "graphic_detail_level",
+     "label": "How much graphic detail is allowed?",
+     "scope": "niche_pack",
+     "type": "single_choice",
+     "options": [
+      {
+       "value": "none",
+       "label": "None"
+      },
+      {
+       "value": "implied",
+       "label": "Implied only"
+      },
+      {
+       "value": "moderate",
+       "label": "Moderate, non-graphic description"
+      }
+     ],
+     "defaultValue": "implied",
+     "required": true,
+     "mapsTo": "run.config.graphicDetailLevel",
+     "legacyId": null,
+     "allowCustomAnswer": true,
+     "customAnswerLabel": "Other — write your own"
+    }
+   ],
+   "appliesToCategoryKeys": [
+    "crime_mystery_investigations"
+   ]
+  },
+  {
+   "pack": "religion_devotional",
+   "name": "Religion & Devotional Pack",
+   "appliesToCategories": [
+    "Religion, Philosophy & Spirituality"
+   ],
+   "questions": [
+    {
+     "key": "representation_mode",
+     "label": "How are sacred subjects represented?",
+     "scope": "niche_pack",
+     "type": "single_choice",
+     "options": [
+      {
+       "value": "traditional",
+       "label": "Traditional / scriptural representation"
+      },
+      {
+       "value": "cinematic",
+       "label": "Cinematic interpretation"
+      },
+      {
+       "value": "both_labelled",
+       "label": "Both, clearly labelled"
+      }
+     ],
+     "defaultValue": "traditional",
+     "required": true,
+     "mapsTo": "bible.annexes.subject.representationMode",
+     "legacyId": null,
+     "allowCustomAnswer": true,
+     "customAnswerLabel": "Other — write your own"
+    },
+    {
+     "key": "belief_labelling",
+     "label": "Must belief-based content be labelled as belief (not verified fact)?",
+     "scope": "niche_pack",
+     "type": "yes_no",
+     "options": null,
+     "defaultValue": true,
+     "required": false,
+     "mapsTo": "run.config.beliefLabelling",
+     "legacyId": null,
+     "allowCustomAnswer": false
+    }
+   ],
+   "appliesToCategoryKeys": [
+    "religion_philosophy_spirituality"
+   ]
+  },
+  {
+   "pack": "kids_family",
+   "name": "Kids & Family Pack",
+   "appliesToCategories": [
+    "Kids, Family & Parenting"
+   ],
+   "questions": [
+    {
+     "key": "age_band",
+     "label": "Target age band",
+     "scope": "niche_pack",
+     "type": "single_choice",
+     "options": [
+      {
+       "value": "3_5",
+       "label": "3–5 years"
+      },
+      {
+       "value": "6_8",
+       "label": "6–8 years"
+      },
+      {
+       "value": "9_12",
+       "label": "9–12 years"
+      },
+      {
+       "value": "family_all",
+       "label": "All-family"
+      }
+     ],
+     "defaultValue": "6_8",
+     "required": true,
+     "mapsTo": "project.config.ageBand",
+     "legacyId": null,
+     "allowCustomAnswer": true,
+     "customAnswerLabel": "Other — write your own"
+    },
+    {
+     "key": "reading_level",
+     "label": "Language and reading level",
+     "scope": "niche_pack",
+     "type": "single_choice",
+     "options": [
+      {
+       "value": "very_simple",
+       "label": "Very simple"
+      },
+      {
+       "value": "simple",
+       "label": "Simple"
+      },
+      {
+       "value": "moderate",
+       "label": "Moderate"
+      }
+     ],
+     "defaultValue": "simple",
+     "required": true,
+     "mapsTo": "run.config.readingLevel",
+     "legacyId": null,
+     "allowCustomAnswer": true,
+     "customAnswerLabel": "Other — write your own"
+    },
+    {
+     "key": "lesson_explicitness",
+     "label": "How explicit is the lesson/moral?",
+     "scope": "niche_pack",
+     "type": "single_choice",
+     "options": [
+      {
+       "value": "explicit_moral",
+       "label": "Stated moral at the end"
+      },
+      {
+       "value": "implied",
+       "label": "Implied by the story"
+      },
+      {
+       "value": "none",
+       "label": "No lesson — pure story"
+      }
+     ],
+     "defaultValue": "explicit_moral",
+     "required": false,
+     "mapsTo": "run.config.lessonExplicitness",
+     "legacyId": null,
+     "allowCustomAnswer": true,
+     "customAnswerLabel": "Other — write your own"
+    }
+   ],
+   "appliesToCategoryKeys": [
+    "kids_family_parenting"
+   ]
+  },
+  {
+   "pack": "science_space",
+   "name": "Science & Space Pack",
+   "appliesToCategories": [
+    "Science, Space & Earth"
+   ],
+   "questions": [
+    {
+     "key": "diagram_density",
+     "label": "How diagram-heavy should scenes be?",
+     "scope": "niche_pack",
+     "type": "single_choice",
+     "options": [
+      {
+       "value": "low",
+       "label": "Low"
+      },
+      {
+       "value": "moderate",
+       "label": "Moderate"
+      },
+      {
+       "value": "high",
+       "label": "High"
+      }
+     ],
+     "defaultValue": "moderate",
+     "required": false,
+     "mapsTo": "run.config.diagramDensity",
+     "legacyId": null,
+     "allowCustomAnswer": true,
+     "customAnswerLabel": "Other — write your own"
+    },
+    {
+     "key": "math_level",
+     "label": "Highest maths the script may use",
+     "scope": "niche_pack",
+     "type": "single_choice",
+     "options": [
+      {
+       "value": "none",
+       "label": "None"
+      },
+      {
+       "value": "basic",
+       "label": "Basic"
+      },
+      {
+       "value": "intermediate",
+       "label": "Intermediate"
+      },
+      {
+       "value": "advanced",
+       "label": "Advanced"
+      }
+     ],
+     "defaultValue": "basic",
+     "required": false,
+     "mapsTo": "run.config.mathLevel",
+     "legacyId": null,
+     "allowCustomAnswer": true,
+     "customAnswerLabel": "Other — write your own"
+    },
+    {
+     "key": "speculation_labelling",
+     "label": "Must unsolved/speculative claims be labelled as such?",
+     "scope": "niche_pack",
+     "type": "yes_no",
+     "options": null,
+     "defaultValue": true,
+     "required": false,
+     "mapsTo": "run.config.speculationLabelling",
+     "legacyId": null,
+     "allowCustomAnswer": false
+    }
+   ],
+   "appliesToCategoryKeys": [
+    "science_space_earth"
+   ]
+  },
+  {
+   "pack": "future_speculative",
+   "name": "Future & Speculative Pack",
+   "appliesToCategories": [
+    "Future & Speculative Civilization"
+   ],
+   "questions": [
+    {
+     "key": "speculation_label_style",
+     "label": "How is speculation labelled?",
+     "scope": "niche_pack",
+     "type": "single_choice",
+     "options": [
+      {
+       "value": "opening_disclaimer",
+       "label": "Opening disclaimer"
+      },
+      {
+       "value": "persistent_label",
+       "label": "Persistent on-screen label"
+      },
+      {
+       "value": "both",
+       "label": "Both"
+      }
+     ],
+     "defaultValue": "both",
+     "required": true,
+     "mapsTo": "bible.compliance.speculationLabelStyle",
+     "legacyId": null,
+     "helpText": "Speculation must never be presented as fact.",
+     "allowCustomAnswer": true,
+     "customAnswerLabel": "Other — write your own"
+    }
+   ],
+   "appliesToCategoryKeys": [
+    "future_speculative"
+   ]
+  },
+  {
+   "pack": "stories_fiction",
+   "name": "Stories & Fiction Pack",
+   "appliesToCategories": [
+    "Stories, Fiction & Fantasy Worlds"
+   ],
+   "questions": [
+    {
+     "key": "dialogue_format",
+     "label": "Script format for this story",
+     "scope": "niche_pack",
+     "type": "single_choice",
+     "options": [
+      {
+       "value": "narration_only",
+       "label": "Narration only"
+      },
+      {
+       "value": "dialogue_script",
+       "label": "Dialogue script (Package dialogue format)"
+      }
+     ],
+     "defaultValue": "narration_only",
+     "required": true,
+     "mapsTo": "package.format.dialogue",
+     "legacyId": null,
+     "allowCustomAnswer": true,
+     "customAnswerLabel": "Other — write your own"
+    },
+    {
+     "key": "cliffhanger_ending",
+     "label": "End on a cliffhanger (series stories)?",
+     "scope": "niche_pack",
+     "type": "yes_no",
+     "options": null,
+     "defaultValue": false,
+     "required": false,
+     "mapsTo": "run.config.cliffhangerEnding",
+     "legacyId": null,
+     "allowCustomAnswer": false
+    }
+   ],
+   "appliesToCategoryKeys": [
+    "stories_fiction_fantasy"
+   ]
+  },
+  {
+   "pack": "sports",
+   "name": "Sports Pack",
+   "appliesToCategories": [
+    "Sports, Games & Play"
+   ],
+   "questions": [
+    {
+     "key": "data_recency",
+     "label": "How recent is the data focus?",
+     "scope": "niche_pack",
+     "type": "single_choice",
+     "options": [
+      {
+       "value": "historic",
+       "label": "Historic"
+      },
+      {
+       "value": "recent_season",
+       "label": "Recent season"
+      },
+      {
+       "value": "current",
+       "label": "Current / live season"
+      }
+     ],
+     "defaultValue": "historic",
+     "required": false,
+     "mapsTo": "run.config.dataRecency",
+     "legacyId": null,
+     "allowCustomAnswer": true,
+     "customAnswerLabel": "Other — write your own"
+    },
+    {
+     "key": "stats_density",
+     "label": "How stats-heavy should the script be?",
+     "scope": "niche_pack",
+     "type": "single_choice",
+     "options": [
+      {
+       "value": "light",
+       "label": "Light"
+      },
+      {
+       "value": "moderate",
+       "label": "Moderate"
+      },
+      {
+       "value": "heavy",
+       "label": "Heavy"
+      }
+     ],
+     "defaultValue": "moderate",
+     "required": false,
+     "mapsTo": "run.config.statsDensity",
+     "legacyId": null,
+     "allowCustomAnswer": true,
+     "customAnswerLabel": "Other — write your own"
+    }
+   ],
+   "appliesToCategoryKeys": [
+    "sports_games_play"
+   ]
+  },
+  {
+   "pack": "geography",
+   "name": "Geography Pack",
+   "appliesToCategories": [
+    "Geography, Places & Maps"
+   ],
+   "questions": [
+    {
+     "key": "disputed_region_handling",
+     "label": "How are disputed places/borders handled?",
+     "scope": "niche_pack",
+     "type": "single_choice",
+     "options": [
+      {
+       "value": "neutral_naming",
+       "label": "Neutral naming (locked rule)"
+      },
+      {
+       "value": "omit_disputed",
+       "label": "Avoid disputed areas"
+      }
+     ],
+     "defaultValue": "neutral_naming",
+     "required": true,
+     "mapsTo": "bible.annexes.placeRegion.namingRule",
+     "legacyId": null,
+     "allowCustomAnswer": true,
+     "customAnswerLabel": "Other — write your own"
+    },
+    {
+     "key": "map_style",
+     "label": "Default map style",
+     "scope": "niche_pack",
+     "type": "single_choice",
+     "options": [
+      {
+       "value": "standard_political",
+       "label": "Standard political"
+      },
+      {
+       "value": "physical_terrain",
+       "label": "Physical / terrain"
+      },
+      {
+       "value": "minimal_outline",
+       "label": "Minimal outline"
+      }
+     ],
+     "defaultValue": "standard_political",
+     "required": false,
+     "mapsTo": "bible.visual.mapStyle",
+     "legacyId": null,
+     "allowCustomAnswer": true,
+     "customAnswerLabel": "Other — write your own"
+    }
+   ],
+   "appliesToCategoryKeys": [
+    "geography_places_maps"
+   ]
+  },
+  {
+   "pack": "tech_ai",
+   "name": "Technology & AI Pack",
+   "appliesToCategories": [
+    "Technology, AI & Digital Life"
+   ],
+   "questions": [
+    {
+     "key": "content_mode",
+     "label": "Content mode",
+     "scope": "niche_pack",
+     "type": "single_choice",
+     "options": [
+      {
+       "value": "explainer",
+       "label": "Explainer"
+      },
+      {
+       "value": "tutorial",
+       "label": "Tutorial"
+      },
+      {
+       "value": "news_analysis",
+       "label": "News / analysis"
+      }
+     ],
+     "defaultValue": "explainer",
+     "required": true,
+     "mapsTo": "run.config.contentMode",
+     "legacyId": null,
+     "allowCustomAnswer": true,
+     "customAnswerLabel": "Other — write your own"
+    },
+    {
+     "key": "tool_version",
+     "label": "Tool / UI version this tutorial describes",
+     "scope": "niche_pack",
+     "type": "short_text",
+     "options": null,
+     "defaultValue": null,
+     "required": false,
+     "mapsTo": "run.config.toolVersion",
+     "legacyId": null,
+     "condition": {
+      "questionKey": "content_mode",
+      "equals": "tutorial"
+     },
+     "allowCustomAnswer": false
+    }
+   ],
+   "appliesToCategoryKeys": [
+    "technology_ai_digital"
+   ]
+  }
+ ]
+}

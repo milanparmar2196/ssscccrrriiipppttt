@@ -1,0 +1,103 @@
+{
+  "seedVersion": "format-profiles-v1",
+  "profiles": [
+    {
+      "key": "plain_text_vo",
+      "name": "Plain Text VO — Generic TTS / Human Narrator",
+      "toolType": "audio",
+      "textStyle": "plain",
+      "separator": "none",
+      "speakerLabelStyle": "NARRATOR:",
+      "blankLinesBetweenScenes": 3,
+      "maxCharsPerUnit": null,
+      "clipDurationCapSec": null,
+      "fields": [
+        "narration",
+        "timingNotes"
+      ]
+    },
+    {
+      "key": "ssml_voice",
+      "name": "SSML Voice",
+      "toolType": "audio",
+      "textStyle": "ssml",
+      "separator": "<break>",
+      "speakerLabelStyle": null,
+      "blankLinesBetweenScenes": null,
+      "maxCharsPerUnit": null,
+      "clipDurationCapSec": null,
+      "fields": [
+        "narration"
+      ]
+    },
+    {
+      "key": "ai_video_veo_style",
+      "name": "AI Video — Veo-style",
+      "toolType": "video",
+      "textStyle": "structured_fields",
+      "separator": null,
+      "speakerLabelStyle": null,
+      "blankLinesBetweenScenes": null,
+      "maxCharsPerUnit": null,
+      "clipDurationCapSec": 8,
+      "fields": [
+        "visualPrompt",
+        "cameraTerms",
+        "negativePrompt"
+      ]
+    },
+    {
+      "key": "ai_video_generic_prompt_tools",
+      "name": "AI Video — Generic Prompt Tools",
+      "toolType": "video",
+      "textStyle": "structured_fields",
+      "separator": null,
+      "speakerLabelStyle": null,
+      "blankLinesBetweenScenes": null,
+      "maxCharsPerUnit": null,
+      "clipDurationCapSec": null,
+      "fields": [
+        "prompt",
+        "negativePrompt",
+        "onScreenText"
+      ]
+    },
+    {
+      "key": "ai_image_prompt_tools",
+      "name": "AI Image — Prompt Tools",
+      "toolType": "image",
+      "textStyle": "structured_fields",
+      "separator": null,
+      "speakerLabelStyle": null,
+      "blankLinesBetweenScenes": null,
+      "maxCharsPerUnit": null,
+      "clipDurationCapSec": null,
+      "fields": [
+        "imagePrompt",
+        "styleParameters",
+        "lockedRegistryDescriptions"
+      ]
+    },
+    {
+      "key": "editor_timeline_sheet",
+      "name": "Editor Timeline Sheet",
+      "toolType": "edit",
+      "textStyle": "structured_fields",
+      "separator": null,
+      "speakerLabelStyle": null,
+      "blankLinesBetweenScenes": null,
+      "maxCharsPerUnit": null,
+      "clipDurationCapSec": null,
+      "fields": [
+        "scene",
+        "timing",
+        "narration",
+        "visual",
+        "prompts",
+        "sfx",
+        "music",
+        "onScreenText"
+      ]
+    }
+  ]
+}

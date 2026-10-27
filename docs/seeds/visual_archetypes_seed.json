@@ -1,0 +1,638 @@
+{
+ "seedVersion": "visual-v1",
+ "generatedFrom": "docs/VISUAL_STYLE_SYSTEM.md",
+ "archetypes": [
+  {
+   "id": "A1",
+   "name": "Cinematic Historical Documentary",
+   "fields": {
+    "visualLanguage": "period reconstruction + archival textures + maps",
+    "palette": "earth / bronze / parchment / charcoal",
+    "lighting": "warm directional key, smoky atmosphere",
+    "cameraLens": "24mm environments, 50mm portraits, aerial maps",
+    "motion": "slow push-ins, parallax layers, motivated tracking",
+    "texture": "film grain, aged paper, tactile stone/wood/metal",
+    "graphics": "minimal era-styled captions, aged-map overlays",
+    "thumbnail": "hero subject + era/location cue + bold negative space",
+    "aiPromptKeywords": "cinematic historical reconstruction, period-authentic, photoreal, tactile materials, atmospheric depth, documentary realism",
+    "avoid": "modern objects, generic fantasy armour, anachronisms, plastic-looking CGI"
+   }
+  },
+  {
+   "id": "A2",
+   "name": "Sacred Cinematic Devotional",
+   "fields": {
+    "visualLanguage": "temple-scale compositions + symbolic macro details",
+    "palette": "saffron / gold / vermilion / deep indigo",
+    "lighting": "soft sunrise glow, volumetric rays",
+    "cameraLens": "24mm grandeur, 50mm devotional portrait, macro details",
+    "motion": "slow reverent push-ins, gentle parallax, stillness holds",
+    "texture": "carved stone, brass, flower, smoke and lamp glow",
+    "graphics": "minimal, respectful typography, no clutter over sacred subjects",
+    "thumbnail": "deity/sacred object + radiant focal point + uncluttered title area",
+    "aiPromptKeywords": "sacred cinematic, respectful devotional atmosphere, temple architecture, warm divine glow, intricate detail, reverent composition",
+    "avoid": "disrespectful depictions, random fantasy elements, modern props, excessive neon"
+   }
+  },
+  {
+   "id": "A3",
+   "name": "Scientific Cinematic Explainer",
+   "fields": {
+    "visualLanguage": "photoreal macro + scientific visualisation + clean diagrams",
+    "palette": "midnight blue / teal / white",
+    "lighting": "neutral studio light with selective glow",
+    "cameraLens": "macro, 50mm, wide scientific environments",
+    "motion": "slow orbital moves, scale zooms, diagram build-ups",
+    "texture": "clean glass/metal/lab surfaces, starfield and deep-sea depth",
+    "graphics": "sparse precise labels, data callouts, scale bars",
+    "thumbnail": "single scientific subject + scale cue + clean label",
+    "aiPromptKeywords": "scientific visualisation, photoreal macro, accurate anatomy/physics, clean composition, cinematic realism",
+    "avoid": "scientific inaccuracies, unreadable labels, sensationalised imagery"
+   }
+  },
+  {
+   "id": "A4",
+   "name": "Futuristic Tech Editorial",
+   "fields": {
+    "visualLanguage": "clean cinematic UI + macro hardware",
+    "palette": "deep navy / electric cyan / violet",
+    "lighting": "cool rim light, controlled contrast",
+    "cameraLens": "35mm + macro + screen inserts",
+    "motion": "precise controlled cuts, smooth slider moves, UI element animation",
+    "texture": "brushed metal, glass, circuit detail",
+    "graphics": "minimal HUD accents, never fake unreadable UI text as content",
+    "thumbnail": "hero device/system + one high-contrast UI/data element",
+    "aiPromptKeywords": "futuristic technology editorial, photoreal hardware, cinematic UI, cool rim light, premium commercial realism",
+    "avoid": "generic sci-fi clutter, fake UI text, impossible hardware details"
+   }
+  },
+  {
+   "id": "A5",
+   "name": "Premium Business Editorial",
+   "fields": {
+    "visualLanguage": "luxury b-roll + data overlays + polished portraits",
+    "palette": "charcoal / ivory / emerald / gold",
+    "lighting": "soft studio key, crisp highlights",
+    "cameraLens": "35mm corporate, 85mm portrait, overhead detail",
+    "motion": "controlled cuts, purposeful moves, chart build-ins",
+    "texture": "glass towers, leather, paper, polished wood",
+    "graphics": "restrained charts, one data cue per frame",
+    "thumbnail": "person/object + premium environment + one data cue",
+    "aiPromptKeywords": "premium editorial, sophisticated office, polished portrait, cinematic commercial lighting, restrained graphics",
+    "avoid": "stock-photo clichés, luxury flexing, cluttered dashboards"
+   }
+  },
+  {
+   "id": "A6",
+   "name": "Introspective Cinematic Essay",
+   "fields": {
+    "visualLanguage": "human close-ups + metaphorical imagery + minimal graphics",
+    "palette": "deep blue / warm skin / charcoal",
+    "lighting": "soft window light, gentle falloff",
+    "cameraLens": "50mm/85mm portraits + symbolic wides",
+    "motion": "very slow push-ins, long holds, breathing pauses",
+    "texture": "natural skin, fabric, rain/glass, everyday objects as symbols",
+    "graphics": "near-none; single-line text moments only",
+    "thumbnail": "expressive face/object + metaphorical visual",
+    "aiPromptKeywords": "introspective cinematic essay, human emotion, symbolic imagery, soft window light, shallow depth of field",
+    "avoid": "melodramatic clichés, heavy text overlays, artificial expressions"
+   }
+  },
+  {
+   "id": "A7",
+   "name": "Dark Mystery Documentary",
+   "fields": {
+    "visualLanguage": "moody reenactment + evidence inserts + atmospheric locations",
+    "palette": "black / desaturated blue / muted red",
+    "lighting": "low-key, hard practicals, haze",
+    "cameraLens": "35mm handheld, 85mm detail, slow push-ins",
+    "motion": "creeping push-ins, still surveillance-style holds, reveal pans",
+    "texture": "rain, dust, paper files, tape, chalk",
+    "graphics": "evidence-board elements sparingly, redacted-document motifs",
+    "thumbnail": "single evidence/subject + shadow + mystery hook",
+    "aiPromptKeywords": "dark cinematic documentary, investigative mood, low-key lighting, atmospheric haze, realistic evidence, restrained colour",
+    "avoid": "gore for shock value, cartoon horror, excessive red grading, implausible evidence"
+   }
+  },
+  {
+   "id": "A8",
+   "name": "Clean Educational Visuals",
+   "fields": {
+    "visualLanguage": "clear diagrams + object/presenter-style shots + restrained motion graphics",
+    "palette": "white / navy / one accent",
+    "lighting": "bright soft studio",
+    "cameraLens": "35mm, top-down, diagram inserts",
+    "motion": "step-by-step build-ups, highlight pulses, calm cuts",
+    "texture": "clean paper/desk, simple props",
+    "graphics": "the content itself — labelled diagrams, numbered steps, generous whitespace",
+    "thumbnail": "one concept + simple diagram + readable hierarchy",
+    "aiPromptKeywords": "clean educational visualisation, accurate diagram, uncluttered composition, soft studio light, clear hierarchy",
+    "avoid": "dense text, decorative clutter, misleading diagrams"
+   }
+  },
+  {
+   "id": "A9",
+   "name": "High-Impact Engineering Cinema",
+   "fields": {
+    "visualLanguage": "hero machines + mechanical macro + kinetic tracking",
+    "palette": "graphite / steel / amber",
+    "lighting": "hard directional, metallic highlights",
+    "cameraLens": "24mm tracking, 50mm hero, macro",
+    "motion": "kinetic tracking shots, speed ramps, mechanical close passes",
+    "texture": "machined metal, grease, sparks, rivets, worn paint",
+    "graphics": "spec callouts, blueprint lines, measurement overlays",
+    "thumbnail": "hero machine + dramatic perspective + scale cue",
+    "aiPromptKeywords": "engineering cinematic, industrial realism, mechanical macro, dramatic scale, metallic detail, tracking shot",
+    "avoid": "impossible mechanisms, toy-like machinery, unsafe fabrication detail"
+   }
+  },
+  {
+   "id": "A10",
+   "name": "Immersive Adventure Cinema",
+   "fields": {
+    "visualLanguage": "expedition footage + sweeping landscapes + tactile details",
+    "palette": "forest green / sand / sky blue",
+    "lighting": "natural golden hour, weather realism",
+    "cameraLens": "16mm/24mm landscapes, 35mm action, drone",
+    "motion": "drone sweeps, walking tracking, weather-driven moves",
+    "texture": "rock, rope, canvas, mud, ice — real expedition materials",
+    "graphics": "route maps, elevation/distance markers",
+    "thumbnail": "hero landscape/person + strong depth + location cue",
+    "aiPromptKeywords": "adventure documentary, vast landscape, realistic weather, natural light, expedition realism, cinematic depth",
+    "avoid": "over-saturated travel clichés, impossible weather, fake expedition gear"
+   }
+  },
+  {
+   "id": "A11",
+   "name": "Cinematic Food Editorial",
+   "fields": {
+    "visualLanguage": "hero food macro + hands-in-frame process + cultural context",
+    "palette": "warm cream / spice tones / dark wood",
+    "lighting": "soft warm side light, glossy highlights",
+    "cameraLens": "50mm + macro + overhead",
+    "motion": "slow push-ins, pour/steam reveals, overhead process flows",
+    "texture": "steam, oil sheen, grain, spice, handmade vessels",
+    "graphics": "minimal ingredient labels, recipe step markers",
+    "thumbnail": "hero dish macro + ingredient/process detail",
+    "aiPromptKeywords": "cinematic food photography, appetising macro, tactile ingredients, warm side light, editorial realism",
+    "avoid": "messy framing, fake food textures, excessive filters"
+   }
+  },
+  {
+   "id": "A12",
+   "name": "Dynamic Pop-Culture Motion",
+   "fields": {
+    "visualLanguage": "graphic overlays + kinetic typography + cinematic character shots",
+    "palette": "neon cyan / magenta / black",
+    "lighting": "neon practicals, punchy contrast",
+    "cameraLens": "24mm action, 50mm character, UI inserts",
+    "motion": "fast purposeful cuts, beat-synced moves, kinetic type",
+    "texture": "screen glow, gloss, stylised surfaces",
+    "graphics": "bold titles, stat cards, versus frames",
+    "thumbnail": "hero character + kinetic graphic + strong silhouette",
+    "aiPromptKeywords": "dynamic pop-culture cinematic, stylised characters, neon accents, kinetic composition, high energy",
+    "avoid": "copying copyrighted characters, unreadable UI, visual overload"
+   }
+  },
+  {
+   "id": "A13",
+   "name": "Cinematic Editorial Documentary",
+   "fields": {
+    "visualLanguage": "story-driven b-roll + contextual environments + restrained graphics",
+    "palette": "natural neutrals + one thematic accent",
+    "lighting": "soft cinematic contrast, motivated practicals",
+    "cameraLens": "35mm storytelling, 50mm details, wide establishing",
+    "motion": "slow push-ins, parallax, motivated tracking",
+    "texture": "real-world surfaces of the subject's world",
+    "graphics": "restrained lower-thirds, chapter cards",
+    "thumbnail": "single hero subject + contextual environment + clear hierarchy",
+    "aiPromptKeywords": "cinematic editorial documentary, photoreal, story-driven composition, natural light, restrained graphics",
+    "avoid": "generic stock imagery, visual clutter, inconsistent lighting, excessive effects"
+   },
+   "notes": "Generalist — default archetype when no other fits."
+  },
+  {
+   "id": "A14",
+   "name": "Wild Naturalist Cinema",
+   "fields": {
+    "visualLanguage": "telephoto wildlife + habitat wides + underwater/field macro",
+    "palette": "habitat-true greens / browns / ocean blues",
+    "lighting": "natural only — dawn/dusk preference, underwater light falloff",
+    "cameraLens": "long telephoto behaviour shots, wide habitat establishing, macro for small life",
+    "motion": "patient tracking, slow follows, drone habitat sweeps (never harassing subjects)",
+    "texture": "fur, feather, scales, bark, coral, water surface",
+    "graphics": "species labels, range maps, scale comparisons — sparse",
+    "thumbnail": "animal hero + habitat + scale cue",
+    "aiPromptKeywords": "wildlife cinematography, natural history documentary, photoreal animal, habitat realism, telephoto, natural light",
+    "avoid": "zoo/captive look for wild stories, impossible animal behaviour, anthropomorphic expressions, oversaturation"
+   }
+  },
+  {
+   "id": "A15",
+   "name": "Bright Storybook Animation",
+   "fields": {
+    "visualLanguage": "warm 2D/3D storybook animation + expressive characters + simple readable scenes",
+    "palette": "bright primaries + soft pastels, high cheerfulness",
+    "lighting": "soft even cartoon light, no harsh shadow",
+    "cameraLens": "simple wide/medium framing, gentle moves young viewers can follow",
+    "motion": "bouncy character motion, clear cause-effect, calm pacing",
+    "texture": "soft matte, paper/crayon accents optional per series",
+    "graphics": "big friendly labels, counting/letter elements for learning content",
+    "thumbnail": "happy hero character + one clear object + bold simple title space",
+    "aiPromptKeywords": "bright storybook animation, cute expressive characters, soft colours, child-friendly, clean simple composition, warm and safe mood",
+    "avoid": "scary imagery, dark grading, complex cluttered scenes, realistic violence, fast flashing cuts"
+   }
+  },
+  {
+   "id": "A16",
+   "name": "Luxury Opulence Editorial",
+   "fields": {
+    "visualLanguage": "slow glamour b-roll + material macro + architectural grandeur",
+    "palette": "black / gold / ivory / deep jewel accent",
+    "lighting": "dramatic soft key, sparkling highlights, candle/chandelier practicals",
+    "cameraLens": "slow dolly 35mm interiors, 85mm detail macro, aerial property reveals",
+    "motion": "very slow glides, reveal pans, no fast cuts",
+    "texture": "marble, gold leaf, silk, polished glass, water reflections",
+    "graphics": "minimal serif titles, price/record callouts sparingly",
+    "thumbnail": "one iconic luxury object/place + dramatic light + minimal text space",
+    "aiPromptKeywords": "luxury editorial, opulent interiors, cinematic glamour, gold accents, premium material detail, slow elegant camera",
+    "avoid": "cheap-looking stock, cluttered frames, loud colours, excessive flex montage"
+   }
+  }
+ ],
+ "categoryMapping": [
+  {
+   "categoryKey": "history_heritage",
+   "archetypeId": "A1",
+   "notes": "Maps get parchment treatment; portraits follow Character Registry"
+  },
+  {
+   "categoryKey": "geography_places_maps",
+   "archetypeId": "A1",
+   "notes": "Dual mapping in source: A1 Historical (maps) / A10 Adventure (places). Aerial map sequences are a signature shot"
+  },
+  {
+   "categoryKey": "science_space_earth",
+   "archetypeId": "A3",
+   "notes": "Space: deeper blacks; Earth science: natural palette shift"
+  },
+  {
+   "categoryKey": "health_wellness_ayurveda",
+   "archetypeId": "A8",
+   "notes": "Ayurveda niches: A2-lite override — warm natural light, herb macro, no devotional deity framing unless the niche is devotional"
+  },
+  {
+   "categoryKey": "finance_business_economics",
+   "archetypeId": "A5",
+   "notes": "Data scenes follow Data Visualisation specs (Bible file 06)"
+  },
+  {
+   "categoryKey": "technology_ai_digital",
+   "archetypeId": "A4",
+   "notes": "Tutorials: A8 override for screen clarity"
+  },
+  {
+   "categoryKey": "crime_mystery_investigations",
+   "archetypeId": "A7",
+   "notes": "Sensitivity: no graphic imagery regardless of archetype"
+  },
+  {
+   "categoryKey": "stories_fiction_fantasy",
+   "archetypeId": "A13",
+   "notes": "Horror stories → A7 override; Fantasy worlds → richer saturated palette override"
+  },
+  {
+   "categoryKey": "religion_philosophy_spirituality",
+   "archetypeId": "A2",
+   "notes": "Philosophy niches → A6 Introspective override; academic religion explainers → A8"
+  },
+  {
+   "categoryKey": "education_learning",
+   "archetypeId": "A8",
+   "notes": "Exam prep: maximum diagram clarity, zero decoration"
+  },
+  {
+   "categoryKey": "careers_jobs_skills",
+   "archetypeId": "A5",
+   "notes": "Softer palette override for guidance tone"
+  },
+  {
+   "categoryKey": "psychology_mind_relationships",
+   "archetypeId": "A6",
+   "notes": "Study/experiment explainers → A3 diagram inserts"
+  },
+  {
+   "categoryKey": "animals_nature_environment",
+   "archetypeId": "A14",
+   "notes": "Ocean life: underwater variant (blue falloff, particulate)"
+  },
+  {
+   "categoryKey": "sports_games_play",
+   "archetypeId": "A12",
+   "notes": "Sports history → A1 override; Chess/board → A13 calm override"
+  },
+  {
+   "categoryKey": "film_entertainment_media",
+   "archetypeId": "A12",
+   "notes": "Documentary craft niches → A13; Music history → contextual split by era (RESOLVED 2026-10-27): pre-1900 → A6 Introspective, 1900 onward → A13 Editorial"
+  },
+  {
+   "categoryKey": "food_cooking_farming",
+   "archetypeId": "A11",
+   "notes": "Farming stories → dual pair (RESOLVED 2026-10-27): A14 Naturalist primary + A10 Adventure secondary (D5 field split)"
+  },
+  {
+   "categoryKey": "culture_arts_crafts",
+   "archetypeId": "A13",
+   "notes": "Craft process → A11-style macro (hands + process) override"
+  },
+  {
+   "categoryKey": "home_diy_hobbies",
+   "archetypeId": "A8",
+   "notes": "Build/process content: A9-lite (workshop texture, no spectacle)"
+  },
+  {
+   "categoryKey": "travel_outdoors_adventure",
+   "archetypeId": "A10",
+   "notes": "Survival/disaster stories → A7 tension override (no gore)"
+  },
+  {
+   "categoryKey": "machines_transport_engineering",
+   "archetypeId": "A9",
+   "notes": "Vehicle stories: hero-vehicle consistency from Product Registry"
+  },
+  {
+   "categoryKey": "politics_law_society",
+   "archetypeId": "A13",
+   "notes": "Geopolitics → A1 maps override; explainers → A8 diagrams"
+  },
+  {
+   "categoryKey": "luxury_lifestyle_living",
+   "archetypeId": "A16",
+   "notes": "Shopping/consumer guides → A5 override"
+  },
+  {
+   "categoryKey": "future_speculative",
+   "archetypeId": "A4",
+   "notes": "Speculative civilisations: A13 world-building override + speculation label in graphics"
+  },
+  {
+   "categoryKey": "kids_family_parenting",
+   "archetypeId": "A15",
+   "notes": "Parenting guidance → A8 override (for parents, not kids)"
+  },
+  {
+   "categoryKey": "facts_lists_records",
+   "archetypeId": "A12",
+   "notes": "Inherits subject niche's archetype when the list is single-niche; A12 only for mixed/ranking formats"
+  }
+ ],
+ "nicheOverrides": [
+  {
+   "niche": "Kids Cartoon Stories",
+   "legacyIds": [
+    "017"
+   ],
+   "archetypeId": "A15",
+   "notes": "Old file wrongly assigned Engineering Cinema (A9); fixed to A15"
+  },
+  {
+   "niche": "Mythological Animation",
+   "legacyIds": [
+    "018"
+   ],
+   "archetypeId": "A2",
+   "notes": "Old file correct"
+  },
+  {
+   "niche": "Ancient Technology / Lost Knowledge",
+   "legacyIds": [
+    "013"
+   ],
+   "archetypeId": "A1",
+   "notes": "Old file: A4 Futuristic — anachronistic; ancient tech is shown as period craft"
+  },
+  {
+   "niche": "Dinosaurs & Prehistoric",
+   "legacyIds": [
+    "029"
+   ],
+   "archetypeId": "A14",
+   "notes": "Prehistoric variant: no humans, era-true habitats, consensus-based creature design"
+  },
+  {
+   "niche": "Ocean & Deep Sea",
+   "legacyIds": [
+    "028"
+   ],
+   "archetypeId": "A14",
+   "notes": "Underwater variant (old file: A3)"
+  },
+  {
+   "niche": "Documentary Storytelling",
+   "legacyIds": [
+    "005"
+   ],
+   "archetypeId": "A13",
+   "notes": "Old visual file's ID 5 was 'Business Storytelling' — a different niche; name mismatch resolved in favour of the niche list (ID 5 = Documentary Storytelling). Business storytelling content maps to A5 via category mapping"
+  },
+  {
+   "niche": "True Crime",
+   "legacyIds": [
+    "010"
+   ],
+   "archetypeId": "A7",
+   "notes": "Old file correct"
+  },
+  {
+   "niche": "Horror Stories",
+   "legacyIds": [
+    "011"
+   ],
+   "archetypeId": "A7",
+   "notes": "Old file correct"
+  },
+  {
+   "niche": "UFO",
+   "legacyIds": [
+    "033"
+   ],
+   "archetypeId": "A7",
+   "notes": "Old file correct"
+  },
+  {
+   "niche": "Motivational Stories",
+   "legacyIds": [
+    "016"
+   ],
+   "archetypeId": "A6",
+   "notes": "Old file correct"
+  },
+  {
+   "niche": "Personal Finance",
+   "legacyIds": [
+    "008"
+   ],
+   "archetypeId": "A5",
+   "notes": "Old file correct"
+  },
+  {
+   "niche": "Luxury",
+   "legacyIds": [
+    "021"
+   ],
+   "archetypeId": "A16",
+   "notes": "Old file: A5 — upgraded to dedicated opulence archetype"
+  },
+  {
+   "niche": "Cars",
+   "legacyIds": [
+    "022"
+   ],
+   "archetypeId": "A9",
+   "notes": "Old file correct"
+  },
+  {
+   "niche": "Food",
+   "legacyIds": [
+    "024"
+   ],
+   "archetypeId": "A11",
+   "notes": "Old file correct"
+  },
+  {
+   "niche": "Gaming",
+   "legacyIds": [
+    "025"
+   ],
+   "archetypeId": "A12",
+   "notes": "Old file correct"
+  },
+  {
+   "niche": "Travel",
+   "legacyIds": [
+    "020"
+   ],
+   "archetypeId": "A10",
+   "notes": "Old file correct"
+  },
+  {
+   "niche": "AI niches",
+   "legacyIds": [
+    "001",
+    "007"
+   ],
+   "archetypeId": "A4",
+   "notes": "Old file correct"
+  },
+  {
+   "niche": "History",
+   "legacyIds": [
+    "002",
+    "003"
+   ],
+   "archetypeId": "A1",
+   "notes": "Old file correct"
+  },
+  {
+   "niche": "Sanatan",
+   "legacyIds": [
+    "004"
+   ],
+   "archetypeId": "A2",
+   "notes": "Old file correct"
+  },
+  {
+   "niche": "Ayurveda",
+   "legacyIds": [
+    "281"
+   ],
+   "archetypeId": "A8",
+   "notes": "A8 + A2-lite override (natural warmth, herb macro — devotional framing only where the content is devotional)"
+  },
+  {
+   "niche": "Space",
+   "legacyIds": [
+    "012",
+    "032"
+   ],
+   "archetypeId": "A3",
+   "notes": "Deep-black space override; old file correct"
+  },
+  {
+   "niche": "Psychology",
+   "legacyIds": [
+    "009"
+   ],
+   "archetypeId": "A6",
+   "notes": "Old file correct"
+  },
+  {
+   "niche": "Health Education",
+   "legacyIds": [
+    "015"
+   ],
+   "archetypeId": "A8",
+   "notes": "Old file correct"
+  },
+  {
+   "niche": "Media Literacy",
+   "legacyIds": [
+    "530"
+   ],
+   "archetypeId": "A8",
+   "notes": "Plus screen-analysis inserts"
+  },
+  {
+   "niche": "Cricket / Football",
+   "legacyIds": [
+    "546",
+    "547"
+   ],
+   "archetypeId": "A12",
+   "notes": "Match-energy override; historic matches → A1"
+  }
+ ],
+ "fieldOwners": {
+  "primary": [
+   "visualLanguage",
+   "cameraLens",
+   "motion",
+   "thumbnail"
+  ],
+  "secondary": [
+   "palette",
+   "lighting",
+   "texture",
+   "graphics"
+  ],
+  "union": [
+   "aiPromptKeywords",
+   "avoid"
+  ]
+ },
+ "dualMappingReview": [
+  {
+   "row": "geography_places_maps",
+   "classification": "contextual_split",
+   "detail": "A1 for map scenes, A10 for place scenes (content kinds declared) - resolves per scene kind, not field split"
+  },
+  {
+   "row": "film_entertainment_media / music history niches",
+   "classification": "RESOLVED 2026-10-27",
+   "detail": "'A6/A13 by era' - no era boundary defined; resolves by category row until decided",
+   "resolution": "Music history: contextual split by era — pre-1900 A6, 1900+ A13"
+  },
+  {
+   "row": "food_cooking_farming / farming niches",
+   "classification": "RESOLVED 2026-10-27",
+   "detail": "'A14/A10 natural override' - primary unstated; resolves by category row until decided",
+   "resolution": "Farming: dual pair — A14 primary + A10 secondary (field split)"
+  },
+  {
+   "row": "stories_fiction_fantasy / horror niches",
+   "classification": "replacement_override",
+   "detail": "Niche row names A7 as its single archetype; precedence handles it, not a dual pair"
+  }
+ ]
+}

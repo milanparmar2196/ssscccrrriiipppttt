@@ -1,0 +1,453 @@
+{
+  "seedVersion": "glossary-v1.1",
+  "terms": [
+    {
+      "term": "Acquisition",
+      "definition": "Purchase of company by another company"
+    },
+    {
+      "term": "Amortization",
+      "definition": "Spreading cost over time"
+    },
+    {
+      "term": "Assets",
+      "definition": "Company resources (cash, property, equipment)"
+    },
+    {
+      "term": "Balance Sheet",
+      "definition": "Financial statement of assets/liabilities"
+    },
+    {
+      "term": "Bankruptcy",
+      "definition": "Legal process when company can't pay debts"
+    },
+    {
+      "term": "Bear Market",
+      "definition": "Stock market decline (sustained)"
+    },
+    {
+      "term": "Bull Market",
+      "definition": "Stock market rise (sustained)"
+    },
+    {
+      "term": "Cash Flow",
+      "definition": "Money moving in/out of company"
+    },
+    {
+      "term": "CAGR",
+      "definition": "Compound annual growth rate"
+    },
+    {
+      "term": "Capitalization",
+      "definition": "Company value based on stock price"
+    },
+    {
+      "term": "Dilution",
+      "definition": "Ownership reduced by new stock issuance"
+    },
+    {
+      "term": "EBITDA",
+      "definition": "Earnings before interest, taxes, depreciation"
+    },
+    {
+      "term": "Equity",
+      "definition": "Owner's stake in company (assets - liabilities)"
+    },
+    {
+      "term": "IPO",
+      "definition": "Initial public offering (company goes public)"
+    },
+    {
+      "term": "Leverage",
+      "definition": "Using debt to amplify returns"
+    },
+    {
+      "term": "Liabilities",
+      "definition": "Money company owes"
+    },
+    {
+      "term": "Liquidity",
+      "definition": "Ease of converting to cash"
+    },
+    {
+      "term": "Merger",
+      "definition": "Two companies combine (usually equal)"
+    },
+    {
+      "term": "Net Income",
+      "definition": "Profit (revenue - all expenses)"
+    },
+    {
+      "term": "Revenue",
+      "definition": "Money earned (before expenses)"
+    },
+    {
+      "term": "Valuation",
+      "definition": "Company's estimated worth"
+    },
+    {
+      "term": "Model",
+      "definition": "How company makes money"
+    },
+    {
+      "term": "Competitive Advantage",
+      "definition": "What makes company unique"
+    },
+    {
+      "term": "Disruption",
+      "definition": "New company/model overthrowing old",
+      "sense": "new-entrant disruption"
+    },
+    {
+      "term": "Ecosystem",
+      "definition": "Network of related businesses"
+    },
+    {
+      "term": "Moat",
+      "definition": "Competitive protection (hard to copy)"
+    },
+    {
+      "term": "Pivot",
+      "definition": "Fundamental business direction change",
+      "sense": "fundamental change"
+    },
+    {
+      "term": "Scale",
+      "definition": "Growing business efficiently"
+    },
+    {
+      "term": "Supply Chain",
+      "definition": "Process from raw materials to customer"
+    },
+    {
+      "term": "Synergy",
+      "definition": "Value created by combining companies"
+    },
+    {
+      "term": "Vertical Integration",
+      "definition": "Owning suppliers/distributors"
+    },
+    {
+      "term": "Arbitrage",
+      "definition": "Profiting from price differences"
+    },
+    {
+      "term": "Bubble",
+      "definition": "Inflated asset prices (unsustainable)"
+    },
+    {
+      "term": "Commodities",
+      "definition": "Basic goods (oil, wheat, metals)"
+    },
+    {
+      "term": "Crash",
+      "definition": "Sudden, severe market decline"
+    },
+    {
+      "term": "Deflation",
+      "definition": "General price decline (bad)"
+    },
+    {
+      "term": "Forex",
+      "definition": "Foreign currency exchange"
+    },
+    {
+      "term": "GDP",
+      "definition": "Gross domestic product (national output)"
+    },
+    {
+      "term": "Inflation",
+      "definition": "General price rise (moderate is normal)"
+    },
+    {
+      "term": "Monopoly",
+      "definition": "One company controls market"
+    },
+    {
+      "term": "Oligopoly",
+      "definition": "Few companies control market"
+    },
+    {
+      "term": "Options",
+      "definition": "Right to buy/sell at set price"
+    },
+    {
+      "term": "Recession",
+      "definition": "Economic contraction (GDP decline)"
+    },
+    {
+      "term": "Short Selling",
+      "definition": "Profit from price drop"
+    },
+    {
+      "term": "Speculation",
+      "definition": "Betting on price movements"
+    },
+    {
+      "term": "Stagnation",
+      "definition": "Economy neither growing nor declining"
+    },
+    {
+      "term": "Angel Investor",
+      "definition": "Individual investing in early startups"
+    },
+    {
+      "term": "Burn Rate",
+      "definition": "How fast startup spends money"
+    },
+    {
+      "term": "Cap Table",
+      "definition": "Equity ownership breakdown"
+    },
+    {
+      "term": "Due Diligence",
+      "definition": "Investigation before investment"
+    },
+    {
+      "term": "Earnout",
+      "definition": "Future payment contingent on performance"
+    },
+    {
+      "term": "Exit Strategy",
+      "definition": "How investor makes returns"
+    },
+    {
+      "term": "Funding Round",
+      "definition": "Capital raise (Series A, B, C, etc.)"
+    },
+    {
+      "term": "Unicorn",
+      "definition": "Startup valued at $1B+"
+    },
+    {
+      "term": "Venture Capital",
+      "definition": "Investment in growth-potential companies"
+    },
+    {
+      "term": "VentureBeat",
+      "definition": "Industry publication"
+    },
+    {
+      "term": "Agile",
+      "definition": "Iterative development method"
+    },
+    {
+      "term": "API",
+      "definition": "Interface allowing apps to communicate"
+    },
+    {
+      "term": "Beta",
+      "definition": "Testing version before full release"
+    },
+    {
+      "term": "Blockchain",
+      "definition": "Distributed ledger technology"
+    },
+    {
+      "term": "Cloud Computing",
+      "definition": "Computing over internet"
+    },
+    {
+      "term": "Cryptocurrency",
+      "definition": "Digital currency (Bitcoin, etc.)"
+    },
+    {
+      "term": "Disruption",
+      "definition": "Overthrowing incumbent business",
+      "sense": "incumbent overthrow"
+    },
+    {
+      "term": "IP",
+      "definition": "Intellectual property (patents, trademarks)"
+    },
+    {
+      "term": "MVP",
+      "definition": "Minimum viable product"
+    },
+    {
+      "term": "Pivot",
+      "definition": "Business direction change",
+      "sense": "general change"
+    },
+    {
+      "term": "Saas",
+      "definition": "Software as a service (subscription)"
+    },
+    {
+      "term": "Tech Stack",
+      "definition": "Technologies used in app/product"
+    },
+    {
+      "term": "Board of Directors",
+      "definition": "Company governance body"
+    },
+    {
+      "term": "CEO",
+      "definition": "Chief executive officer"
+    },
+    {
+      "term": "CFO",
+      "definition": "Chief financial officer"
+    },
+    {
+      "term": "COO",
+      "definition": "Chief operating officer"
+    },
+    {
+      "term": "Corporate Governance",
+      "definition": "Company decision-making rules"
+    },
+    {
+      "term": "Fiduciary Duty",
+      "definition": "Legal obligation to act in best interest"
+    },
+    {
+      "term": "Hostile Takeover",
+      "definition": "Unwanted acquisition"
+    },
+    {
+      "term": "Proxy Fight",
+      "definition": "Shareholders voting out board"
+    },
+    {
+      "term": "Sarbanes-Oxley",
+      "definition": "US corporate accounting law"
+    },
+    {
+      "term": "Shareholder",
+      "definition": "Owner of company stock"
+    },
+    {
+      "term": "Stakeholder",
+      "definition": "Anyone affected by company"
+    },
+    {
+      "term": "Affiliate Marketing",
+      "definition": "Commission-based marketing"
+    },
+    {
+      "term": "Branding",
+      "definition": "Creating company identity"
+    },
+    {
+      "term": "CAC",
+      "definition": "Customer acquisition cost"
+    },
+    {
+      "term": "Churn",
+      "definition": "Customer loss rate"
+    },
+    {
+      "term": "Conversion Rate",
+      "definition": "Percentage of visitors who buy"
+    },
+    {
+      "term": "CTR",
+      "definition": "Click-through rate"
+    },
+    {
+      "term": "Influencer",
+      "definition": "Person with large following promoting products"
+    },
+    {
+      "term": "LTV",
+      "definition": "Lifetime value (total revenue per customer)"
+    },
+    {
+      "term": "Marketing Mix",
+      "definition": "Product, price, place, promotion"
+    },
+    {
+      "term": "Network Effect",
+      "definition": "Value increases as more users join"
+    },
+    {
+      "term": "ROI",
+      "definition": "Return on investment"
+    },
+    {
+      "term": "Viral Marketing",
+      "definition": "Content spreads rapidly organically"
+    },
+    {
+      "term": "DEI",
+      "definition": "Diversity, equity, inclusion"
+    },
+    {
+      "term": "Gig Economy",
+      "definition": "Independent contract workers"
+    },
+    {
+      "term": "HR",
+      "definition": "Human resources"
+    },
+    {
+      "term": "Labor Union",
+      "definition": "Worker collective bargaining"
+    },
+    {
+      "term": "Minimum Wage",
+      "definition": "Lowest legal hourly pay"
+    },
+    {
+      "term": "Outsourcing",
+      "definition": "Using external companies/countries"
+    },
+    {
+      "term": "Remote Work",
+      "definition": "Working from home"
+    },
+    {
+      "term": "Salary",
+      "definition": "Fixed annual employee pay"
+    },
+    {
+      "term": "Stock Options",
+      "definition": "Right to buy company stock"
+    },
+    {
+      "term": "Wage Stagnation",
+      "definition": "Wages not rising with inflation"
+    },
+    {
+      "term": "Whistleblower",
+      "definition": "Employee exposing wrongdoing"
+    },
+    {
+      "term": "Barista",
+      "definition": "Coffee shop worker"
+    },
+    {
+      "term": "Fast Fashion",
+      "definition": "Cheap, quickly produced clothes"
+    },
+    {
+      "term": "Franchise",
+      "definition": "Licensed model"
+    },
+    {
+      "term": "Gig Worker",
+      "definition": "Freelance/independent contractor"
+    },
+    {
+      "term": "Logistics",
+      "definition": "Supply chain movement"
+    },
+    {
+      "term": "Pharma",
+      "definition": "Pharmaceutical/drug companies"
+    },
+    {
+      "term": "Retail",
+      "definition": "Direct sale to consumer"
+    },
+    {
+      "term": "Wholesale",
+      "definition": "Sale to businesses (not consumers)"
+    },
+    {
+      "term": "Vertically Integrated",
+      "definition": "Owning suppliers to consumers"
+    }
+  ]
+}

@@ -1,0 +1,684 @@
+{
+ "version": "config-questions-seed-v1",
+ "generatedFrom": "docs/CONFIG_QUESTIONS.md",
+ "questions": [
+  {
+   "key": "audience",
+   "label": "Target audience",
+   "scope": "layer_a",
+   "type": "single_choice",
+   "allowCustomAnswer": true,
+   "legacyId": "Q2",
+   "defaultValue": "general_public"
+  },
+  {
+   "key": "audience_geo",
+   "label": "Geographic focus",
+   "scope": "layer_a",
+   "type": "single_choice",
+   "allowCustomAnswer": true,
+   "legacyId": "Q28",
+   "defaultValue": "global"
+  },
+  {
+   "key": "language_primary",
+   "label": "Primary language",
+   "scope": "layer_a",
+   "type": "single_choice",
+   "allowCustomAnswer": true,
+   "legacyId": "Q18"
+  },
+  {
+   "key": "language_additional",
+   "label": "Additional language(s)",
+   "scope": "layer_a",
+   "type": "multi_choice",
+   "allowCustomAnswer": true,
+   "legacyId": "Q19"
+  },
+  {
+   "key": "niche_id",
+   "label": "Niche",
+   "scope": "layer_a",
+   "type": "single_choice",
+   "allowCustomAnswer": false,
+   "legacyId": "Q1"
+  },
+  {
+   "key": "sub_niche_id",
+   "label": "Sub-niche",
+   "scope": "layer_a",
+   "type": "single_choice",
+   "allowCustomAnswer": false,
+   "legacyId": "Q1"
+  },
+  {
+   "key": "platforms",
+   "label": "Distribution platforms",
+   "scope": "layer_a",
+   "type": "multi_choice",
+   "options": [
+    {
+     "value": "youtube_long_form",
+     "label": "YouTube Long-form"
+    },
+    {
+     "value": "youtube_shorts",
+     "label": "YouTube Shorts"
+    },
+    {
+     "value": "instagram_reels",
+     "label": "Instagram Reels"
+    },
+    {
+     "value": "tiktok",
+     "label": "TikTok"
+    },
+    {
+     "value": "facebook",
+     "label": "Facebook"
+    },
+    {
+     "value": "multi_platform",
+     "label": "Multi-platform (one master, cut versions)"
+    }
+   ],
+   "allowCustomAnswer": true,
+   "legacyId": "Q26",
+   "defaultValue": [
+    "youtube_long_form",
+    "youtube_shorts"
+   ]
+  },
+  {
+   "key": "series_strategy",
+   "label": "Series/playlist strategy",
+   "scope": "layer_a",
+   "type": "single_choice",
+   "options": [
+    {
+     "value": "standalone_videos",
+     "label": "Standalone videos"
+    },
+    {
+     "value": "themed_playlist",
+     "label": "Themed playlist"
+    },
+    {
+     "value": "numbered_series",
+     "label": "Numbered series"
+    },
+    {
+     "value": "seasonal_arcs",
+     "label": "Seasonal arcs"
+    },
+    {
+     "value": "evergreen_library",
+     "label": "Evergreen library (no order needed)"
+    }
+   ],
+   "allowCustomAnswer": true,
+   "mapsTo": "bible.seriesContinuity",
+   "legacyId": "Q37"
+  },
+  {
+   "key": "visual_archetype",
+   "label": "Visual archetype",
+   "scope": "layer_a",
+   "type": "single_choice",
+   "allowCustomAnswer": true,
+   "mapsTo": "bible.visual",
+   "legacyId": "Q15"
+  },
+  {
+   "key": "voice_approach",
+   "label": "Voiceover/narration approach",
+   "scope": "layer_a",
+   "type": "single_choice",
+   "options": [
+    {
+     "value": "engaging_storytelling",
+     "label": "Engaging Storytelling"
+    },
+    {
+     "value": "calm_documentary",
+     "label": "Calm Documentary"
+    },
+    {
+     "value": "authoritative",
+     "label": "Authoritative"
+    },
+    {
+     "value": "conversational",
+     "label": "Conversational"
+    },
+    {
+     "value": "energetic",
+     "label": "Energetic"
+    },
+    {
+     "value": "dramatic",
+     "label": "Dramatic"
+    },
+    {
+     "value": "warm_personal",
+     "label": "Warm/Personal"
+    }
+   ],
+   "allowCustomAnswer": true,
+   "mapsTo": "bible.voiceNarration",
+   "legacyId": "Q16"
+  },
+  {
+   "key": "quality_level",
+   "label": "Production quality level",
+   "scope": "layer_a",
+   "type": "single_choice",
+   "options": [
+    {
+     "value": "standard",
+     "label": "Standard"
+    },
+    {
+     "value": "premium",
+     "label": "Premium"
+    },
+    {
+     "value": "cinematic",
+     "label": "Cinematic"
+    }
+   ],
+   "allowCustomAnswer": true,
+   "mapsTo": "package.standard",
+   "legacyId": "Q27"
+  },
+  {
+   "key": "safety_stance",
+   "label": "Content safety/sensitivity stance",
+   "scope": "layer_a",
+   "type": "single_choice",
+   "allowCustomAnswer": true,
+   "legacyId": "Q7+Q41"
+  },
+  {
+   "key": "accuracy_stance",
+   "label": "Legal/accuracy concern + source quality floor",
+   "scope": "layer_a",
+   "type": "single_choice",
+   "allowCustomAnswer": true,
+   "mapsTo": "bible.researchEvidenceStandards",
+   "legacyId": "Q8+Q24"
+  },
+  {
+   "key": "disclaimer_policy",
+   "label": "Disclaimer policy (set by niche)",
+   "scope": "layer_a",
+   "type": "single_choice",
+   "allowCustomAnswer": false,
+   "legacyId": "Q39"
+  },
+  {
+   "key": "monetization",
+   "label": "Monetization (priority + revenue model + sponsorship)",
+   "scope": "layer_a",
+   "type": "single_choice",
+   "allowCustomAnswer": true,
+   "mapsTo": "bible.annexes.monetization",
+   "legacyId": "Q13+Q35+Q36"
+  },
+  {
+   "key": "cadence",
+   "label": "Publishing/update frequency",
+   "scope": "layer_a",
+   "type": "single_choice",
+   "options": [
+    {
+     "value": "daily",
+     "label": "Daily"
+    },
+    {
+     "value": "3x_per_week",
+     "label": "3× per week"
+    },
+    {
+     "value": "weekly",
+     "label": "Weekly"
+    },
+    {
+     "value": "twice_monthly",
+     "label": "Twice monthly"
+    },
+    {
+     "value": "monthly",
+     "label": "Monthly"
+    },
+    {
+     "value": "as_needed",
+     "label": "As-needed"
+    }
+   ],
+   "allowCustomAnswer": true,
+   "legacyId": "Q25"
+  },
+  {
+   "key": "angle_id",
+   "label": "Angle (from the niche's Angle Registry)",
+   "scope": "layer_b",
+   "type": "single_choice",
+   "allowCustomAnswer": true,
+   "mapsTo": "run.config.angleId",
+   "legacyId": "Q3"
+  },
+  {
+   "key": "story_question",
+   "label": "Story question",
+   "scope": "layer_b",
+   "type": "short_text",
+   "required": true
+  },
+  {
+   "key": "subject_focus",
+   "label": "Subject focus",
+   "scope": "layer_b",
+   "type": "single_choice",
+   "options": [
+    {
+     "value": "topic_driven",
+     "label": "Topic-driven"
+    },
+    {
+     "value": "person_driven",
+     "label": "Person-driven"
+    },
+    {
+     "value": "event_driven",
+     "label": "Event-driven"
+    },
+    {
+     "value": "place_driven",
+     "label": "Place-driven"
+    },
+    {
+     "value": "comparison_driven",
+     "label": "Comparison-driven"
+    },
+    {
+     "value": "question_driven",
+     "label": "Question-driven"
+    }
+   ],
+   "allowCustomAnswer": true,
+   "legacyId": "Q9"
+  },
+  {
+   "key": "depth_level",
+   "label": "Content depth",
+   "scope": "layer_b",
+   "type": "single_choice",
+   "options": [
+    {
+     "value": "surface_overview",
+     "label": "Surface overview"
+    },
+    {
+     "value": "moderate",
+     "label": "Moderate"
+    },
+    {
+     "value": "deep_dive",
+     "label": "Deep dive"
+    },
+    {
+     "value": "academic_expert",
+     "label": "Academic/expert"
+    }
+   ],
+   "allowCustomAnswer": true,
+   "legacyId": "Q4"
+  },
+  {
+   "key": "expertise_level",
+   "label": "Expertise level",
+   "scope": "layer_b",
+   "type": "single_choice",
+   "allowCustomAnswer": true,
+   "legacyId": "Q11"
+  },
+  {
+   "key": "comparison_mode",
+   "label": "Comparison mode",
+   "scope": "layer_b",
+   "type": "single_choice",
+   "options": [
+    {
+     "value": "no_comparisons",
+     "label": "No comparisons"
+    },
+    {
+     "value": "compare_within_subject",
+     "label": "Compare within subject"
+    },
+    {
+     "value": "compare_across_subjects",
+     "label": "Compare across subjects"
+    }
+   ],
+   "allowCustomAnswer": true,
+   "legacyId": "Q12+Q32"
+  },
+  {
+   "key": "contested_handling",
+   "label": "Contested claims handling",
+   "scope": "layer_b",
+   "type": "single_choice",
+   "options": [
+    {
+     "value": "exclude",
+     "label": "Exclude contested claims"
+    },
+    {
+     "value": "include_all_major_sides",
+     "label": "Include with all major sides"
+    },
+    {
+     "value": "include_flagged_disputed",
+     "label": "Include flagged as disputed"
+    }
+   ],
+   "allowCustomAnswer": true,
+   "legacyId": "Q10+Q31"
+  },
+  {
+   "key": "recency_mode",
+   "label": "Recency mode",
+   "scope": "layer_b",
+   "type": "single_choice",
+   "options": [
+    {
+     "value": "historical_only",
+     "label": "Historical only"
+    },
+    {
+     "value": "include_recent_developments",
+     "label": "Include recent developments"
+    },
+    {
+     "value": "current_events_led",
+     "label": "Current-events led"
+    }
+   ],
+   "allowCustomAnswer": true,
+   "legacyId": "Q33"
+  },
+  {
+   "key": "source_voices",
+   "label": "Source voices",
+   "scope": "layer_b",
+   "type": "single_choice",
+   "options": [
+    {
+     "value": "quotes_only",
+     "label": "Quotes only"
+    },
+    {
+     "value": "expert_sources_cited",
+     "label": "Expert sources cited"
+    },
+    {
+     "value": "no_external_voices",
+     "label": "No external voices"
+    }
+   ],
+   "allowCustomAnswer": true,
+   "legacyId": "Q6+Q30"
+  },
+  {
+   "key": "structure_template",
+   "label": "Structure template",
+   "scope": "layer_b",
+   "type": "single_choice",
+   "allowCustomAnswer": true
+  },
+  {
+   "key": "hook_type",
+   "label": "Hook type",
+   "scope": "layer_b",
+   "type": "single_choice",
+   "allowCustomAnswer": true
+  },
+  {
+   "key": "duration_target_seconds",
+   "label": "Target duration (seconds)",
+   "scope": "layer_b",
+   "type": "number",
+   "legacyId": "Q14"
+  },
+  {
+   "key": "delivery_format",
+   "label": "Delivery format",
+   "scope": "layer_b",
+   "type": "single_choice",
+   "options": [
+    {
+     "value": "single_video",
+     "label": "Single video"
+    },
+    {
+     "value": "two_part",
+     "label": "Two-part"
+    },
+    {
+     "value": "series_episode",
+     "label": "Series episode"
+    },
+    {
+     "value": "long_form_plus_shorts_cut",
+     "label": "Long-form + Shorts cut"
+    },
+    {
+     "value": "shorts_only",
+     "label": "Shorts only"
+    }
+   ],
+   "allowCustomAnswer": true,
+   "legacyId": "Q17"
+  },
+  {
+   "key": "ending_tone",
+   "label": "Ending tone",
+   "scope": "layer_b",
+   "type": "single_choice",
+   "options": [
+    {
+     "value": "reflective_thoughtful",
+     "label": "Reflective/Thoughtful"
+    },
+    {
+     "value": "inspirational",
+     "label": "Inspirational"
+    },
+    {
+     "value": "curious_open_loop",
+     "label": "Curious (open loop for next episode)"
+    },
+    {
+     "value": "urgent_alerting",
+     "label": "Urgent/Alerting"
+    },
+    {
+     "value": "calm",
+     "label": "Calm"
+    },
+    {
+     "value": "celebratory",
+     "label": "Celebratory"
+    },
+    {
+     "value": "somber",
+     "label": "Somber"
+    },
+    {
+     "value": "hopeful",
+     "label": "Hopeful"
+    }
+   ],
+   "allowCustomAnswer": true,
+   "legacyId": "Q22",
+   "defaultValue": "reflective_thoughtful"
+  },
+  {
+   "key": "video_format",
+   "label": "Video format",
+   "scope": "layer_b",
+   "type": "single_choice",
+   "options": [
+    {
+     "value": "long_form",
+     "label": "Long-form"
+    },
+    {
+     "value": "short",
+     "label": "Short"
+    },
+    {
+     "value": "both_cuts",
+     "label": "Both cuts"
+    }
+   ],
+   "allowCustomAnswer": true
+  },
+  {
+   "key": "onscreen_text_strategy",
+   "label": "On-screen text strategy",
+   "scope": "layer_b",
+   "type": "single_choice",
+   "options": [
+    {
+     "value": "none",
+     "label": "None"
+    },
+    {
+     "value": "minimal_keywords_only",
+     "label": "Minimal (keywords only)"
+    },
+    {
+     "value": "moderate",
+     "label": "Moderate"
+    },
+    {
+     "value": "heavy_data_labels",
+     "label": "Heavy (data/labels)"
+    },
+    {
+     "value": "full_subtitles_focus",
+     "label": "Full subtitles focus"
+    }
+   ],
+   "allowCustomAnswer": true,
+   "legacyId": "Q20"
+  },
+  {
+   "key": "graphics_requirement",
+   "label": "Graphics requirement",
+   "scope": "layer_b",
+   "type": "single_choice",
+   "options": [
+    {
+     "value": "none",
+     "label": "None"
+    },
+    {
+     "value": "light",
+     "label": "Light"
+    },
+    {
+     "value": "important",
+     "label": "Important"
+    },
+    {
+     "value": "data_led",
+     "label": "Data-led"
+    },
+    {
+     "value": "animation_led",
+     "label": "Animation-led"
+    }
+   ],
+   "allowCustomAnswer": true,
+   "legacyId": "Q21"
+  },
+  {
+   "key": "scene_duration_strategy",
+   "label": "Scene duration strategy",
+   "scope": "layer_b",
+   "type": "single_choice",
+   "options": [
+    {
+     "value": "narration_led",
+     "label": "Narration-led"
+    },
+    {
+     "value": "fixed_seconds",
+     "label": "Fixed seconds"
+    }
+   ],
+   "allowCustomAnswer": true,
+   "legacyId": "Q42",
+   "defaultValue": "narration_led"
+  },
+  {
+   "key": "seo_focus",
+   "label": "SEO / keyword priority",
+   "scope": "layer_b",
+   "type": "single_choice",
+   "options": [
+    {
+     "value": "specific_topic_names",
+     "label": "Specific topic names"
+    },
+    {
+     "value": "question_phrases",
+     "label": "Question phrases (\"how / why\")"
+    },
+    {
+     "value": "trending_terms",
+     "label": "Trending terms"
+    },
+    {
+     "value": "long_tail_phrases",
+     "label": "Long-tail phrases"
+    },
+    {
+     "value": "entity_names",
+     "label": "Entity names (people/places)"
+    }
+   ],
+   "allowCustomAnswer": true,
+   "legacyId": "Q38",
+   "defaultValue": "specific_topic_names"
+  },
+  {
+   "key": "asset_method",
+   "label": "Asset method (Production Package handoff only)",
+   "scope": "layer_b",
+   "type": "single_choice",
+   "options": [
+    {
+     "value": "stock",
+     "label": "Stock"
+    },
+    {
+     "value": "ai_generated",
+     "label": "AI-generated"
+    },
+    {
+     "value": "mixed",
+     "label": "Mixed"
+    }
+   ],
+   "allowCustomAnswer": true,
+   "mapsTo": "package.handoff.assetMethod",
+   "legacyId": "Q40"
+  }
+ ]
+}

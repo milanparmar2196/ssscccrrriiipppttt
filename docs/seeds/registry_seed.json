@@ -1,0 +1,811 @@
+{
+  "seedVersion": "registry-v1.1",
+  "generatedFrom": "docs/REGISTRY_MAP.md",
+  "registryTypes": [
+    {
+      "key": "character",
+      "name": "Character Registry",
+      "entityFocus": "PERSON",
+      "entryFields": [
+        "name",
+        "aliases",
+        "role",
+        "era",
+        "identitySummary",
+        "traits",
+        "motivations",
+        "relationships",
+        "lifeTimelineRef",
+        "lockedAppearanceDescription",
+        "imagePromptSuffix",
+        "portrayalNotes",
+        "sensitivityNotes",
+        "dialoguePolicyRef",
+        "variants",
+        "designStatus",
+        "negativePromptOrExclusionBrief",
+        "expressionGestureSheet",
+        "depictionClass",
+        "appearanceDepartureLog"
+      ],
+      "notes": "Home: Character Annex. Addendum 2 enrichments included: variants[] (scoped by story date/event + scene range), design status proposed|approved, negative-prompt/exclusion brief, expression/gesture sheet, depiction class depicted|mention_only|absent, appearance departure log."
+    },
+    {
+      "key": "place",
+      "name": "Place Registry",
+      "entityFocus": "PLACE",
+      "entryFields": [
+        "name",
+        "canonicalName",
+        "localName",
+        "pronunciation",
+        "hierarchy",
+        "placeType",
+        "eraContext",
+        "lockedVisualDescription",
+        "imagePromptSuffix",
+        "mapNotes",
+        "namingSensitivity",
+        "keyFacts",
+        "cameraGeography"
+      ],
+      "notes": "Home: Place & Region Annex (or standalone where no annex). Addendum 2 enrichment included: cameraGeography (wide/medium/detail positions, reverse-shot rules); crops/reverses are views, not new entries."
+    },
+    {
+      "key": "knowledge",
+      "name": "Knowledge & Ingredient Registry",
+      "entityFocus": "SUBJECT",
+      "entryFields": [
+        "name",
+        "otherNames",
+        "category",
+        "claimedProperties",
+        "verifiedNotes",
+        "safetyWarnings",
+        "usageStandards",
+        "disclaimerRef",
+        "topic",
+        "lockedDefinition",
+        "keyFacts",
+        "commonMisconceptions",
+        "sourceRefs",
+        "boundaryNotes",
+        "dish",
+        "regionPlaceRef",
+        "ingredients",
+        "stepsStandard",
+        "allergenNotes",
+        "originNotes",
+        "metric",
+        "value",
+        "unit",
+        "period",
+        "geography",
+        "sourceRef",
+        "verifiedOn",
+        "reviewBy"
+      ],
+      "variants": {
+        "ingredientMaterial": [
+          "name",
+          "otherNames",
+          "category",
+          "claimedProperties",
+          "verifiedNotes",
+          "safetyWarnings",
+          "usageStandards",
+          "disclaimerRef"
+        ],
+        "topicKnowledge": [
+          "topic",
+          "lockedDefinition",
+          "keyFacts",
+          "commonMisconceptions",
+          "sourceRefs",
+          "boundaryNotes"
+        ],
+        "recipe": [
+          "dish",
+          "regionPlaceRef",
+          "ingredients",
+          "stepsStandard",
+          "allergenNotes",
+          "originNotes"
+        ],
+        "verifiedData": [
+          "metric",
+          "value",
+          "unit",
+          "period",
+          "geography",
+          "sourceRef",
+          "verifiedOn",
+          "reviewBy"
+        ]
+      },
+      "notes": "Home: Subject Annex where one exists, else standalone. Variants: Ingredient/Material and Topic Knowledge (Part A), Recipe variant (Part C, Recipes [091]), Verified Data variant (Addendum, from user file 02_Financial_Data_Verified). entryFields is the union of all variant field sets; see variants for per-variant fields."
+    },
+    {
+      "key": "caseEvent",
+      "name": "Case / Event Registry",
+      "entityFocus": "EVENT",
+      "entryFields": [
+        "name",
+        "dateOrRange",
+        "placeRefs",
+        "personRefs",
+        "verifiedSummary",
+        "eventTimeline",
+        "outcome",
+        "disputedPoints",
+        "sensitivityNotes",
+        "sourceRefs"
+      ]
+    },
+    {
+      "key": "creature",
+      "name": "Creature Registry",
+      "entityFocus": "CREATURE",
+      "entryFields": [
+        "commonName",
+        "scientificName",
+        "aliases",
+        "habitatPlaceRefs",
+        "lockedAppearanceDescription",
+        "imagePromptSuffix",
+        "behaviourTraits",
+        "diet",
+        "sizeScale",
+        "conservationStatus",
+        "dangerNotes",
+        "commonMisconceptions"
+      ]
+    },
+    {
+      "key": "storyWorld",
+      "name": "Story-World Registry",
+      "entityFocus": "STORY",
+      "entryFields": [
+        "worldName",
+        "premise",
+        "worldRules",
+        "characterRefs",
+        "fictionalPlaceRefs",
+        "inWorldTimeline",
+        "canonFacts",
+        "toneNotes",
+        "spoilerPolicy",
+        "originalityNotes"
+      ]
+    },
+    {
+      "key": "organisation",
+      "name": "Organisation Registry",
+      "entityFocus": "ORGANISATION",
+      "entryFields": [
+        "name",
+        "orgType",
+        "foundedOrPeriod",
+        "founderPersonRefs",
+        "productRefs",
+        "keyEventRefs",
+        "lockedFacts",
+        "positioningNotes",
+        "rivalries",
+        "sourceRefs"
+      ]
+    },
+    {
+      "key": "product",
+      "name": "Product Registry",
+      "entityFocus": "PRODUCT",
+      "entryFields": [
+        "name",
+        "makerOrgRef",
+        "category",
+        "launchOrPeriod",
+        "lockedSpecs",
+        "variants",
+        "lockedDesignDescription",
+        "imagePromptSuffix",
+        "commonErrors"
+      ]
+    },
+    {
+      "key": "concept",
+      "name": "Concept Registry",
+      "entityFocus": "CONCEPT",
+      "entryFields": [
+        "concept",
+        "lockedDefinition",
+        "simpleExplanation",
+        "exampleBank",
+        "commonMisconceptions",
+        "relatedConceptRefs",
+        "terminologyRules",
+        "beliefLabel"
+      ],
+      "notes": "beliefLabel is optional (boolean flag): marks belief-based concepts (astrology etc.) so scripts label them as belief, not fact."
+    },
+    {
+      "key": "work",
+      "name": "Work Registry",
+      "entityFocus": "WORK",
+      "entryFields": [
+        "title",
+        "workType",
+        "creators",
+        "releaseOrDate",
+        "parts",
+        "canonSummary",
+        "characterRefs",
+        "spoilerPolicy",
+        "rightsNote"
+      ]
+    },
+    {
+      "key": "propsWardrobe",
+      "name": "Props & Wardrobe Registry",
+      "entityFocus": "PROP",
+      "entryFields": [
+        "name",
+        "kind",
+        "ownerRef",
+        "lockedDescription",
+        "imagePromptSuffix",
+        "periodOrEra",
+        "stateTable"
+      ],
+      "stateTableFields": [
+        "sceneRange",
+        "state",
+        "note"
+      ],
+      "notes": "Part A §11 schema is canonical (confirmed 2026-10-27, audit A3). stateTable tracks condition/possession changes per scene range; Addendum 2 enriches it (owner/wearer, reveal/transfer/damage/repair/costume-change, incl. offscreen state). See FLAGS: the Addendum (39-file mapping) gives a conflicting schema for this type."
+    }
+  ],
+  "categoryAssignments": [
+    {
+      "categoryKey": "history_heritage",
+      "primary": [
+        "character",
+        "caseEvent"
+      ],
+      "secondary": [
+        "place",
+        "masterTimeline"
+      ]
+    },
+    {
+      "categoryKey": "geography_places_maps",
+      "primary": [
+        "place"
+      ],
+      "secondary": [
+        "caseEvent",
+        "concept"
+      ]
+    },
+    {
+      "categoryKey": "science_space_earth",
+      "primary": [
+        "concept",
+        "knowledge"
+      ],
+      "secondary": [
+        "creature",
+        "place",
+        "product"
+      ]
+    },
+    {
+      "categoryKey": "health_wellness_ayurveda",
+      "primary": [
+        "knowledge"
+      ],
+      "secondary": [
+        "concept"
+      ]
+    },
+    {
+      "categoryKey": "finance_business_economics",
+      "primary": [
+        "organisation",
+        "concept"
+      ],
+      "secondary": [
+        "character",
+        "caseEvent",
+        "product"
+      ]
+    },
+    {
+      "categoryKey": "technology_ai_digital",
+      "primary": [
+        "product",
+        "organisation"
+      ],
+      "secondary": [
+        "concept",
+        "caseEvent"
+      ]
+    },
+    {
+      "categoryKey": "crime_mystery_investigations",
+      "primary": [
+        "caseEvent"
+      ],
+      "secondary": [
+        "character",
+        "place"
+      ]
+    },
+    {
+      "categoryKey": "stories_fiction_fantasy",
+      "primary": [
+        "storyWorld"
+      ],
+      "secondary": [
+        "character",
+        "place"
+      ]
+    },
+    {
+      "categoryKey": "religion_philosophy_spirituality",
+      "primary": [
+        "concept",
+        "character"
+      ],
+      "secondary": [
+        "place",
+        "storyWorld",
+        "work"
+      ]
+    },
+    {
+      "categoryKey": "education_learning",
+      "primary": [
+        "concept",
+        "knowledge"
+      ],
+      "secondary": [
+        "work",
+        "caseEvent"
+      ]
+    },
+    {
+      "categoryKey": "careers_jobs_skills",
+      "primary": [
+        "concept"
+      ],
+      "secondary": [
+        "organisation",
+        "knowledge"
+      ]
+    },
+    {
+      "categoryKey": "psychology_mind_relationships",
+      "primary": [
+        "concept"
+      ],
+      "secondary": [
+        "caseEvent",
+        "character"
+      ]
+    },
+    {
+      "categoryKey": "animals_nature_environment",
+      "primary": [
+        "creature"
+      ],
+      "secondary": [
+        "place",
+        "concept"
+      ]
+    },
+    {
+      "categoryKey": "sports_games_play",
+      "primary": [
+        "character",
+        "work"
+      ],
+      "secondary": [
+        "organisation",
+        "caseEvent"
+      ]
+    },
+    {
+      "categoryKey": "film_entertainment_media",
+      "primary": [
+        "work"
+      ],
+      "secondary": [
+        "character",
+        "organisation",
+        "storyWorld"
+      ]
+    },
+    {
+      "categoryKey": "food_cooking_farming",
+      "primary": [
+        "knowledge"
+      ],
+      "secondary": [
+        "place",
+        "product"
+      ]
+    },
+    {
+      "categoryKey": "culture_arts_crafts",
+      "primary": [
+        "work",
+        "knowledge"
+      ],
+      "secondary": [
+        "place",
+        "product"
+      ]
+    },
+    {
+      "categoryKey": "home_diy_hobbies",
+      "primary": [
+        "product",
+        "knowledge"
+      ],
+      "secondary": [
+        "creature",
+        "place"
+      ]
+    },
+    {
+      "categoryKey": "travel_outdoors_adventure",
+      "primary": [
+        "place"
+      ],
+      "secondary": [
+        "caseEvent",
+        "character"
+      ]
+    },
+    {
+      "categoryKey": "machines_transport_engineering",
+      "primary": [
+        "product"
+      ],
+      "secondary": [
+        "organisation",
+        "caseEvent",
+        "place"
+      ]
+    },
+    {
+      "categoryKey": "politics_law_society",
+      "primary": [
+        "organisation",
+        "caseEvent"
+      ],
+      "secondary": [
+        "concept",
+        "character",
+        "place"
+      ]
+    },
+    {
+      "categoryKey": "luxury_lifestyle_living",
+      "primary": [
+        "product"
+      ],
+      "secondary": [
+        "place",
+        "organisation"
+      ]
+    },
+    {
+      "categoryKey": "future_speculative",
+      "primary": [
+        "concept",
+        "storyWorld"
+      ],
+      "secondary": [
+        "product"
+      ]
+    },
+    {
+      "categoryKey": "kids_family_parenting",
+      "primary": [
+        "storyWorld",
+        "character"
+      ],
+      "secondary": [
+        "concept",
+        "creature"
+      ]
+    },
+    {
+      "categoryKey": "facts_lists_records",
+      "primary": [],
+      "secondary": [
+        "concept",
+        "caseEvent"
+      ]
+    }
+  ],
+  "universalSet": [
+    "glossaryPronunciation",
+    "masterSourceList",
+    "doNotRepeat",
+    "phraseBank",
+    "hookOpeningLibrary",
+    "approvedAssetSourceList",
+    "angleRegistry"
+  ],
+  "conditionalUniversal": [
+    "masterTimeline",
+    "locationSettingList"
+  ],
+  "notes": "facts_lists_records has an empty primary by design: it inherits the topic niche's registry set (source doc Part B row 25). Angle Registry lives on the niche in Admin, not in the project Bible.",
+  "nicheOverrides": [
+    {
+      "nicheId": 37,
+      "primary": "place",
+      "secondary": [
+        "character"
+      ],
+      "note": "Castles are the subject; kings appear as secondary Character entries.",
+      "sourceRef": "Part C: Castles, Forts & Palaces [037]"
+    },
+    {
+      "nicheId": 146,
+      "primary": "character",
+      "secondary": [],
+      "note": "Biography niches: Character primary in their category. (Part C also names athlete/entrepreneur/celebrity biographies generically — no distinct taxonomy niches carry those names; flagged in VALIDATION_REPORT.)",
+      "sourceRef": "Part C: Biography niches [146]"
+    },
+    {
+      "nicheId": 39,
+      "primary": "place",
+      "secondary": [
+        "caseEvent"
+      ],
+      "note": "Co-primary in source: Place (sites) + Case/Event (digs) — stored primary=place with caseEvent in secondary; co-primary noted here.",
+      "sourceRef": "Part C: Archaeology [039]"
+    },
+    {
+      "nicheId": 13,
+      "primary": "product",
+      "secondary": [
+        "concept"
+      ],
+      "note": "Ancient devices are Product entries; Concept secondary.",
+      "sourceRef": "Part C: Ancient Technology / Lost Knowledge [013]"
+    },
+    {
+      "nicheId": 4,
+      "primary": "character",
+      "secondary": [
+        "storyWorld",
+        "concept"
+      ],
+      "note": "Co-primary in source: Character (deities) + Story-World; Concept secondary.",
+      "sourceRef": "Part C: Sanatan / Hindu Mythology [004]"
+    },
+    {
+      "nicheId": 18,
+      "primary": "character",
+      "secondary": [
+        "storyWorld",
+        "concept"
+      ],
+      "note": "Co-primary in source: Character (deities) + Story-World; Concept secondary.",
+      "sourceRef": "Part C: Mythological Animation [018]"
+    },
+    {
+      "nicheId": 268,
+      "primary": "work",
+      "secondary": [],
+      "note": "Work primary — applies to the sacred-text sub-niches [legacy 269-272, 540, 541].",
+      "sourceRef": "Part C: Sacred Texts & Epics [268 subs]"
+    },
+    {
+      "nicheId": 554,
+      "primary": "concept",
+      "secondary": [],
+      "note": "NEW niche (Astrology, Numerology & Vastu, id 554): Concept primary; beliefLabel: true required on every entry.",
+      "sourceRef": "Part C: Astrology / Numerology / Vastu [NEW]"
+    },
+    {
+      "nicheId": 12,
+      "primary": "place",
+      "secondary": [
+        "concept"
+      ],
+      "note": "Place primary with placeType: celestial; Concept secondary.",
+      "sourceRef": "Part C: Space & Universe [012]"
+    },
+    {
+      "nicheId": 32,
+      "primary": "place",
+      "secondary": [
+        "concept"
+      ],
+      "note": "Place primary with placeType: celestial; Concept secondary.",
+      "sourceRef": "Part C: Space Exploration [032]"
+    },
+    {
+      "nicheId": 29,
+      "primary": "creature",
+      "secondary": [],
+      "note": "Creature primary, prehistoric variant: appearance locked to current scientific consensus + review date on entries.",
+      "sourceRef": "Part C: Dinosaurs & Prehistoric [029]"
+    },
+    {
+      "nicheId": 563,
+      "primary": "product",
+      "secondary": [],
+      "note": "Product primary — scoped to the 'Inventions & Inventors' sub-niche ONLY (user decision 2026-10-27). Parent niche 89 'Scientists, Inventors & Discoverers' and its 'Scientists & Discoverers' sub-niche (118) keep the science_space_earth category default; they are people content, not covered by this override.",
+      "sourceRef": "Part C: Inventions [089 subs]"
+    },
+    {
+      "nicheId": 293,
+      "primary": "concept",
+      "secondary": [
+        "organisation",
+        "caseEvent"
+      ],
+      "note": "Concept primary; Organisation secondary (banks); Case/Event for crashes/failures.",
+      "sourceRef": "Part C: Banking & Money [293]"
+    },
+    {
+      "nicheId": 296,
+      "primary": "concept",
+      "secondary": [
+        "organisation",
+        "caseEvent"
+      ],
+      "note": "Concept primary; Organisation secondary (exchanges); Case/Event for crashes/failures.",
+      "sourceRef": "Part C: Crypto [296]"
+    },
+    {
+      "nicheId": 10,
+      "primary": "caseEvent",
+      "secondary": [],
+      "note": "Case/Event primary confirmed; Character entries carry privacy flags.",
+      "sourceRef": "Part C: True Crime [010]"
+    },
+    {
+      "nicheId": 33,
+      "primary": "caseEvent",
+      "secondary": [],
+      "note": "Case/Event primary confirmed; Character entries carry privacy flags.",
+      "sourceRef": "Part C: UFO [033]"
+    },
+    {
+      "nicheId": 57,
+      "primary": "caseEvent",
+      "secondary": [],
+      "note": "Case/Event primary confirmed; Character entries carry privacy flags.",
+      "sourceRef": "Part C: Secret Societies [057]"
+    },
+    {
+      "nicheId": 11,
+      "primary": "storyWorld",
+      "secondary": [
+        "character"
+      ],
+      "note": "Story-World primary; recurring horror characters live in Character (fictional).",
+      "sourceRef": "Part C: Horror / Mystery Stories [011]"
+    },
+    {
+      "nicheId": 25,
+      "primary": "storyWorld",
+      "secondary": [
+        "work"
+      ],
+      "note": "Co-primary in source: Story-World + Work — stored primary=storyWorld with work in secondary; co-primary noted here.",
+      "sourceRef": "Part C: Gaming Stories & Lore [025]"
+    },
+    {
+      "nicheId": 133,
+      "primary": "work",
+      "secondary": [
+        "character"
+      ],
+      "note": "Work primary (famous games, incl. Chess sub [134]); Character secondary (players).",
+      "sourceRef": "Part C: Chess & Board Games [133/134]"
+    },
+    {
+      "nicheId": 546,
+      "primary": "work",
+      "secondary": [
+        "character",
+        "organisation"
+      ],
+      "note": "All three active per source: Work (matches) + Character (players) + Organisation (teams).",
+      "sourceRef": "Part C: Cricket [546]"
+    },
+    {
+      "nicheId": 547,
+      "primary": "work",
+      "secondary": [
+        "character",
+        "organisation"
+      ],
+      "note": "All three active per source: Work (matches) + Character (players) + Organisation (teams).",
+      "sourceRef": "Part C: Football [547]"
+    },
+    {
+      "nicheId": 80,
+      "primary": "work",
+      "secondary": [],
+      "note": "Work primary confirmed (taxonomy name: Film & Entertainment Analysis); spoiler policy enforced from the Work entry.",
+      "sourceRef": "Part C: Movie & Series Explainers [080]"
+    },
+    {
+      "nicheId": 78,
+      "primary": "work",
+      "secondary": [],
+      "note": "Work primary confirmed; spoiler policy enforced from the Work entry.",
+      "sourceRef": "Part C: Books [078]"
+    },
+    {
+      "nicheId": 91,
+      "primary": "knowledge",
+      "secondary": [],
+      "note": "Knowledge registry, Recipe variant — Part C scopes this to the recipe sub-niches of [091]. Recipe entry: { dish, regionPlaceRef, ingredients[], stepsStandard, allergenNotes, originNotes }.",
+      "sourceRef": "Part C: Recipes [091 subs]"
+    },
+    {
+      "nicheId": 253,
+      "primary": "knowledge",
+      "secondary": [
+        "character"
+      ],
+      "note": "Sub-niche record (Martial Arts History, sub of Traditional Performing Arts). Co-primary in source: Knowledge (techniques) + Character (masters).",
+      "sourceRef": "Part C: Martial Arts History [253]"
+    },
+    {
+      "nicheId": 22,
+      "primary": "product",
+      "secondary": [],
+      "note": "Product primary confirmed with locked design description (incl. Supercars sub [419]).",
+      "sourceRef": "Part C: Cars [022]"
+    },
+    {
+      "nicheId": 63,
+      "primary": "product",
+      "secondary": [],
+      "note": "Product primary confirmed with locked design description (taxonomy name: Consumer Technology).",
+      "sourceRef": "Part C: Gadgets [063]"
+    },
+    {
+      "nicheId": 14,
+      "primary": "organisation",
+      "secondary": [
+        "caseEvent",
+        "place"
+      ],
+      "note": "Organisation (states/institutions) + Case/Event + Place; disputed-place neutral naming comes from the Place entry.",
+      "sourceRef": "Part C: Geopolitics [014]"
+    },
+    {
+      "nicheId": 555,
+      "primary": "concept",
+      "secondary": [
+        "work",
+        "knowledge"
+      ],
+      "note": "NEW niche (Competitive Exam Prep, id 555): Concept + Work (syllabus & past papers as works) + Knowledge; entries versioned by exam cycle.",
+      "sourceRef": "Part C: Exam Prep [NEW]"
+    },
+    {
+      "nicheId": 17,
+      "primary": "storyWorld",
+      "secondary": [
+        "character"
+      ],
+      "note": "Co-primary in source: Story-World + Character; all entries pass the age-appropriateness gate.",
+      "sourceRef": "Part C: Kids Cartoon Stories [017]"
+    }
+  ],
+  "nicheOverridesStatus": "EXTRACTED 2026-10-27 from docs/REGISTRY_MAP.md Part C (31 records, each traced via sourceRef). Two Part C items are NOT records and are flagged in VALIDATION_REPORT: the What If [167] / Then vs Now [165] borrow rule (a resolution behaviour, not an override) and the generic clauses (athlete/entrepreneur/celebrity biographies; luxury goods) that name no enumerable niches. Co-primary sources are stored as primary + secondary with the co-primary fact kept in the note (A8 record shape has a single primary)."
+}
