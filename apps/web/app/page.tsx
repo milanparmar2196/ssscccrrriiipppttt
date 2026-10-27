@@ -8,8 +8,10 @@ export default function HomePage() {
   const { user } = useAuth();
   return (
     <main className="container">
-      <h1>AI Script Writer for faceless channels</h1>
-      <p style={{ maxWidth: 640 }}>
+      <div className="hero">
+        <span className="hero-eyebrow">Faceless script studio</span>
+        <h1 className="hero-title">AI Script Writer for <span className="grad-text">faceless channels</span></h1>
+      <p className="hero-sub">
         Pure script generation: niche strategy, research with verified sources, a locked Production
         Bible, outline, script, scene-by-scene breakdown with visuals defined in text, weighted audit,
         and a production package your tools can consume. No audio or video is generated here — every
@@ -31,15 +33,18 @@ export default function HomePage() {
           </>
         )}
       </div>
+      </div>
       <div className="grid cols2" style={{ marginTop: 24 }}>
-        <div className="card">
+        <div className="card feature-card">
+          <span className="feature-ico">▦</span>
           <h3>{PIPELINE_STEPS.length}-step pipeline</h3>
           <p className="muted small">
             Niche → topics → research → Bible → outline → script → scenes → audit → package →
             performance feedback. Approvals at topic, outline and final.
           </p>
         </div>
-        <div className="card">
+        <div className="card feature-card">
+          <span className="feature-ico">▤</span>
           <h3>{PACKAGE_DELIVERABLES.length} package deliverables &amp; records</h3>
           <p className="muted small">
             Final script, scene breakdown, VO instructions, AI prompts, shot directions, captions plan,

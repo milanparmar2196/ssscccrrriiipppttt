@@ -144,11 +144,17 @@ export default function NewProjectPage() {
 
   return (
     <main className="container" style={{ maxWidth: 860 }}>
-      <h1>Create project</h1>
-      <div className="row" style={{ marginBottom: 16 }}>
+      <div className="page-head">
+        <div>
+          <h1>Create project</h1>
+          <p className="sub">Basics, niche, sub-niches, audience &amp; strategy, configuration, Production Bible.</p>
+        </div>
+      </div>
+      <div className="wizard-steps">
         {STEPS.map((s, i) => (
-          <span key={s} className={`badge ${i === step ? "ok" : ""}`}>
-            {i + 1}. {s}
+          <span key={s} className={`wstep${i === step ? " active" : i < step ? " done" : ""}`}>
+            <span className="n">{i < step ? "✓" : i + 1}</span>
+            {s}
           </span>
         ))}
       </div>

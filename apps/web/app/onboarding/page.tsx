@@ -56,7 +56,7 @@ export default function OnboardingPage() {
       </p>
       <ErrorBox error={error} />
 
-      <div className="card">
+      <div className="card step-card">
         <h3>1 · Explore the sample project</h3>
         <p className="muted small">
           A complete, clearly-labelled SAMPLE journey — topic, research brief, Bible, scenes, audit
@@ -73,7 +73,7 @@ export default function OnboardingPage() {
         </div>
       </div>
 
-      <div className="card">
+      <div className="card step-card">
         <h3>2 · Connect YouTube (optional)</h3>
         <p className="muted small">
           Connecting your channel lets Step 15 sync performance metrics (views, retention, engagement)
@@ -96,7 +96,7 @@ export default function OnboardingPage() {
         )}
       </div>
 
-      <div className="card">
+      <div className="card step-card">
         <h3>3 · Create your first project</h3>
         <p className="muted small">
           The wizard walks the master order: niche → sub-niches → audience &amp; channel strategy →

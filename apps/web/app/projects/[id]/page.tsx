@@ -39,12 +39,17 @@ export default function ProjectPage({ params }: { params: Promise<{ id: string }
       <ErrorBox error={project.error} />
       {p && (
         <>
-          <div className="row" style={{ justifyContent: "space-between" }}>
-            <h1>
-              {p.name} {p.isSample && <span className="badge warn">SAMPLE — read-only content</span>}{" "}
-              {p.lifecycleStatus === "archived" && <span className="badge">archived</span>}
-            </h1>
-            <span className="badge">{p.type}</span>
+          <div className="page-head" style={{ alignItems: "flex-start" }}>
+            <div>
+              <h1>
+                {p.name} {p.isSample && <span className="badge warn">SAMPLE — read-only content</span>}{" "}
+                {p.lifecycleStatus === "archived" && <span className="badge">archived</span>}
+              </h1>
+              <p className="sub">
+                {p.type} project · {p.platform}
+              </p>
+            </div>
+            <span className={`badge${p.type === "brand" ? " brand" : ""}`}>{p.type}</span>
           </div>
           {p.lifecycleStatus === "archived" && (
             <div className="banner info">

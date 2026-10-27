@@ -50,8 +50,12 @@ export default function DashboardPage() {
 
   return (
     <main>
-      <h1>Dashboard</h1>
-      <p className="subtle">Platform overview. Each card loads independently — a failed source shows its own error, never a fake zero.</p>
+      <div className="page-head">
+        <div>
+          <h1>Dashboard</h1>
+          <p className="subtle">Platform overview. Each card loads independently — a failed source shows its own error, never a fake zero.</p>
+        </div>
+      </div>
 
       <div className="cards">
         <div className="card">

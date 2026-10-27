@@ -30,6 +30,15 @@ pnpm --filter @scriptwriter/api seed:import   # 18,130 seed records
 pnpm dev                      # api :4000, web :3000, admin :3001
 ```
 
+**Native PostgreSQL instead of Docker?** Skip `docker compose up -d`:
+create a database on your native instance, make sure the **pgvector**
+extension is installed for it (the migration runs
+`CREATE EXTENSION vector`), and set `DATABASE_URL` in `.env` to your
+native instance (e.g. `postgres://postgres:YOURPASS@localhost:5432/scriptwriter`).
+Then run the same `db:migrate`, `seed:import` and `pnpm dev` commands.
+Redis and MinIO are optional locally: without `REDIS_URL` the API uses
+its in-process job runner, and uploads fall back to local `STORAGE_DIR`.
+
 Without provider API keys in `.env`, AI generation jobs fail cleanly
 with `PROVIDER_NOT_CONFIGURED` — deterministic flows (audit checks,
 packaging, dedupe keyword signals) still run. Set a stage's provider

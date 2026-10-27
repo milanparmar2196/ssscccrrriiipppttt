@@ -12,7 +12,12 @@ export default function SettingsPage() {
   const tabs = ["profile", "credits", "notifications", "webhooks", "youtube", "danger"];
   return (
     <main className="container" style={{ maxWidth: 860 }}>
-      <h1>Settings</h1>
+      <div className="page-head">
+        <div>
+          <h1>Settings</h1>
+          <p className="sub">Profile, credits, notifications, integrations and account.</p>
+        </div>
+      </div>
       <div className="tabs">
         {tabs.map((t) => (
           <button key={t} className={tab === t ? "active" : ""} onClick={() => setTab(t)}>
@@ -350,7 +355,7 @@ function DangerTab({ logout }: { logout: () => Promise<void> }) {
   const [error, setError] = useState("");
   const router = useRouter();
   return (
-    <div className="card" style={{ borderColor: "var(--danger)" }}>
+    <div className="card danger-card" style={{ borderColor: "var(--danger)" }}>
       <h3>Delete account</h3>
       <p className="small">
         Deleting your account schedules everything for removal after a <strong>30-day grace

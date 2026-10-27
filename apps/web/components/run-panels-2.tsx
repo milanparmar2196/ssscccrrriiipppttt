@@ -234,7 +234,7 @@ export function AuditPanel({ runId }: { runId: string }) {
         </div>
         {r && (
           <div style={{ marginTop: 12 }}>
-            <p>
+            <p className="score-line">
               Total score: <strong>{r.totalScore ?? "—"}</strong> · Passed:{" "}
               <span className={`badge ${r.passed ? "ok" : "bad"}`}>{r.passed ? "yes" : "no"}</span>{" "}
               {r.weightConfigVersion && <span className="badge">weights v{r.weightConfigVersion}</span>}{" "}

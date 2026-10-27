@@ -41,7 +41,15 @@ export default function SignupPage() {
   };
 
   return (
-    <main className="container" style={{ maxWidth: 440 }}>
+    <main className="auth-wrap">
+      <div className="auth-brand">
+        <span className="brand-mark">S</span>
+        <span>
+          <span className="brand-name">ScriptForge</span>
+          <br />
+          <span className="brand-sub">Faceless script studio</span>
+        </span>
+      </div>
       <h1>Create your account</h1>
       <form onSubmit={submit} className="card">
         <label>Email</label>

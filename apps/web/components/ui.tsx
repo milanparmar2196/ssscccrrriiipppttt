@@ -28,7 +28,12 @@ export function useLoad<T>(fn: () => Promise<T>, deps: unknown[] = []) {
 }
 
 export function Loading() {
-  return <p className="muted">Loading…</p>;
+  return (
+    <div className="loading">
+      <span className="spinner" />
+      <span>Loading…</span>
+    </div>
+  );
 }
 export function ErrorBox({ error }: { error: string }) {
   if (!error) return null;
@@ -36,7 +41,7 @@ export function ErrorBox({ error }: { error: string }) {
 }
 export function Empty({ children }: { children: ReactNode }) {
   return (
-    <div className="card" style={{ textAlign: "center", padding: 28 }}>
+    <div className="card empty-card" style={{ textAlign: "center", padding: 28 }}>
       <p className="muted">{children}</p>
     </div>
   );

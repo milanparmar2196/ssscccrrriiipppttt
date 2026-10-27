@@ -41,8 +41,12 @@ export default function Shell({ children }: { children: ReactNode }) {
     <div className="shell">
       <aside className="sidebar">
         <div className="brand">
-          AI Script Writer
-          <small>Admin Console — internal only</small>
+          <span className="brand-mark">S</span>
+          <span>
+            <span className="brand-name">ScriptForge</span>
+            <br />
+            <span className="brand-sub">Admin Console — internal only</span>
+          </span>
         </div>
         <nav>
           {NAV.map((item) => (

@@ -62,7 +62,7 @@ export default function RunPage({ params }: { params: Promise<{ id: string }> })
 
   return (
     <main className="container">
-      <p className="small muted">
+      <p className="small muted crumb">
         <Link href={`/projects/${run.projectId}`}>← Project</Link>
       </p>
       <div className="row" style={{ justifyContent: "space-between" }}>
@@ -84,7 +84,7 @@ export default function RunPage({ params }: { params: Promise<{ id: string }> })
         <p className="small muted">No angle — story question only: {run.storyQuestion}</p>
       )}
 
-      <div className="row" style={{ alignItems: "flex-start", flexWrap: "nowrap" }}>
+      <div className="row run-layout">
         <div>
           <div className="stepper">
             {RUN_STAGES.map((s) => {
@@ -98,7 +98,7 @@ export default function RunPage({ params }: { params: Promise<{ id: string }> })
                   onClick={() => setStage(s)}
                 >
                   {STAGE_LABELS[s] ?? s}
-                  <div className="small muted">
+                  <div className={`step-status s-${status}`}>
                     {status}
                     {status === "locked" && run.stageLockReasons?.[s] ? ` — ${run.stageLockReasons[s]}` : ""}
                   </div>

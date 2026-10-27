@@ -70,7 +70,15 @@ function ResetForm() {
 
 export default function ResetPasswordPage() {
   return (
-    <main className="container" style={{ maxWidth: 440 }}>
+    <main className="auth-wrap">
+      <div className="auth-brand">
+        <span className="brand-mark">S</span>
+        <span>
+          <span className="brand-name">ScriptForge</span>
+          <br />
+          <span className="brand-sub">Faceless script studio</span>
+        </span>
+      </div>
       <h1>Reset password</h1>
       <Suspense fallback={<p className="muted">Loading…</p>}>
         <ResetForm />

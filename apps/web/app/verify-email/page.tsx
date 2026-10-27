@@ -93,7 +93,15 @@ function VerifyInner() {
 
 export default function VerifyEmailPage() {
   return (
-    <main className="container" style={{ maxWidth: 520 }}>
+    <main className="auth-wrap wide">
+      <div className="auth-brand">
+        <span className="brand-mark">S</span>
+        <span>
+          <span className="brand-name">ScriptForge</span>
+          <br />
+          <span className="brand-sub">Faceless script studio</span>
+        </span>
+      </div>
       <h1>Email verification</h1>
       <Suspense fallback={<p className="muted">Loading…</p>}>
         <VerifyInner />
